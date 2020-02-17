@@ -1,3 +1,4 @@
+//Tìm chuỗi đối xứng dài nhất từ chuỗi đích được nhập vào từ bàn phím
 #include<iostream>
 #include<string>
 #include<math.h>
@@ -7,7 +8,7 @@ bool arr_s[maxN][maxN];
 int max_pal = -1*maxN;
 using namespace std;
 
-//time complexity: 0(n^2)
+//time complexity: 0(n^2), quy hoạch động cơ bản
 void DP(string s){
     int pos_right;
     int pos_first;
