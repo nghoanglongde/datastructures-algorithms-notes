@@ -84,6 +84,8 @@ NODE *Delete(NODE *root, int key)
     }
     return root;
 }
+
+//Các cách duyệt cây
 void InOrder(NODE *root)
 {
     if (root != NULL)
