@@ -1,4 +1,3 @@
-//Tìm chuỗi đối xứng dài nhất từ chuỗi đích được nhập vào từ bàn phím
 #include<iostream>
 #include<string>
 #include<math.h>
@@ -6,10 +5,14 @@
 
 bool arr_s[maxN][maxN];
 int max_pal = -1*maxN;
+int result[maxN];
 using namespace std;
 
+//Bài toán tìm chuỗi đối xứng liên tiếp dài nhất từ chuỗi đích được nhập vào từ bàn phím
+//Ví dụ: abcdcbaabcd -> output: dcbaabcd
 //time complexity: 0(n^2), quy hoạch động cơ bản
-void DP(string s){
+//Có thể giảm time xuống O(n) với thuật toán Manacher ở folder Algorithm
+void DP_FindLongPal(string s){
     int pos_right;
     int pos_first;
     int pos_end;
@@ -42,8 +45,41 @@ void DP(string s){
     }
 }
 
+/*Bài toán chia một chuỗi thành ít nhất các Palindrome có thể có được
+  Ví dụ: bobseesanna = bob + sees + sanna -> 3 pal
+                     = bob + s + ee + s + anna -> 5 pal
+                     .......
+    -> 3 là số lượng palindrome nhỏ nhất có thể chia*/
+bool checkPal(int j, int i,string s){
+    while(j <= i){
+        if(s[j] != s[i])
+            return false;
+        else{
+            j++;
+            i--;
+        }
+    }
+    return true;
+}
+void DP_FindMinDivPal(string s){
+    //chuỗi bắt đầu từ 0 -> n - 1
+    result[-1] = 0;
+    int n = s.length();
+    for(int i = 0;i < n;i++){
+        result[i] = i + 1;
+        for(int j = i;j >= 0;j--){
+            if(checkPal(j,i,s)){
+                result[i] = min(result[i],result[j - 1] + 1);
+            }
+        }
+    }
+    cout << result[n - 1];
+}
+
 int main(){
     string s;
     cin >> s;
-    DP(s);
+    DP_FindLongPal(s);
+    //DP_FindMinDivPal(s);
+    return 0;
 }

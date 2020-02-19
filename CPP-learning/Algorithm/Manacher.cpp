@@ -1,4 +1,5 @@
 //Thuật toán Manacher tìm chuỗi đối xứng dài nhất liên tiếp từ chuỗi đích, time complexity O(n)
+//Ví dụ: abcdcbaabcd -> output: dcbaabcd
 #include<iostream>
 #include<string>
 #include<algorithm>
