@@ -1,6 +1,7 @@
 #include<iostream>
 #include<string>
 #include<math.h>
+#include<vector>
 #define maxN 1000
 
 bool arr_s[maxN][maxN];
@@ -45,6 +46,7 @@ void DP_FindLongPal(string s){
     }
 }
 
+//=============================================================================================
 /*Bài toán chia một chuỗi thành ít nhất các Palindrome có thể có được
   Ví dụ: bobseesanna = bob + sees + sanna -> 3 pal
                      = bob + s + ee + s + anna -> 5 pal
@@ -76,10 +78,30 @@ void DP_FindMinDivPal(string s){
     cout << result[n - 1];
 }
 
+//================================================================================================
+/*Bài toán thêm vào ít nhất bao nhiêu xâu kí tự để nó trở thành một palindrome,
+Palindrome - IOI 2000*/
+void DP_AddMinChar(string s){
+    int n = s.length();
+    vector<vector<int>> matrix_value(n,vector<int>(n,0));
+    for(int k = 2;k <= n;k++){
+        for(int i = 0;i <= n - k;i++){
+            int j = i + (k - 1);
+            if(s[i] == s[j])
+                matrix_value[i][j] = matrix_value[i + 1][j - 1];
+            else{
+                matrix_value[i][j] = min(matrix_value[i][j - 1],matrix_value[i + 1][j]) + 1;
+            }
+        }
+    }
+    cout << matrix_value[0][n - 1] << endl;
+}
+
 int main(){
     string s;
     cin >> s;
-    DP_FindLongPal(s);
+    //DP_FindLongPal(s);
     //DP_FindMinDivPal(s);
+    DP_AddMinChar(s);
     return 0;
 }
