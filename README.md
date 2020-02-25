@@ -12,24 +12,16 @@ Mọi thắc mắc xin liên hệ với mình qua [profile](https://nghoanglong.
 
 - [Algorithms](https://github.com/nghoanglong/Competitive-Programming/tree/master/CPP-learning/Algorithm)
 
- - [Thuật toán manacher](https://github.com/nghoanglong/Competitive-Programming/blob/master/CPP-learning/Algorithm/Manacher.cpp)
- - [Quy hoạch động](https://github.com/nghoanglong/Competitive-Programming/tree/master/CPP-learning/DynamicProgramming)
+   - [Thuật toán manacher](https://github.com/nghoanglong/Competitive-Programming/blob/master/CPP-learning/Algorithm/Manacher.cpp)
+   - [Quy hoạch động](https://github.com/nghoanglong/Competitive-Programming/tree/master/CPP-learning/DynamicProgramming)
 
-   [Longest Increasing Subsequence](https://github.com/nghoanglong/Competitive-Programming/blob/master/CPP-learning/DynamicProgramming/LIQ.cpp)
+       [Longest Increasing Subsequence](https://github.com/nghoanglong/Competitive-Programming/blob/master/CPP-learning/DynamicProgramming/LIQ.cpp)
    
-   [Longest Commont Substring](https://github.com/nghoanglong/Competitive-Programming/blob/master/CPP-learning/DynamicProgramming/LCS.cpp)
+       [Longest Commont Substring](https://github.com/nghoanglong/Competitive-Programming/blob/master/CPP-learning/DynamicProgramming/LCS.cpp)
 
-   [Bài toán bố trí phòng họp](https://github.com/nghoanglong/Competitive-Programming/blob/master/CPP-learning/DynamicProgramming/BoTriPhongHop.cpp)
+       [Bài toán bố trí phòng họp](https://github.com/nghoanglong/Competitive-Programming/blob/master/CPP-learning/DynamicProgramming/BoTriPhongHop.cpp)
 
-    [Các bài toán về Palindrome](https://github.com/nghoanglong/Competitive-Programming/blob/master/CPP-learning/DynamicProgramming/Palindrome.cpp)
-
-
-
-
- - [Lý thuyết đồ thị](https://github.com/nghoanglong/Competitive-Programming/tree/master/CPP-learning/GraphTheory)
-
-      [Cài đặt đồ thị cơ bản](https://github.com/nghoanglong/Competitive-Programming/blob/master/CPP-learning/GraphTheory/Basic.cpp)
-
+       [Các bài toán về Palindrome](https://github.com/nghoanglong/Competitive-Programming/blob/master/CPP-learning/DynamicProgramming/Palindrome.cpp)
 
 
 - [Data Structure](https://github.com/nghoanglong/Competitive-Programming/tree/master/CPP-learning/DataStructure)
@@ -38,17 +30,23 @@ Mọi thắc mắc xin liên hệ với mình qua [profile](https://nghoanglong.
  
    - [Stack](https://github.com/nghoanglong/Competitive-Programming/blob/master/CPP-learning/DataStructure/Stack.cpp)
 
-  - [Queue](https://github.com/nghoanglong/Competitive-Programming/blob/master/CPP-learning/DataStructure/Queue.cpp)
+   - [Queue](https://github.com/nghoanglong/Competitive-Programming/blob/master/CPP-learning/DataStructure/Queue.cpp)
 
-  - [Heap](https://github.com/nghoanglong/Competitive-Programming/blob/master/CPP-learning/DataStructure/Heap.cpp)
+   - [Heap](https://github.com/nghoanglong/Competitive-Programming/blob/master/CPP-learning/DataStructure/Heap.cpp)
 
-  - [General Tree](https://github.com/nghoanglong/Competitive-Programming/blob/master/CPP-learning/DataStructure/GeneralTree.cpp)
+   - [General Tree](https://github.com/nghoanglong/Competitive-Programming/blob/master/CPP-learning/DataStructure/GeneralTree.cpp)
 
- - [Binary Tree](https://github.com/nghoanglong/Competitive-Programming/blob/master/CPP-learning/DataStructure/BinaryTree.cpp)
+   - [Binary Tree](https://github.com/nghoanglong/Competitive-Programming/blob/master/CPP-learning/DataStructure/BinaryTree.cpp)
 
-  - [Binary Search Tree](https://github.com/nghoanglong/Competitive-Programming/blob/master/CPP-learning/DataStructure/BinarySearchTree.cpp)
+   - [Binary Search Tree](https://github.com/nghoanglong/Competitive-Programming/blob/master/CPP-learning/DataStructure/BinarySearchTree.cpp)
 
- - [Infix Tree - Postfix Tree - Prefix Tree](https://github.com/nghoanglong/Competitive-Programming/blob/master/CPP-learning/DataStructure/infix-prefix-postfix.cpp)
+   - [Infix Tree - Postfix Tree - Prefix Tree](https://github.com/nghoanglong/Competitive-Programming/blob/master/CPP-learning/DataStructure/infix-prefix-postfix.cpp)
+
+
+ - [Lý thuyết đồ thị](https://github.com/nghoanglong/Competitive-Programming/tree/master/CPP-learning/GraphTheory)
+
+    - [Cài đặt đồ thị cơ bản](https://github.com/nghoanglong/Competitive-Programming/blob/master/CPP-learning/GraphTheory/Basic.cpp)
+
 
 - [Codeforces](https://github.com/nghoanglong/Competitive-Programming/tree/master/codeforce)
 
