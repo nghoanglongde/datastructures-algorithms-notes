@@ -3,6 +3,7 @@
 #include<vector>
 #include<string>
 #include<algorithm>
+#include<fstream>
 
 using namespace std;
 
@@ -22,9 +23,17 @@ int LCS(string s1, string s2){
 }
 
 int main(){
+    //dữ liệu đặt trong file input.txt rồi đọc file ra
+    ifstream fi;
+    fi.open("input.txt");
+    if(!fi){
+        cout << "can't open this file";
+        return 0;
+    } 
+
     string s1;
     string s2;
-    cin >> s1 >> s2;
+    fi >> s1 >> s2;
     cout <<  LCS(s1,s2);
     return 0;
 }

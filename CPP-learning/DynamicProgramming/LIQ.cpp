@@ -1,4 +1,4 @@
-//Bài toán về dãy con tăng dài nhất (Longest increasing subsequence)
+//Bài toán về dãy con đơn điệu tăng dài nhất (Longest increasing subsequence)
 //Ví dụ: 1 2 3 8 9 4 5 6 20 9 10 -> dãy con dài nhất số phần tử là 8/1 2 3 4 5 6 9 10
 
 #include<iostream>

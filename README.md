@@ -3,7 +3,7 @@ Mình quyết định public tất cả source code mình tham gia ở các cont
 
 Ngày bắt đầu: 16/2/2020 - năm 1 - khóa K14
 
-Trường: VietNam National University, University of Information Technology (Đại học Công nghệ Thông Tin - Đại học Quốc Gia Hồ Chí Minh)
+Trường: VietNam National University, University of Information Technology (Đại học Công nghệ Thông Tin - Đại học Quốc gia TP.HCM)
 
 
 Mọi thắc mắc xin liên hệ với mình qua [profile](https://nghoanglong.github.io/)
@@ -23,6 +23,10 @@ Mọi thắc mắc xin liên hệ với mình qua [profile](https://nghoanglong.
 
        [Các bài toán về Palindrome](https://github.com/nghoanglong/Competitive-Programming/blob/master/CPP-learning/DynamicProgramming/Palindrome.cpp)
 
+       [Bài toán về Đồng xu](https://github.com/nghoanglong/Competitive-Programming/blob/master/CPP-learning/DynamicProgramming/Coins.cpp)
+
+       [Bài toán cái túi](https://github.com/nghoanglong/Competitive-Programming/blob/master/CPP-learning/DynamicProgramming/SuperMarket.cpp)
+
 
 - [Data Structure](https://github.com/nghoanglong/Competitive-Programming/tree/master/CPP-learning/DataStructure)
 
@@ -40,7 +44,7 @@ Mọi thắc mắc xin liên hệ với mình qua [profile](https://nghoanglong.
 
    - [Binary Search Tree](https://github.com/nghoanglong/Competitive-Programming/blob/master/CPP-learning/DataStructure/BinarySearchTree.cpp)
 
-   - [Infix Tree - Postfix Tree - Prefix Tree](https://github.com/nghoanglong/Competitive-Programming/blob/master/CPP-learning/DataStructure/infix-prefix-postfix.cpp)
+   - [Expression Tree(Infix - Postfix - Prefix)](https://github.com/nghoanglong/Competitive-Programming/blob/master/CPP-learning/DataStructure/infix-prefix-postfix.cpp)
 
 
  - [Lý thuyết đồ thị](https://github.com/nghoanglong/Competitive-Programming/tree/master/CPP-learning/GraphTheory)

@@ -2,6 +2,7 @@
 #include<string>
 #include<math.h>
 #include<vector>
+#include<fstream>
 #define maxN 1000
 
 bool arr_s[maxN][maxN];
@@ -98,8 +99,15 @@ void DP_AddMinChar(string s){
 }
 
 int main(){
+    //dữ liệu đặt trong file input.txt rồi đọc file ra
+    ifstream fi;
+    fi.open("input.txt");
+    if(!fi){
+        cout << "can't open this file";
+        return 0;
+    } 
     string s;
-    cin >> s;
+    fi >> s;
     //DP_FindLongPal(s);
     //DP_FindMinDivPal(s);
     DP_AddMinChar(s);
