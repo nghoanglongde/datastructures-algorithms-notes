@@ -51,6 +51,8 @@ Mọi thắc mắc xin liên hệ với mình qua [profile](https://nghoanglong.
 
     - [Cài đặt đồ thị cơ bản](https://github.com/nghoanglong/Competitive-Programming/blob/master/CPP-learning/GraphTheory/Basic.cpp)
 
+    - [Depth First Search - Duyệt đồ thị theo chiều sâu](https://github.com/nghoanglong/Competitive-Programming/blob/master/CPP-learning/GraphTheory/DFS.cpp)
+
 
 - [Codeforces](https://github.com/nghoanglong/Competitive-Programming/tree/master/codeforce)
 
