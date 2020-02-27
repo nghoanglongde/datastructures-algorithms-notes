@@ -1,5 +1,6 @@
 #include<iostream>
 #include<vector>
+#include<fstream>
 #define maxN 1000
 using namespace std;
 struct EDGE{
@@ -19,25 +20,23 @@ void outputGrapth(int n,vector<vector<int>> graph){
 //ĐA ĐỒ THỊ(từ u tới v có nhiều hơn 1 cạnh liên thuộc), dưới dạng ma trận(Adjacency Matrix)
 //Vì đơn đồ thị cũng là đa đồ thị nên mình sẽ thao tác với đa đồ thị
 //Đa đồ thị vô hướng
-void inputUndirectedGraph(int n,vector<vector<int>> graph){
-    while(1){
+//Cài đặt dưới dạng ma trận kề
+void inputUndirectedGraph(int n, int m){
+    vector<vector<int>> graph(n,vector<int>(n,0));
+    for(int k = 1;k <= m;k++){
         int i,j;
         cin >> i >> j; //Nhập 2 đỉnh có cạnh liên thuộc với nhau
-        if(i == 0 || i > n){
-            break;
-        }
         graph[i - 1][j - 1]++;
         graph[j - 1][i - 1]++;
     }
     outputGrapth(n,graph);
 }
 //Đa đồ thị có hướng
-void inputDirectedGraph(int n,vector<vector<int>> graph){
-    while(1){
+void inputDirectedGraph(int n,int m){
+    vector<vector<int>> graph(n,vector<int>(n,0));
+    for(int k = 1;k <= m;k++){
         int i,j;
         cin >> i >> j;
-        if(i == 0 || i > n)
-            break;
         graph[i - 1][j - 1]++;
     }
     outputGrapth(n,graph);
@@ -47,11 +46,9 @@ void inputDirectedGraph(int n,vector<vector<int>> graph){
 
 //Cài đặt đồ thị dưới dạng danh sách cạnh(Edge List)
 //bằng mảng
-void inputEdgeList(int n){
+void inputEdgeList(int n,int m){
     EDGE graph[maxN];
-    int edge;
-    cin >> edge; //nhập số lượng cạnh
-    for(int i = 0;i < edge;i++){
+    for(int i = 0;i < m;i++){
         cin >> graph[i].u >> graph[i].v; //nhập 2 đỉnh u và v
     }
 }
@@ -59,17 +56,35 @@ void inputEdgeList(int n){
 //============================================================================================
 
 //Cài đặt đồ thị dưới dạng danh sách kề(Adjacency List)
-//Danh sách kề được mô tả khá chi tiết trong sách của thầy Hoàng nên mình sẽ ko code lại nữa
+//Danh sách kề được mô tả khá chi tiết trong sách của thầy Hoàng
+//Đa đồ thị vô hướng
+void inputAdjList(int n, int m){
+    vector<int> list[n];
+    for(int i = 1;i <= m;i++){
+        int u, v;
+        cin >> u >> v;
+        list[u].push_back(v);
+        list[v].push_back(u);
+    }
+}
 
 int main(){
-    int n;
-    cin >> n;//số đỉnh trong đồ thị
+    ifstream fi;
+    fi.open("input.txt");
+    if(!fi){
+        cout << "cant open this file" << endl;
+        return 0;
+    }
+
+    int n, m;//n đỉnh và m cạnh
+    fi >> n >> m;//số đỉnh và số cạnh trong đồ thị
 
     //đồ thị dưới dạng ma trận
-    vector<vector<int>> graph(n,vector<int>(n,0));
-    inputUndirectedGraph(n,graph);
+    inputUndirectedGraph(n, m);
     cout << endl;
     cout << "==================================================" << endl;
-    //inputDirectedGraph(n,graph);
+    inputDirectedGraph(n, m);
+    inputEdgeList(n, m);
+    inputAdjList(n,m);
     return 0;
 }
