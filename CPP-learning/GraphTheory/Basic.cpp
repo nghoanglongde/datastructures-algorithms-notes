@@ -3,6 +3,7 @@
 #include<fstream>
 #define maxN 1000
 using namespace std;
+
 struct EDGE{
     int u;
     int v;
@@ -66,6 +67,7 @@ void inputAdjList(int n, int m){
         list[u].push_back(v);
         list[v].push_back(u);
     }
+   
 }
 
 int main(){
@@ -79,12 +81,15 @@ int main(){
     int n, m;//n đỉnh và m cạnh
     fi >> n >> m;//số đỉnh và số cạnh trong đồ thị
 
-    //đồ thị dưới dạng ma trận
+    //đồ thị dưới dạng ma trận kề
     inputUndirectedGraph(n, m);
     cout << endl;
     cout << "==================================================" << endl;
     inputDirectedGraph(n, m);
+
+    //đồ thị dưới dạng danh sách cạnh
     inputEdgeList(n, m);
+    //đồ thị dưới dạng danh sách kề
     inputAdjList(n,m);
     return 0;
 }
