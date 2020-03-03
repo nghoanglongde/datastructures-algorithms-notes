@@ -21,6 +21,8 @@ Mọi thắc mắc xin liên hệ với mình qua [profile](https://nghoanglong.
 
        [Bài toán bố trí phòng họp](https://github.com/nghoanglong/Competitive-Programming/blob/master/CPP-learning/DynamicProgramming/BoTriPhongHop.cpp)
 
+       [Bài toán cho thuê máy](https://github.com/nghoanglong/Competitive-Programming/blob/master/CPP-learning/DynamicProgramming/MachineRental.cpp)
+
        [Các bài toán về Palindrome](https://github.com/nghoanglong/Competitive-Programming/blob/master/CPP-learning/DynamicProgramming/Palindrome.cpp)
 
        [Bài toán về Đồng xu](https://github.com/nghoanglong/Competitive-Programming/blob/master/CPP-learning/DynamicProgramming/Coins.cpp)

@@ -4,7 +4,10 @@ Ví dụ: Project 1: Ai = 6 - Bi = 8,
                        8        9
                        6        7
                        8        11
-                       9        11*/
+                       9        11
+
+Một số bài toán khác cải tiến một chút so với bài toán gốc này ví dụ bài toán cho thuê máy(machine rental)
+*/
 #include<iostream>
 #include<vector>
 #include<algorithm>
