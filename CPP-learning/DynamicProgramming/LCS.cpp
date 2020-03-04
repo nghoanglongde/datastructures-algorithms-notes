@@ -1,4 +1,4 @@
-//Bài toán tìm dãy con chung dài nhất trong 2 chuỗi cho trước(Longest Commont Substring)
+//Bài toán tìm dãy con chung dài nhất trong 2 chuỗi cho trước(Longest Common Substring)
 #include<iostream>
 #include<vector>
 #include<string>
