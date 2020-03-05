@@ -11,8 +11,8 @@ int DP(vector<int> weight_packages, vector<int> value, int n, int max_weight){
     for(int M = 1;M <= max_weight;++M){
         for(int i = 1;i <= n;++i){
             DP[i][M] = DP[i - 1][M];
-            if(value[i] <= M && DP[i][M] < (DP[i - 1][M - value[i]] + value[i])){
-                DP[i][M] = DP[i - 1][M - value[i]] + value[i];
+            if(weight_packages[i] <= M && DP[i][M] < (DP[i - 1][M - weight_packages[i]] + value[i])){
+                DP[i][M] = DP[i - 1][M - weight_packages[i]] + value[i];
             }
         }
     }
