@@ -79,6 +79,8 @@ Mọi thắc mắc xin liên hệ với mình qua [profile](https://nghoanglong.
 
   - [Begginner 156](https://github.com/nghoanglong/Competitive-Programming/tree/master/Atcoder/Beginner156)
 
+  - [Begginner 158](https://github.com/nghoanglong/Competitive-Programming/tree/master/Atcoder/Beginner158)
+
 
 
 ## Các nguồn tham khảo và trang Contest
