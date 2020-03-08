@@ -75,11 +75,11 @@ Mọi thắc mắc xin liên hệ với mình qua [profile](https://nghoanglong.
 
 - [AtCoder](https://github.com/nghoanglong/Competitive-Programming/tree/master/Atcoder)
 
-  - [Begginner 155](https://github.com/nghoanglong/Competitive-Programming/tree/master/Atcoder/Beginner155)
+  - [Beginner 155](https://github.com/nghoanglong/Competitive-Programming/tree/master/Atcoder/Beginner155)
 
-  - [Begginner 156](https://github.com/nghoanglong/Competitive-Programming/tree/master/Atcoder/Beginner156)
+  - [Beginner 156](https://github.com/nghoanglong/Competitive-Programming/tree/master/Atcoder/Beginner156)
 
-  - [Begginner 158](https://github.com/nghoanglong/Competitive-Programming/tree/master/Atcoder/Beginner158)
+  - [Beginner 158](https://github.com/nghoanglong/Competitive-Programming/tree/master/Atcoder/Beginner158)
 
 
 
