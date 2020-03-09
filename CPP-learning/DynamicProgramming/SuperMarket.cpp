@@ -10,7 +10,7 @@ int DP(vector<int> weight_packages, vector<int> value, int n, int max_weight){
     vector<vector<int>> DP(n + 1,vector<int>(max_weight + 1,0));
     for(int M = 1;M <= max_weight;++M){
         for(int i = 1;i <= n;++i){
-            DP[i][M] = DP[i - 1][M];
+            DP[i][M] = DP[i - 1][M]; //giá trị đồ vật hiện tại sẽ bằng các món đồ trước đó có tổng bằng M
             if(weight_packages[i] <= M && DP[i][M] < (DP[i - 1][M - weight_packages[i]] + value[i])){
                 DP[i][M] = DP[i - 1][M - weight_packages[i]] + value[i];
             }
