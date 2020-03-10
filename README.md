@@ -64,6 +64,8 @@ Mọi thắc mắc xin liên hệ với mình qua [profile](https://nghoanglong.
 
    - [MTWALK - Mountain Walking](https://github.com/nghoanglong/Competitive-Programming/tree/master/VNOI/MTWALK.cpp)
 
+   - [QBSEQ - Dãy con dài nhất có tổng chia hết cho K](https://github.com/nghoanglong/Competitive-Programming/tree/master/VNOI/QBSEQ.cpp)
+
 
 - [Codeforces](https://github.com/nghoanglong/Competitive-Programming/tree/master/codeforce)
 
