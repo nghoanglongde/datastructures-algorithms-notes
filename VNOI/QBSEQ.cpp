@@ -23,13 +23,20 @@ int main(){
         arr[i] = temp;
         sum = (sum + arr[i]) % k;
     }
-    for(int i = 1;i <= k;i++){
+    cout << sum << endl;
+    DP[0][0] = 0;
+    cout << DP[0][0] << " ";
+    for(int i = 1;i < k;i++){
         DP[0][i] = INF;
+        cout << DP[0][i] << " ";
     }
+    cout << endl;
     for(int i = 1;i <= n;i++){
-        for(int t = 0;t <= k;t++){
+        for(int t = 0;t < k;t++){
             DP[i][t] = min(DP[i - 1][t], DP[i - 1][((t - arr[i]) % k + k) % k] + 1);
+            cout << DP[i][t] << " ";
         }
+        cout << endl;
     }
     cout << n - DP[n][sum % k];
     return 0;
