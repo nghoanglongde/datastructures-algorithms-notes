@@ -1,5 +1,5 @@
-## Competitive-Programming
-Mình quyết định public tất cả source code mình tham gia ở các contest khác nhau kể từ bây giờ, bên cạnh đó cũng có một số cấu trúc dữ liệu và giải thuật cơ bản về linked list, stack, queue, cây, đồ thị,... mà mình sẽ code bằng C++ cho các bạn dễ hiểu thay vì đọc code pascal trong các sách hay web lập trình khác. Cảm ơn các bạn đã quan tâm và theo dõi.
+## Data Structures and Algorithms
+Mình quyết định public tất cả source code các bài mình đã giải ở các trang contest khác nhau kể từ bây giờ, bên cạnh đó cũng có một số cấu trúc dữ liệu và giải thuật cơ bản về linked list, stack, queue, cây, lý thuyết đồ thị,... mà mình sẽ code bằng C++ hoặc python nếu rảnh rỗi cho các bạn dễ hiểu thay vì đọc code pascal trong các sách hay web lập trình khác. Cảm ơn các bạn đã quan tâm và theo dõi.
 
 Ngày bắt đầu: 16/2/2020 - năm 1 - khóa K14
 
@@ -9,6 +9,26 @@ Trường: VietNam National University, University of Information Technology (Đ
 Mọi thắc mắc xin liên hệ với mình qua [profile](https://nghoanglong.github.io/)
 
 ## Mục lục
+- [Data Structure](https://github.com/nghoanglong/Competitive-Programming/tree/master/CPP-learning/DataStructure)
+
+   - [Linked List](https://github.com/nghoanglong/Competitive-Programming/blob/master/CPP-learning/DataStructure/Linked-list.cpp)
+ 
+   - [Stack](https://github.com/nghoanglong/Competitive-Programming/blob/master/CPP-learning/DataStructure/Stack.cpp)
+
+   - [Queue](https://github.com/nghoanglong/Competitive-Programming/blob/master/CPP-learning/DataStructure/Queue.cpp)
+
+   - [Heap](https://github.com/nghoanglong/Competitive-Programming/blob/master/CPP-learning/DataStructure/Heap.cpp)
+
+   - [Hash Table - Bảng băm](https://github.com/nghoanglong/Competitive-Programming/blob/master/CPP-learning/DataStructure/HashTable.cpp)
+
+   - [General Tree](https://github.com/nghoanglong/Competitive-Programming/blob/master/CPP-learning/DataStructure/GeneralTree.cpp)
+
+   - [Binary Tree](https://github.com/nghoanglong/Competitive-Programming/blob/master/CPP-learning/DataStructure/BinaryTree.cpp)
+
+   - [Binary Search Tree](https://github.com/nghoanglong/Competitive-Programming/blob/master/CPP-learning/DataStructure/BinarySearchTree.cpp)
+
+   - [Expression Tree(Infix - Postfix - Prefix)](https://github.com/nghoanglong/Competitive-Programming/blob/master/CPP-learning/DataStructure/infix-prefix-postfix.cpp)
+
 
 - [Algorithms](https://github.com/nghoanglong/Competitive-Programming/tree/master/CPP-learning/Algorithm)
 
@@ -32,26 +52,7 @@ Mọi thắc mắc xin liên hệ với mình qua [profile](https://nghoanglong.
        [Bài toán cái túi](https://github.com/nghoanglong/Competitive-Programming/blob/master/CPP-learning/DynamicProgramming/SuperMarket.cpp)
 
 
-- [Data Structure](https://github.com/nghoanglong/Competitive-Programming/tree/master/CPP-learning/DataStructure)
-
-   - [Linked List](https://github.com/nghoanglong/Competitive-Programming/blob/master/CPP-learning/DataStructure/Linked-list.cpp)
- 
-   - [Stack](https://github.com/nghoanglong/Competitive-Programming/blob/master/CPP-learning/DataStructure/Stack.cpp)
-
-   - [Queue](https://github.com/nghoanglong/Competitive-Programming/blob/master/CPP-learning/DataStructure/Queue.cpp)
-
-   - [Heap](https://github.com/nghoanglong/Competitive-Programming/blob/master/CPP-learning/DataStructure/Heap.cpp)
-
-   - [General Tree](https://github.com/nghoanglong/Competitive-Programming/blob/master/CPP-learning/DataStructure/GeneralTree.cpp)
-
-   - [Binary Tree](https://github.com/nghoanglong/Competitive-Programming/blob/master/CPP-learning/DataStructure/BinaryTree.cpp)
-
-   - [Binary Search Tree](https://github.com/nghoanglong/Competitive-Programming/blob/master/CPP-learning/DataStructure/BinarySearchTree.cpp)
-
-   - [Expression Tree(Infix - Postfix - Prefix)](https://github.com/nghoanglong/Competitive-Programming/blob/master/CPP-learning/DataStructure/infix-prefix-postfix.cpp)
-
-
- - [Lý thuyết đồ thị](https://github.com/nghoanglong/Competitive-Programming/tree/master/CPP-learning/GraphTheory)
+- [Lý thuyết đồ thị](https://github.com/nghoanglong/Competitive-Programming/tree/master/CPP-learning/GraphTheory)
 
     - [Cài đặt đồ thị cơ bản](https://github.com/nghoanglong/Competitive-Programming/blob/master/CPP-learning/GraphTheory/Basic.cpp)
 
@@ -91,3 +92,4 @@ Mọi thắc mắc xin liên hệ với mình qua [profile](https://nghoanglong.
   - [kc97ble](https://sites.google.com/site/kc97ble/)
   - [Codeforces](https://codeforces.com/)
   - [AtCoder](https://atcoder.jp/contests/)
+  - [LeetCode](https://leetcode.com/)
