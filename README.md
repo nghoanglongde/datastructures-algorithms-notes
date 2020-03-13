@@ -41,7 +41,7 @@ Mọi thắc mắc xin liên hệ với mình qua [profile](https://nghoanglong.
 
        [Dãy con có tổng bằng S](https://github.com/nghoanglong/Competitive-Programming/blob/master/CPP-learning/DynamicProgramming/SEQ.cpp)       
 
-       [Bài toán bố trí phòng họp](https://github.com/nghoanglong/Competitive-Programming/blob/master/CPP-learning/DynamicProgramming/BoTriPhongHop.cpp)
+       [Bài toán bố trí phòng họp](https://github.com/nghoanglong/Competitive-Programming/blob/master/CPP-learning/DynamicProgramming/MeetingRoom.cpp)
 
        [Bài toán cho thuê máy](https://github.com/nghoanglong/Competitive-Programming/blob/master/CPP-learning/DynamicProgramming/MachineRental.cpp)
 
