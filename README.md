@@ -1,5 +1,5 @@
 ## Data Structures and Algorithms
-Mình quyết định public tất cả source code các bài mình đã giải ở các trang contest khác nhau kể từ bây giờ, bên cạnh đó cũng có một số cấu trúc dữ liệu và giải thuật cơ bản về linked list, stack, queue, cây, lý thuyết đồ thị,... mà mình sẽ code bằng C++ hoặc python nếu rảnh rỗi cho các bạn dễ hiểu thay vì đọc code pascal trong các sách hay web lập trình khác. Cảm ơn các bạn đã quan tâm và theo dõi.
+Mình quyết định public tất cả source code các bài mình đã giải ở các trang contest khác nhau kể từ bây giờ, bên cạnh đó cũng có một số cấu trúc dữ liệu và giải thuật cơ bản về linked list, stack, queue, cây, lý thuyết đồ thị,... mà mình sẽ code bằng C++ hoặc python(nếu có thời gian rảnh) giúp các bạn dễ hiểu thay vì đọc code pascal trong các sách hay web lập trình khác. Cảm ơn các bạn đã quan tâm và theo dõi.
 
 Ngày bắt đầu: 16/2/2020 - năm 1 - khóa K14
 
@@ -59,6 +59,8 @@ Mọi thắc mắc xin liên hệ với mình qua [profile](https://nghoanglong.
     - [Depth First Search - Duyệt đồ thị theo chiều sâu](https://github.com/nghoanglong/Competitive-Programming/blob/master/CPP-learning/GraphTheory/DFS.cpp)
 
     - [Breadth First Search - Duyệt đồ thị theo chiều rộng](https://github.com/nghoanglong/Competitive-Programming/blob/master/CPP-learning/GraphTheory/BFS.cpp)
+
+    - [Connectivity - Tính liên thông của đồ thị](https://github.com/nghoanglong/Competitive-Programming/blob/master/CPP-learning/GraphTheory/Connectivity.cpp)
 
 
 - [VNOI](https://github.com/nghoanglong/Competitive-Programming/tree/master/VNOI)
