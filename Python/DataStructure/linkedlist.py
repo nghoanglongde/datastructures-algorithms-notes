@@ -4,6 +4,8 @@ class Node:
         self.next_sibling = None
 
 #Cách 1 dùng class
+
+
 class SinglyLinkedList:
     def __init__(self):
         self.root = None
@@ -25,6 +27,7 @@ class SinglyLinkedList:
             print(current.data, end=' ')
             current = current.next_sibling
 
+
 #cách 2 dùng functional programming
 # def outputLinked(root):
 #         current = root
@@ -44,6 +47,7 @@ class SinglyLinkedList:
 #         current.next_sibling = newNode
 #         return root
 
+
 def main():
     #Cách 1
     n = int(input())
@@ -60,5 +64,6 @@ def main():
     #     data = int(input())
     #     root = insert(root, data)
     # outputLinked(root)
+
 
 main()
