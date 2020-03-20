@@ -13,9 +13,9 @@ Mọi thắc mắc xin liên hệ với mình qua [profile](https://nghoanglong.
 
    - Linked List | [C++](https://github.com/nghoanglong/Competitive-Programming/blob/master/C++/DataStructure/Linked-list.cpp) | [Python](https://github.com/nghoanglong/Competitive-Programming/blob/master/Python/DataStructure/linkedlist.py)
  
-   - [Stack](https://github.com/nghoanglong/Competitive-Programming/blob/master/C++/DataStructure/Stack.cpp)
+   - Stack | [C++](https://github.com/nghoanglong/Competitive-Programming/blob/master/C++/DataStructure/Stack.cpp) | [Python](https://github.com/nghoanglong/Competitive-Programming/blob/master/Python/DataStructure/stack.py)
 
-   - [Queue](https://github.com/nghoanglong/Competitive-Programming/blob/master/C++/DataStructure/Queue.cpp)
+   - Queue | [C++](https://github.com/nghoanglong/Competitive-Programming/blob/master/C++/DataStructure/Queue.cpp) | [Python](https://github.com/nghoanglong/Competitive-Programming/blob/master/Python/DataStructure/queue.py)
 
    - [Heap](https://github.com/nghoanglong/Competitive-Programming/blob/master/C++/DataStructure/Heap.cpp)
 
