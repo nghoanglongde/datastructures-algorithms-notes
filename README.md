@@ -18,14 +18,14 @@ Mọi thắc mắc xin liên hệ với mình qua [profile](https://nghoanglong.
    - Queue | [C++](https://github.com/nghoanglong/Competitive-Programming/blob/master/C++/DataStructure/Queue.cpp) | [Python](https://github.com/nghoanglong/Competitive-Programming/blob/master/Python/DataStructure/queue.py)
 
    - [Heap](https://github.com/nghoanglong/Competitive-Programming/blob/master/C++/DataStructure/Heap.cpp)
-
+   
    - [Hash Table - Bảng băm](https://github.com/nghoanglong/Competitive-Programming/blob/master/C++/DataStructure/HashTable.cpp)
 
    - [General Tree](https://github.com/nghoanglong/Competitive-Programming/blob/master/C++/DataStructure/GeneralTree.cpp)
 
    - [Binary Tree](https://github.com/nghoanglong/Competitive-Programming/blob/master/C++/DataStructure/BinaryTree.cpp)
 
-   - [Binary Search Tree](https://github.com/nghoanglong/Competitive-Programming/blob/master/C++/DataStructure/BinarySearchTree.cpp)
+   - Binary Search Tree | [C++](https://github.com/nghoanglong/Competitive-Programming/blob/master/C++/DataStructure/BinarySearchTree.cpp) | [Python](https://github.com/nghoanglong/Competitive-Programming/blob/master/Python/DataStructure/BinarySearchTree.py)
 
    - [Expression Tree(Infix - Postfix - Prefix)](https://github.com/nghoanglong/Competitive-Programming/blob/master/C++/DataStructure/infix-prefix-postfix.cpp)
 
