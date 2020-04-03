@@ -1,3 +1,5 @@
+#Link: https://codeforces.com/contest/4/problem/A
+
 def main():
     n = int(input())
     if n % 2 != 0:
