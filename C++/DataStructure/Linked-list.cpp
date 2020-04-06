@@ -1,72 +1,91 @@
-#include <iostream>
+#include<iostream>
 using namespace std;
-struct NODE
-{
-    int data;
-    NODE *next;
+
+struct NODE {
+    int info;
+    NODE* pNext;
 };
+struct LIST {
+    NODE* pHead;
+    NODE* pTail;
+};
+void CreateLIST(LIST& l) {
+    l.pHead = NULL;
+    l.pTail = NULL;
+}
 
 NODE *createNODE(int value)
 {
-    NODE *newNode = new NODE;
-    newNode->data = value;
-    newNode->next = NULL;
-    return newNode;
+    //hàm tạo 1 Node mới
+    NODE *newNODE = new NODE;
+    newNODE->info = value;
+    newNODE->pNext = NULL;
+    return newNODE;
 }
 
-//Nối vòng 1 hướng
-void insertHead(NODE *&head, NODE *&tail, int data)
-{
-    NODE *newNode = createNODE(data);
-    if (head == NULL)
-    {
-        head = newNode;
-        tail = newNode;
-        return;
+void addHead(LIST &l, int value){
+    //Thêm node vào đầu
+    NODE *temp = createNODE(value);
+    if(l.pHead){
+        temp->pNext = l.pHead;
+        l.pHead = temp;
     }
-    tail->next = newNode;
-    newNode->next = head;
-    tail = newNode;
+    else{
+        l.pHead = temp;
+    }
 }
 
-//=======================================================================================
-//Nối vòng 2 hướng, cần thêm trường NODE *prev
-// void addTail(NODE *&head, NODE *&tail, int data)
-// {
-//     NODE *temp = createNode(data);
-//     if (head == NULL)
-//     {
-//         head = temp;
-//         tail = temp;
-//         temp->next = head;
-//         return;
-//     }
-//     tail->next = temp;
-//     temp->prev = tail;
-//     temp->next = head;
-//     head->prev = temp;
-//     tail = temp;
-// }
-
-int main()
-{
-    NODE *head = NULL;
-    NODE *tail = NULL;
-    NODE *ptr = NULL;
-    int data, n;
-    cout << "So node: ";
-    cin >> n;
-    for (int i = 1; i <= n; i++)
-    {
-        cout << "Nhap value: ";
-        cin >> data;
-        insertHead(head, tail, data);
+void addTail(LIST &l, int value){
+    //Thêm node vào cuối
+    NODE *temp = createNODE(value);
+    if(l.pHead){
+        l.pTail->pNext = temp;
+        l.pTail = temp;
     }
-    ptr = head;
-    do
-    {
-        cout << ptr->data << endl;
-        ptr = ptr->next;
-    } while (ptr != head);
-    return 0;
+    else{
+        l.pHead = temp;
+        l.pTail = l.pHead;
+    }
+}
+
+void ReverseList(LIST &l){
+    //hàm đảo ngược linked list, có trong câu hỏi của microsoft
+    NODE *current = NULL;
+    NODE *previous = NULL;
+
+    while(l.pHead != NULL)    {
+        current = l.pHead;
+        l.pHead = l.pHead->pNext;
+        current->pNext = previous;
+        previous = current;
+    }
+    l.pHead = current;
+}
+
+void nhap(LIST &l){
+    //hàm nhập này có thể add Tail hoặc add Head tùy chỉnh, đã có sẵn hàm add Head và add Tail
+    while(1){
+        int info;
+        cin >> info;
+        if(info == 0){
+            break;
+        }
+        else{
+           addHead(l, info);
+        }
+    }
+}
+
+void xuat(LIST l){
+    while(l.pHead){
+        cout << l.pHead->info << " ";
+        l.pHead = l.pHead->pNext;
+    }
+}
+
+int main(){
+    LIST l;
+    CreateLIST(l);
+    nhap(l);
+    xuat(l);
 }
