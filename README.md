@@ -32,7 +32,8 @@ Mọi thắc mắc xin liên hệ với mình qua [profile](https://nghoanglong.
 
 - [Algorithms](https://github.com/nghoanglong/Competitive-Programming/tree/master/C++/Algorithm)
 
-   - [Thuật toán manacher](https://github.com/nghoanglong/Competitive-Programming/blob/master/C++/Algorithm/Manacher.cpp)
+   - [Manacher Algorithm](https://github.com/nghoanglong/Competitive-Programming/blob/master/C++/Algorithm/Manacher.cpp)
+   - [Chặt nhị phân - Binary Search](https://github.com/nghoanglong/Competitive-Programming/blob/master/C++/Algorithm/BinarySearch.cpp)
    - [Quy hoạch động](https://github.com/nghoanglong/Competitive-Programming/tree/master/C++/DynamicProgramming)
 
        [Longest Increasing Subsequence](https://github.com/nghoanglong/Competitive-Programming/blob/master/C++/DynamicProgramming/LIQ.cpp)
