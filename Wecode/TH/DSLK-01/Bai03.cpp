@@ -32,7 +32,7 @@ node *createnode(long long value)
     return newnode;
 }
 
-void nhap(List &l){
+void nhap(List &l,long long &count){
     while(1){
         long long info;
         cin >> info;
@@ -40,6 +40,7 @@ void nhap(List &l){
             return;
         }
         else{
+            count++;
             node *temp = createnode(info);
 
             if(l.pHead == NULL){
@@ -53,25 +54,18 @@ void nhap(List &l){
         }
     }
 }
-node * middleNode(node *head) {
-        node *A = head;
-        node *B = head;
-        while(B != NULL) {
-            B = B->pNext;
-            if(B == NULL) {
-                return A;
-            }
-            A = A->pNext;
-            B = B->pNext;
-        }
-        return A;
+void middleNode(node *head, long long count) {
+    node *A = head;
+    for(long long i = 1;i <= (count / 2);i++){
+        A = A->pNext;
     }
+    cout << A->info;
+}
 
 int main(){
     List l;
+    long long count = 0;
     CreateList(l);
-    nhap(l);
-    node *ptr = middleNode(l.pHead);
-    cout << ptr->info;
+    nhap(l, count);
+    middleNode(l.pHead, count);
 }
-
