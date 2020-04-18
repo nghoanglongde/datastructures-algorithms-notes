@@ -92,6 +92,14 @@ Mọi thắc mắc xin liên hệ với mình qua [profile](https://nghoanglong.
   - [Beginner 158](https://github.com/nghoanglong/Competitive-Programming/tree/master/Atcoder/Beginner158)
 
 
+- [LeetCode](https://github.com/nghoanglong/Competitive-Programming/tree/master/LeetCode)
+
+  - [Medium Problems](https://github.com/nghoanglong/Competitive-Programming/blob/master/LeetCode/Medium)
+
+      [402 - Remove K Digits](https://github.com/nghoanglong/Competitive-Programming/blob/master/LeetCode/Medium/Prob402.cpp)
+   
+
+
 
 ## Các nguồn tham khảo và trang Contest
 
