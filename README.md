@@ -94,6 +94,10 @@ Mọi thắc mắc xin liên hệ với mình qua [profile](https://nghoanglong.
 
 - [LeetCode](https://github.com/nghoanglong/Competitive-Programming/tree/master/LeetCode)
 
+  - [Easy Problems](https://github.com/nghoanglong/Competitive-Programming/blob/master/LeetCode/Easy)
+  
+      206 - Reverse Linked List | [C++](https://github.com/nghoanglong/Competitive-Programming/blob/master/LeetCode/Easy/Prob206.cpp) | [Python](https://github.com/nghoanglong/Competitive-Programming/blob/master/LeetCode/Easy/Prob206.py)
+
   - [Medium Problems](https://github.com/nghoanglong/Competitive-Programming/blob/master/LeetCode/Medium)
 
       [402 - Remove K Digits](https://github.com/nghoanglong/Competitive-Programming/blob/master/LeetCode/Medium/Prob402.cpp)
