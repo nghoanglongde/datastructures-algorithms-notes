@@ -29,6 +29,8 @@ Mọi thắc mắc xin liên hệ với mình qua [profile](https://nghoanglong.
 
    - [Expression Tree(Infix - Postfix - Prefix)](https://github.com/nghoanglong/Competitive-Programming/blob/master/Lectures-C++/DataStructure/infix-prefix-postfix.cpp)
 
+   - [Big Number](https://github.com/nghoanglong/Competitive-Programming/blob/master/Lectures-C++/DataStructure/BigNum.cpp)
+
 
 - [Algorithms](https://github.com/nghoanglong/Competitive-Programming/tree/master/Lectures-C++/Algorithm)
 
