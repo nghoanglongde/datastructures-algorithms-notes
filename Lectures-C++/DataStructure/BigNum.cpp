@@ -95,25 +95,6 @@ class BigInt{
 
             return ans;
         }
-        BigInt operator * (const BigInt b){
-            BigInt ans;
-            ans.setVec(this->my_vector.size() + b.my_vector.size() + 5, 0);
-            for (int i = 0; i < this->my_vector.size(); i++) {
-                int carry = 0;
-                for (int j = 0; j < b.my_vector.size(); j++) {
-                    int k = i + j; 
-                    ans.my_vector[k] = ans.my_vector[k] + this->my_vector[i] * b.my_vector[j] + carry;
-                    carry = ans.my_vector[k] / BASE; 
-                    ans.my_vector[k] = ans.my_vector[k] % BASE;
-                }
-                if (carry) 
-                    ans.my_vector[i + b.my_vector.size()] += carry;
-            }
-            while (*ans.my_vector.rbegin() == 0 && ans.my_vector.size() > 1) 
-                ans.my_vector.pop_back(); 
-            
-            return ans;
-        }
         // I/O
         void Print(){
             if(this->my_vector.size() == 0)
@@ -128,7 +109,6 @@ class BigInt{
 
 int main()
 {
-    //string num; cin >> num;
     BigInt A("12345897");
     BigInt B("2567829");
     BigInt result = A + B;

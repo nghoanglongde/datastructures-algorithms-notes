@@ -1,22 +1,6 @@
-/*
-Bài toán: Xóa phần tử có giá trị x được nhập vào, phần tử đc xóa là phần tử đầu tiên đc tìm thấy
 
-Viết chương trình nhập danh sách liên kết đơn với mỗi phần tử là một số nguyên và không biết trước lượng phần tử được nhập vào.
-Việc nhập danh sách kết thúc khi giá trị nhập vào là 0 – không được tính trong danh sách.         
-Nhập số nguyên y, xóa số y đầu tiên trong danh sách.
+//Bài toán: Xóa phần tử có giá trị x được nhập vào, phần tử đc xóa là phần tử đầu tiên đc tìm thấy
 
-Input:
-
-Danh sách gồm các số nguyên dương x ( 1 ≤ x ≤ 106) cách nhau bởi khoảng trắng. Dãy số kết thúc khi gặp số 0 (số 0 này không nằm trong danh sách).
-Hàng tiếp theo chứa số nguyên y cần xóa. ( 1 ≤ y ≤ 106)
-Tổng số lượng các phần tử trong danh sách không quá 106.
-
-Ouput:
-
-Nếu danh sách ban đầu rỗng, in ra "Danh sach rong.".
-Nếu tìm thấy y trong danh sách, chương trình xuất danh sách sau khi xóa số nguyên y đầu tiên. Trường hợp sau khi xóa số nguyên y, danh sách ban đầu trở thành rỗng thì in “Danh sach rong.”.
-Ngược lại, chương trình xuất ra thông báo “Khong tim thay <y> trong danh sach:” trước khi xuất danh sách đã nhập.
-*/
 
 /*###Begin banned keyword - each of the following line if appear in code will raise error. regex supported
 define
