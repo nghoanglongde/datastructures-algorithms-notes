@@ -1,27 +1,6 @@
-/*
-Bài toán: Xóa tất cả các node có giá trị = x trong danh sách liên kết đơn
 
-Viết chương trình nhập danh sách liên kết đơn với mỗi phần tử là một số nguyên và không biết trước lượng phần tử được nhập vào.
-Việc nhập danh sách kết thúc khi giá trị nhập vào là 0 – không được tính trong danh sách.          
-Tiếp theo, nhập vào số nguyên dương y, xóa tất cả node có info bằng y trong danh sách.
+//Bài toán: Xóa tất cả các node có giá trị = x trong danh sách liên kết đơn
 
-Input:
-
-Danh sách gồm các số nguyên dương x ( 1 ≤ x ≤ 105) cách nhau bởi khoảng trắng. Dãy số kết thúc khi gặp số 0 (số 0 này không nằm trong danh sách).
-Dòng tiếp theo chứa số nguyên y ( 1 ≤ y ≤ 106) cần xóa.
-Tổng số lượng phần tử được nhập vào danh sách không quá 106.
-
-Output:
-
-Nếu danh sách ban đầu rỗng, in ra "Danh sach rong.".
-Nếu danh sách ban đầu không rỗng và tìm thấy y trong danh sách:
-Chương trình xuất danh sách sau khi xóa các node có info bằng y.
-Nếu sau khi xóa các node có info bằng y ta thu được danh sách rỗng thì in “Danh sach rong.”.
-Nếu danh sách ban đầu không rỗng và không tìm thấy y trong danh sach:
-Dòng đầu chương trình xuất ra thông báo “Khong tim thay <y> trong danh sach:” 
-Dòng thứ hai xuất danh sách đã nhập.
-
-*/
 /*###Begin banned keyword - each of the following line if appear in code will raise error. regex supported
 define
 include

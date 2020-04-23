@@ -75,13 +75,15 @@ Mọi thắc mắc xin liên hệ với mình qua [profile](https://nghoanglong.
 
 - [Codeforces](https://github.com/nghoanglong/Competitive-Programming/tree/master/codeforce)
 
+  - [Beta Round 4](https://github.com/nghoanglong/Competitive-Programming/tree/master/codeforce/Beta-round-4)
+
+  - [Education Round 82](https://github.com/nghoanglong/Competitive-Programming/tree/master/codeforce/education-round82)
+
   - [Round 619](https://github.com/nghoanglong/Competitive-Programming/tree/master/codeforce/round-619)
 
   - [Round 620](https://github.com/nghoanglong/Competitive-Programming/tree/master/codeforce/round-620)
 
-  - [Education Round 82](https://github.com/nghoanglong/Competitive-Programming/tree/master/codeforce/education-round82)
-
-  - [Beta Round 4](https://github.com/nghoanglong/Competitive-Programming/tree/master/codeforce/Beta-round-4)
+  - [Round 636](https://github.com/nghoanglong/Competitive-Programming/tree/master/codeforce/round-636)
 
   
 
@@ -99,6 +101,8 @@ Mọi thắc mắc xin liên hệ với mình qua [profile](https://nghoanglong.
   - [Easy Problems](https://github.com/nghoanglong/Competitive-Programming/blob/master/LeetCode/Easy)
   
       206 - Reverse Linked List | [C++](https://github.com/nghoanglong/Competitive-Programming/blob/master/LeetCode/Easy/Prob206.cpp) | [Python](https://github.com/nghoanglong/Competitive-Programming/blob/master/LeetCode/Easy/Prob206.py)
+
+      [53 - Maximum Subarray](https://github.com/nghoanglong/Competitive-Programming/blob/master/LeetCode/Medium/Prob53.cpp)
 
   - [Medium Problems](https://github.com/nghoanglong/Competitive-Programming/blob/master/LeetCode/Medium)
 
