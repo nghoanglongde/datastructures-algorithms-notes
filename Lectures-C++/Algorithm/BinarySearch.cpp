@@ -32,7 +32,15 @@ int BS(vector<int> nums, int target){
             right = mid;
         mid = (left + right) / 2;
     }
-    return mid;
+    if(nums[left] == target){
+        return left;
+    }
+    else if(nums[right] == target){
+        return right;
+    }
+    else{
+        return -1;
+    }
 }
 
 int main()

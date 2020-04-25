@@ -104,6 +104,8 @@ Mọi thắc mắc xin liên hệ với mình qua [profile](https://nghoanglong.
 
       [53 - Maximum Subarray](https://github.com/nghoanglong/Competitive-Programming/blob/master/LeetCode/Medium/Prob53.cpp)
 
+      [704 - Binary Search](https://github.com/nghoanglong/Competitive-Programming/blob/master/LeetCode/Medium/Prob704.cpp)
+
   - [Medium Problems](https://github.com/nghoanglong/Competitive-Programming/blob/master/LeetCode/Medium)
 
       [402 - Remove K Digits](https://github.com/nghoanglong/Competitive-Programming/blob/master/LeetCode/Medium/Prob402.cpp)
