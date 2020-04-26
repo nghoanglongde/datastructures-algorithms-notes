@@ -68,7 +68,9 @@ Mọi thắc mắc xin liên hệ với mình qua [profile](https://nghoanglong.
 
 - [VNOI](https://github.com/nghoanglong/Competitive-Programming/tree/master/VNOI)
 
-   - [MTWALK - Mountain Walking](https://github.com/nghoanglong/Competitive-Programming/tree/master/VNOI/MTWALK.cpp)
+   - [MTWALK - Mountain walking](https://github.com/nghoanglong/Competitive-Programming/tree/master/VNOI/MTWALK.cpp)
+
+   - [CAR - Lập lịch sửa chữa ô tô](https://github.com/nghoanglong/Competitive-Programming/tree/master/VNOI/CAR.cpp)
 
    - [QBSEQ - Dãy con dài nhất có tổng chia hết cho K](https://github.com/nghoanglong/Competitive-Programming/tree/master/VNOI/QBSEQ.cpp)
 

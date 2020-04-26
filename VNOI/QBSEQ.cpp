@@ -1,4 +1,5 @@
 //Dãy con dài nhất có tổng chia hết cho K, không cần liên tục
+
 //Xem ví dụ trong sách thầy hoàng
 #include<iostream>
 #include<fstream>
