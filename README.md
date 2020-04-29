@@ -34,8 +34,10 @@ Mọi thắc mắc xin liên hệ với mình qua [profile](https://nghoanglong.
 
 - [Algorithms](https://github.com/nghoanglong/Competitive-Programming/tree/master/Lectures-C++/Algorithm)
 
-   - [Manacher Algorithm](https://github.com/nghoanglong/Competitive-Programming/blob/master/Lectures-C++/Algorithm/Manacher.cpp)
-   - [Chặt nhị phân - Binary Search](https://github.com/nghoanglong/Competitive-Programming/blob/master/Lectures-C++/Algorithm/BinarySearch.cpp)
+   - [Sắp xếp - Tìm kiếm](https://github.com/nghoanglong/Competitive-Programming/blob/master/Lectures-C++/Algorithm/Sort-Search)
+
+       [Chặt nhị phân - Binary Search](https://github.com/nghoanglong/Competitive-Programming/blob/master/Lectures-C++/Algorithm/Sort-Search/BinarySearch.cpp)
+
    - [Quy hoạch động](https://github.com/nghoanglong/Competitive-Programming/tree/master/Lectures-C++/DynamicProgramming)
 
        [Longest Increasing Subsequence](https://github.com/nghoanglong/Competitive-Programming/blob/master/Lectures-C++/DynamicProgramming/LIQ.cpp)
@@ -53,17 +55,28 @@ Mọi thắc mắc xin liên hệ với mình qua [profile](https://nghoanglong.
        [Bài toán về Đồng xu](https://github.com/nghoanglong/Competitive-Programming/blob/master/Lectures-C++/DynamicProgramming/Coins.cpp)
 
        [Bài toán cái túi](https://github.com/nghoanglong/Competitive-Programming/blob/master/Lectures-C++/DynamicProgramming/SuperMarket.cpp)
+    
+   - [Xử lý chuỗi - String](https://github.com/nghoanglong/Competitive-Programming/tree/master/Lectures-C++/Algorithm/String/)
+
+       [Manacher Algorithm](https://github.com/nghoanglong/Competitive-Programming/tree/master/Lectures-C++/Algorithm/String/Manacher.cpp)
+    
+
 
 
 - [Lý thuyết đồ thị](https://github.com/nghoanglong/Competitive-Programming/tree/master/Lectures-C++/GraphTheory)
 
     - [Cài đặt đồ thị cơ bản](https://github.com/nghoanglong/Competitive-Programming/blob/master/Lectures-C++/GraphTheory/Basic.cpp)
 
-    - [Depth First Search - Duyệt đồ thị theo chiều sâu](https://github.com/nghoanglong/Competitive-Programming/blob/master/Lectures-C++/GraphTheory/DFS.cpp)
-
-    - [Breadth First Search - Duyệt đồ thị theo chiều rộng](https://github.com/nghoanglong/Competitive-Programming/blob/master/Lectures-C++/GraphTheory/BFS.cpp)
-
     - [Connectivity - Tính liên thông của đồ thị](https://github.com/nghoanglong/Competitive-Programming/blob/master/Lectures-C++/GraphTheory/Connectivity.cpp)
+
+    - [Duyệt đồ thị](https://github.com/nghoanglong/Competitive-Programming/blob/master/Lectures-C++/GraphTheory/GraphTraversal)
+
+       [Depth First Search - Duyệt đồ thị theo chiều sâu](https://github.com/nghoanglong/Competitive-Programming/blob/master/Lectures-C++/GraphTheory/GraphTraversal/DFS.cpp)
+       
+       [Breadth First Search - Duyệt đồ thị theo chiều rộng](https://github.com/nghoanglong/Competitive-Programming/blob/master/Lectures-C++/GraphTheory/GraphTraversal/BFS.cpp)
+
+    - [Đường đi ngắn nhất](https://github.com/nghoanglong/Competitive-Programming/blob/master/Lectures-C++/GraphTheory/GraphTraversal)
+
 
 
 - [VNOI](https://github.com/nghoanglong/Competitive-Programming/tree/master/VNOI)
