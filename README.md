@@ -75,7 +75,9 @@ Mọi thắc mắc xin liên hệ với mình qua [profile](https://nghoanglong.
        
        [Breadth First Search - Duyệt đồ thị theo chiều rộng](https://github.com/nghoanglong/Competitive-Programming/blob/master/Lectures-C++/GraphTheory/GraphTraversal/BFS.cpp)
 
-    - [Đường đi ngắn nhất](https://github.com/nghoanglong/Competitive-Programming/blob/master/Lectures-C++/GraphTheory/GraphTraversal)
+    - [Đường đi ngắn nhất](https://github.com/nghoanglong/Competitive-Programming/blob/master/Lectures-C++/GraphTheory/ShortestPath)
+
+       [Dijkstra's Algorithm](https://github.com/nghoanglong/Competitive-Programming/blob/master/Lectures-C++/GraphTheory/ShortestPath/Dijkstra.cpp)
 
 
 
