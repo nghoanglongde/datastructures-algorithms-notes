@@ -1,6 +1,5 @@
 #include<iostream>
 #include<vector>
-#include<fstream>
 #define maxN 1000
 using namespace std;
 
@@ -71,15 +70,8 @@ void inputAdjList(int n, int m){
 }
 
 int main(){
-    ifstream fi;
-    fi.open("input.txt");
-    if(!fi){
-        cout << "cant open this file" << endl;
-        return 0;
-    }
-
     int n, m;//n đỉnh và m cạnh
-    fi >> n >> m;//số đỉnh và số cạnh trong đồ thị
+    cin >> n >> m;//số đỉnh và số cạnh trong đồ thị
 
     //đồ thị dưới dạng ma trận kề
     inputUndirectedGraph(n, m);

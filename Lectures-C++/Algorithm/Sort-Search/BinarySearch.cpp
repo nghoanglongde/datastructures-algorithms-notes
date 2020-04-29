@@ -18,7 +18,7 @@ int mySqrt(int x) {
     return (right * right == x) ? right : left; //trường hợp căn 1
 }
 
-int BS(vector<int> nums, int target){
+bool BS(vector<int> nums, int target){
     //Binary Search tìm số trong mảng tăng dần
     int left = 0;
     int right =  target;
@@ -32,15 +32,7 @@ int BS(vector<int> nums, int target){
             right = mid;
         mid = (left + right) / 2;
     }
-    if(nums[left] == target){
-        return left;
-    }
-    else if(nums[right] == target){
-        return right;
-    }
-    else{
-        return -1;
-    }
+    return (nums[left] == target || nums[right] == target) ? true : false;
 }
 
 int main()
@@ -56,8 +48,12 @@ int main()
         cin >> temp;
         nums.push_back(temp);
     }
-    int result = BS(nums, target);
-    cout << result;
+    if(BS(nums, target)){
+        cout << "Found" << endl;
+    }
+    else{
+        cout << "Not found" << endl;
+    }
 
     //tìm căn bậc 2 bằng binary search ko sử dụng lib
     int num_sqrt;

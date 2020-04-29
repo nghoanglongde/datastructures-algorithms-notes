@@ -1,7 +1,6 @@
 //Tính liên thông của đồ thị, tài liệu tham khảo: Giải thuật và lập trình Lê Minh Hoàng
 #include<iostream>
 #include<vector>
-#include<fstream>
 #include<queue>
 using namespace std;
 
@@ -44,11 +43,11 @@ void checkConnectivity(vector<vector<bool>> arr, vector<bool> Trace, int n, int 
 }
 
 //thuật toán floy-warshall
-void warshall(vector<vector<bool>> arr, vector<bool> Trace, int n, int m, ifstream &fi){
+void warshall(vector<vector<bool>> arr, vector<bool> Trace, int n, int m){
     //khởi tạo
     for(int i = 1;i <= m;i++){
         int u, v;
-        fi >> u >> v;
+        cin >> u >> v;
         arr[u][v] = arr[v][u] = true;
     }
     for(int i = 1;i <= n;i++){
@@ -81,22 +80,15 @@ void warshall(vector<vector<bool>> arr, vector<bool> Trace, int n, int m, ifstre
 }
 
 int main(){
-    //đọc dữ liệu từ file
-    ifstream fi;
-    fi.open("input.txt");
-    if(!fi){
-        cout << "can't open this file";
-        return 0;
-    } 
     //khởi tạo
     int n, m;
-    fi >> n >> m;
+    cin >> n >> m;
 
     vector<vector<bool>> arr(n + 1,vector<bool>(n + 1, false)); //ma trận kề
     vector<bool> Trace(n + 1,true); //truy vết
     
     //Chạy hàm nào thì phải cmt hàm kia lại
     //checkConnectivity(arr, Trace, n, m, fi); //đếm số thành phần liên thông trong graph
-    warshall(arr, Trace, n, m, fi); //floy-warshall liệt kê các thành phần liên thông
+    warshall(arr, Trace, n, m); //floy-warshall liệt kê các thành phần liên thông
     return 0;
 }
