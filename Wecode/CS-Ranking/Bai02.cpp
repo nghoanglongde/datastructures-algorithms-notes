@@ -1,3 +1,6 @@
+//tính diện tích hình chữ nhật lớn nhất giữa 2 mảnh hình chữ nhật dọc bên phải điểm lỗi và bên trái điểm lỗi, tương tự ta tính cho
+//max hình chữ nhật bên trên và bên dưới điểm lỗi -> compare 2 max ta sẽ có được hình chữ nhật lớn nhất có được
+
 #include<iostream>
 
 using namespace std;

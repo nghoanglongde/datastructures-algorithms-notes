@@ -117,15 +117,19 @@ Mọi thắc mắc xin liên hệ với mình qua [profile](https://nghoanglong.
 
   - [Easy Problems](https://github.com/nghoanglong/Competitive-Programming/blob/master/LeetCode/Easy)
   
-      206 - Reverse Linked List | [C++](https://github.com/nghoanglong/Competitive-Programming/blob/master/LeetCode/Easy/Prob206.cpp) | [Python](https://github.com/nghoanglong/Competitive-Programming/blob/master/LeetCode/Easy/Prob206.py)
+      206 - Reverse Linked List | [C++](https://github.com/nghoanglong/Competitive-Programming/blob/master/LeetCode/Easy/Reverse-Linked-List-206.cpp) | [Python](https://github.com/nghoanglong/Competitive-Programming/blob/master/LeetCode/Easy/Reverse-Linked-List-206.py)
 
-      [53 - Maximum Subarray](https://github.com/nghoanglong/Competitive-Programming/blob/master/LeetCode/Medium/Prob53.cpp)
+      [53 - Maximum Subarray](https://github.com/nghoanglong/Competitive-Programming/blob/master/LeetCode/Medium/Maximum-Subarray-53.cpp)
 
-      [704 - Binary Search](https://github.com/nghoanglong/Competitive-Programming/blob/master/LeetCode/Medium/Prob704.cpp)
+      [704 - Binary Search](https://github.com/nghoanglong/Competitive-Programming/blob/master/LeetCode/Medium/Binary-Search-704.cpp)
 
   - [Medium Problems](https://github.com/nghoanglong/Competitive-Programming/blob/master/LeetCode/Medium)
 
-      [402 - Remove K Digits](https://github.com/nghoanglong/Competitive-Programming/blob/master/LeetCode/Medium/Prob402.cpp)
+      [402 - Remove K Digits](https://github.com/nghoanglong/Competitive-Programming/blob/master/LeetCode/Medium/Remove-K-Digits-402.cpp)
+  
+  - [Hard Problems](https://github.com/nghoanglong/Competitive-Programming/blob/master/LeetCode/Hard)
+
+      [135 - Candy](https://github.com/nghoanglong/Competitive-Programming/blob/master/LeetCode/Hard/Candy-135.cpp)
    
 
 
