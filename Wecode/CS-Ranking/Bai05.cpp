@@ -1,6 +1,6 @@
 #include<bits/stdc++.h>
-// bài này sub được có 40đ :(
-    
+// bài này sub được có 40đ, vẫn chưa hiểu mình sai case nào hic :(
+
 using namespace std;
 
 struct PROBS{
@@ -68,8 +68,9 @@ int main(){
         cut_str(data, list_team[i], nums_prob);
     }
     sort(list_team + 1, list_team + nums_team + 1, funcsortsobaidagiai);
-    list_team[0].problems[0].sodoihoanthanh = 0;
-    list_team[0].problems[0].solantancong = 0;
+
+    list_team[0].problems[0].sodoihoanthanh = list_team[0].problems[0].solantancong = 0;
+    
     for(int i = 1;i <= nums_team;i++){
         cout << list_team[i].name << " ";
         for(int j = 0;j < nums_prob;j++){

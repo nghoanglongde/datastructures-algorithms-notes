@@ -18,6 +18,7 @@ int main(){
     }
     for(int i=0; i < n;i++)
     {
+        //hash map để tìm scores bị trùng
         if(dup_map.find(scores[i]) != dup_map.end())
         {
             dup_map[scores[i]]++;

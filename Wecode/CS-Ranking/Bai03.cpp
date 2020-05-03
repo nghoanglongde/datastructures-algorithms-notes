@@ -1,3 +1,7 @@
+//Ta có thể thấy với số 1 nó có thể đổi chỗ với bất cứ số nào, nên ý tưởng là tách số 1 ra khỏi chuỗi gốc, để tạo ra 1 dãy nhỏ nhất
+//ta chỉ cần thêm dãy các số 1 đã được tách ra trước số 2, vì nếu thêm sau số 2 nó sẽ là 2xxx > 1xxx, nếu trong chuỗi ko có số
+//2 nào, ta sẽ thêm nó vào cuối chuỗi là ta đã đc 1 chuỗi nhỏ nhất
+
 #include<bits/stdc++.h>
 
 using namespace std;
