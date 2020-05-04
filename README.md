@@ -112,6 +112,8 @@ Mọi thắc mắc xin liên hệ với mình qua [profile](https://nghoanglong.
 
   - [Beginner 158](https://github.com/nghoanglong/Competitive-Programming/tree/master/Atcoder/Beginner158)
 
+  - [Beginner 166](https://github.com/nghoanglong/Competitive-Programming/tree/master/Atcoder/Beginner166)
+
 
 - [LeetCode](https://github.com/nghoanglong/Competitive-Programming/tree/master/LeetCode)
 

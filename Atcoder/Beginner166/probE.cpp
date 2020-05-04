@@ -1,26 +1,29 @@
 #include<iostream>
-using namespace std;
-int main(){
-    int N; cin >> N;
-    int *arr = new int[N + 1];
-    for(int i = 1;i <= N;i++){
-        cin >> arr[i];
+#include<map>
+
+using namespace std; 
+typedef long long ll; 
+bool present(map<int, int> mp, int x){
+    if(mp.find(x) != mp.end()){
+        return true;
     }
-    int count = 0;
-    for(int i = 2;i <= N;i++){
-        int j = 1;
-        while(1){
-            int next_pos = j + i;
-            if(next_pos > N){
-                break;
-            }
-            else{
-                if(arr[j] + arr[j + i] == i){
-                    count++;
-                }
-            }
-            ++j;
-        }
-    }
-    cout << count;
+    return (mp.find(x) != mp.end()) ? true : false;
 }
+int main()
+{
+    //ta có nhận xét như sau : |j - i| = a[i] + a[j] với j > i -> j - a[j] = a[i] + i
+    int n, ans = 0;
+    cin >> n;
+    map<int, int> mp;
+    for(int i = 1;i <= n;++i){
+        int x;
+        cin >> x;
+        ans = ans + mp[i - x];
+        mp[i + x]++;
+    }
+ 
+    cout << ans;
+ 
+    return 0;
+}
+ 
