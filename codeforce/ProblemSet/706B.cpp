@@ -1,0 +1,30 @@
+//Link problem: https://codeforces.com/problemset/problem/706/B
+
+#include<algorithm>
+#include<iostream>
+#include<vector>
+using namespace std; 
+
+int main(){
+    int n; cin >> n;
+    vector<int> cities;
+    vector<int> queries;
+    for(int i = 0;i < n;++i){
+        int value; cin >> value;
+        cities.push_back(value);
+    }
+    sort(cities.begin(), cities.end());
+    int q; cin >> q;
+    for(int i = 0;i < q;++i){
+        int query; cin >> query;
+        queries.push_back(query);
+    }
+    for(int i = 0;i < q;i++){
+        auto k = lower_bound(cities.begin(), cities.end(), queries[i]) - cities.begin();
+        if(cities[k] == queries[i]){
+            k = k + 1;
+        }
+        cout << k << endl;
+    }
+
+}
