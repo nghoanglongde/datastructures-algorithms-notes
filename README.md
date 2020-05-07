@@ -40,11 +40,11 @@ Mọi thắc mắc xin liên hệ với mình qua [profile](https://nghoanglong.
 
    - [Quy hoạch động](https://github.com/nghoanglong/Competitive-Programming/tree/master/Lectures-C++/DynamicProgramming)
 
-       [Bài toán về Đồng xu](https://github.com/nghoanglong/Competitive-Programming/blob/master/Lectures-C++/DynamicProgramming/Coins.cpp)
+       [Coins Problem - Bài toán đồng xu](https://github.com/nghoanglong/Competitive-Programming/blob/master/Lectures-C++/DynamicProgramming/Coins.cpp)
 
-       [Knapsack Problem](https://github.com/nghoanglong/Competitive-Programming/blob/master/Lectures-C++/DynamicProgramming/Knapsack.cpp)
+       [Knapsack Problem - Bài toán cái túi](https://github.com/nghoanglong/Competitive-Programming/blob/master/Lectures-C++/DynamicProgramming/Knapsack.cpp)
 
-       [Longest Increasing Subsequence](https://github.com/nghoanglong/Competitive-Programming/blob/master/Lectures-C++/DynamicProgramming/LIS.cpp)
+       [LIS - Dãy con tăng dài nhất](https://github.com/nghoanglong/Competitive-Programming/blob/master/Lectures-C++/DynamicProgramming/LIS.cpp)
    
        [Longest Commont Substring](https://github.com/nghoanglong/Competitive-Programming/blob/master/Lectures-C++/DynamicProgramming/LCS.cpp)
 
