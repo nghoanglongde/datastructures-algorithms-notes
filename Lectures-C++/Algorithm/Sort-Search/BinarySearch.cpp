@@ -23,7 +23,7 @@ bool BS(vector<int> nums, int target){
 
 //chặt nhị phân sử dụng thư viện có sẵn
 bool BSLib(vector<int> nums, int target){
-    auto k = lower_bound(nums.begin(), nums.end(), target) - nums.begin();
+    auto k = upper_bound(nums.begin(), nums.end(), target) - nums.begin();
     if (k < nums.size() && nums[k] == target) {
         return true;
     }
