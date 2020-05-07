@@ -40,7 +40,11 @@ Mọi thắc mắc xin liên hệ với mình qua [profile](https://nghoanglong.
 
    - [Quy hoạch động](https://github.com/nghoanglong/Competitive-Programming/tree/master/Lectures-C++/DynamicProgramming)
 
-       [Longest Increasing Subsequence](https://github.com/nghoanglong/Competitive-Programming/blob/master/Lectures-C++/DynamicProgramming/LIQ.cpp)
+       [Bài toán về Đồng xu](https://github.com/nghoanglong/Competitive-Programming/blob/master/Lectures-C++/DynamicProgramming/Coins.cpp)
+
+       [Knapsack Problem](https://github.com/nghoanglong/Competitive-Programming/blob/master/Lectures-C++/DynamicProgramming/Knapsack.cpp)
+
+       [Longest Increasing Subsequence](https://github.com/nghoanglong/Competitive-Programming/blob/master/Lectures-C++/DynamicProgramming/LIS.cpp)
    
        [Longest Commont Substring](https://github.com/nghoanglong/Competitive-Programming/blob/master/Lectures-C++/DynamicProgramming/LCS.cpp)
 
@@ -51,10 +55,6 @@ Mọi thắc mắc xin liên hệ với mình qua [profile](https://nghoanglong.
        [Bài toán cho thuê máy](https://github.com/nghoanglong/Competitive-Programming/blob/master/Lectures-C++/DynamicProgramming/MachineRental.cpp)
 
        [Các bài toán về Palindrome](https://github.com/nghoanglong/Competitive-Programming/blob/master/Lectures-C++/DynamicProgramming/Palindrome.cpp)
-
-       [Bài toán về Đồng xu](https://github.com/nghoanglong/Competitive-Programming/blob/master/Lectures-C++/DynamicProgramming/Coins.cpp)
-
-       [Bài toán cái túi](https://github.com/nghoanglong/Competitive-Programming/blob/master/Lectures-C++/DynamicProgramming/SuperMarket.cpp)
     
    - [Xử lý chuỗi - String](https://github.com/nghoanglong/Competitive-Programming/tree/master/Lectures-C++/Algorithm/String/)
 

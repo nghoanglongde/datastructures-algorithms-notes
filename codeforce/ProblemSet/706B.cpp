@@ -20,11 +20,13 @@ int main(){
         queries.push_back(query);
     }
     for(int i = 0;i < q;i++){
-        auto k = lower_bound(cities.begin(), cities.end(), queries[i]) - cities.begin();
-        if(cities[k] == queries[i]){
-            k = k + 1;
+        if(queries[i] < cities[0]){
+            cout << 0 << endl;
         }
-        cout << k << endl;
+        else{
+            auto k = upper_bound(cities.begin(), cities.end(), queries[i]) - cities.begin();
+            cout << k << endl;
+        }
     }
 
 }

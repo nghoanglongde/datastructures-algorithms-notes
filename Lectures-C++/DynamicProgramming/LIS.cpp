@@ -10,38 +10,39 @@ using namespace std;
 
 //Cách này dùng QHĐ thuần,2 loop nên Time Complexity = 0(n^2)
 int DP(int n, vector<int> arr){
-    vector<int> F(n);
+    vector<int> length(n);
     int result = 1;
-    F[0] = 1;
-    for(int i = 1;i < n;i++){
-        F[i]  = 0;
+    for(int i = 0;i < n;i++){
+        length[i] = 1; //mỗi element luôn mang độ dài là 1
         for(int j = 0;j < i;j++){
             if(arr[i] > arr[j])
-                F[i] = max(F[i],F[j] + 1);
+                length[i] = max(length[i], length[j] + 1);
         }
-        result = max(result,F[i]);
+        result = max(result, length[i]);
     }
     return result;
 }
 
 //Cách này kết hợp chặt nhị phân, Time complexity còn lại O(nlogn)
 int DPWBS(int n,vector<int> arr){
-    vector<int> F(n,maxN);
+    vector<int> F(n, maxN);
     int result = 1;
     F[0] = -maxN;
     for(int i = 0;i < arr.size();i++){
         int x = arr[i];
-        int k = lower_bound(F.begin(),F.end(),x) - F.begin();
-        F[k] = x;
+        int k = lower_bound(F.begin(), F.end(), x) - F.begin();
+        F[k] = x; //F[k] vị trí kết thúc của dãy tăng(độ dài k) tại phần tử X
         result = max(result,k);
+    }
+    for(int i = 0;i < n;i++){
+        cout << F[i] << " ";
     }
     return result;
 }
 
 int main(){
-    //dữ liệu đặt trong file input.txt rồi đọc file ra
     ifstream fi;
-    fi.open("input.txt");
+    fi.open("LIS.txt");
     if(!fi){
         cout << "can't open this file";
         return 0;
@@ -54,6 +55,6 @@ int main(){
         fi >> temp;
         arr.push_back(temp);
     }
-    cout << DP(n,arr) << endl;
+    //cout << DP(n,arr) << endl;
     cout << DPWBS(n,arr);
 }
