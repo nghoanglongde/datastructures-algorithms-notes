@@ -8,7 +8,6 @@ void bottomUpMAXHeapify(vector<int> &arr, int n, int node){
     int left_child = 2 * parent + 1;
     int right_child = (2 * parent) + 2;
     if (left_child < n && right_child < n){
-        //tìm node nhỏ hơn giữa 2 node con
         if (arr[left_child] >= arr[right_child]){
             compare = left_child;
         }
@@ -16,7 +15,6 @@ void bottomUpMAXHeapify(vector<int> &arr, int n, int node){
             compare = right_child;
         }
 
-        //so sánh với node cha
         if(arr[parent] < arr[compare]){
             parent = compare;
         }
@@ -38,9 +36,8 @@ void bottomUpMAXHeapify(vector<int> &arr, int n, int node){
 int main(){
     vector<int> arr;
     vector<int> heap_max;
-    int num_element, n_sort;
-    cin >> num_element;
-    //thêm 1 node vào cây
+    int num_element; cin >> num_element;
+
     for (int i = 0; i < num_element; i++){
         int value;
         cin >> value;
@@ -56,11 +53,11 @@ int main(){
         cout << arr[i] << " ";
     }
     cout << endl;
-    n_sort = num_element - 1;
+    
     for (int i = num_element - 1; i > 0; i--){
         //sort lại cây heap
         swap(arr[0], arr[i]);
-        bottomUpMAXHeapify(arr, --n_sort, 0);
+        bottomUpMAXHeapify(arr, i, 0);
     }
 
     //đã sort mảng lại theo cây max heap
