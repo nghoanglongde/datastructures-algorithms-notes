@@ -1,5 +1,5 @@
 ## Data Structures and Algorithms
-Mình quyết định public tất cả source code các bài mình đã giải ở các trang contest khác nhau kể từ bây giờ, bên cạnh đó cũng có một số cấu trúc dữ liệu và giải thuật cơ bản về linked list, stack, queue, cây, lý thuyết đồ thị,... mà mình sẽ code bằng C++ hoặc python(nếu có thời gian rảnh) giúp các bạn dễ hiểu thay vì đọc code pascal trong các sách hay web lập trình khác. Cảm ơn các bạn đã quan tâm và theo dõi.
+Mình quyết định public tất cả source code các bài mình đã giải ở các trang contest khác nhau kể từ bây giờ, bên cạnh đó cũng có một số cấu trúc dữ liệu và giải thuật cơ bản về linked list, stack, queue, cây, lý thuyết đồ thị,... mà mình sẽ code bằng C++ hoặc python(nếu có thời gian rảnh) giúp các bạn dễ hiểu thay vì đọc code pascal trong các sách hay web lập trình khác, cảm ơn các bạn đã quan tâm và theo dõi.
 
 Ngày bắt đầu: 16/2/2020 - năm 1 - khóa K14
 
@@ -92,11 +92,6 @@ Mọi thắc mắc xin liên hệ với mình qua [profile](https://nghoanglong.
 
 - [Codeforces](https://github.com/nghoanglong/Competitive-Programming/tree/master/codeforce)
 
-  - [Problem Set](https://github.com/nghoanglong/Competitive-Programming/tree/master/codeforce/ProblemSet)
-
-  - [Contest](https://github.com/nghoanglong/Competitive-Programming/tree/master/codeforce/Contest)
-
-  
 
 - [AtCoder](https://github.com/nghoanglong/Competitive-Programming/tree/master/Atcoder)
 

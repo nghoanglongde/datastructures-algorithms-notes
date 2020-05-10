@@ -1,5 +1,3 @@
-//Link: https://codeforces.com/problemset/problem/1296/A
-
 #include <bits/stdc++.h>
 #define FOR(n) for(int i = 0;i < (n); ++i)
 using namespace std;

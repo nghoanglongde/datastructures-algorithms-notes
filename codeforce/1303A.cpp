@@ -1,4 +1,3 @@
-//link: https://codeforces.com/contest/1303/problem/A
 #include<iostream>
 #include<string>
 using namespace std;
