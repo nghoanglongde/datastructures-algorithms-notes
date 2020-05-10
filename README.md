@@ -5,89 +5,78 @@ Ngày bắt đầu: 16/2/2020 - năm 1 - khóa K14
 
 Trường: VietNam National University, University of Information Technology (Đại học Công nghệ Thông Tin - Đại học Quốc gia TP.HCM)
 
-
-Mọi thắc mắc xin liên hệ với mình qua [profile](https://nghoanglong.github.io/)
+Anyway nếu có bất cứ thắc mắc nào, feel free to contact me at [profile](https://nghoanglong.github.io/)
 
 ## Mục lục
-- [Data Structure](https://github.com/nghoanglong/Competitive-Programming/tree/master/Lectures-C++/DataStructure)
+- [Data Structure](https://github.com/nghoanglong/Competitive-Programming/tree/master/Lectures/Lectures-C++/DataStructure)
 
-   - Linked List | [C++](https://github.com/nghoanglong/Competitive-Programming/blob/master/Lectures-C++/DataStructure/Linked-list.cpp) | [Python](https://github.com/nghoanglong/Competitive-Programming/blob/master/Lectures-Python/DataStructure/linkedlist.py)
+   - Linked List | [C++](https://github.com/nghoanglong/Competitive-Programming/blob/master/Lectures/Lectures-C++/DataStructure/Linked-list.cpp) | [Python](https://github.com/nghoanglong/Competitive-Programming/blob/master/Lectures/Lectures-Python/DataStructure/linkedlist.py)
  
-   - Stack | [C++](https://github.com/nghoanglong/Competitive-Programming/blob/master/Lectures-C++/DataStructure/Stack.cpp) | [Python](https://github.com/nghoanglong/Competitive-Programming/blob/master/Lectures-Python/DataStructure/stack.py)
+   - Stack | [C++](https://github.com/nghoanglong/Competitive-Programming/blob/master/Lectures/Lectures-C++/DataStructure/Stack.cpp) | [Python](https://github.com/nghoanglong/Competitive-Programming/blob/master/Lectures/Lectures-Python/DataStructure/stack.py)
 
-   - Queue | [C++](https://github.com/nghoanglong/Competitive-Programming/blob/master/Lectures-C++/DataStructure/Queue.cpp) | [Python](https://github.com/nghoanglong/Competitive-Programming/blob/master/Lectures-Python/DataStructure/queue.py)
+   - Queue | [C++](https://github.com/nghoanglong/Competitive-Programming/blob/master/Lectures/Lectures-C++/DataStructure/Queue.cpp) | [Python](https://github.com/nghoanglong/Competitive-Programming/blob/master/Lectures/Lectures-Python/DataStructure/queue.py)
 
-   - [Heap](https://github.com/nghoanglong/Competitive-Programming/blob/master/Lectures-C++/DataStructure/Heap.cpp)
+   - [Heap](https://github.com/nghoanglong/Competitive-Programming/blob/master/Lectures/Lectures-C++/DataStructure/Heap.cpp)
    
-   - [Hash Table - Bảng băm](https://github.com/nghoanglong/Competitive-Programming/blob/master/Lectures-C++/DataStructure/HashTable.cpp)
+   - [Hash Table - Bảng băm](https://github.com/nghoanglong/Competitive-Programming/blob/master/Lectures/Lectures-C++/DataStructure/HashTable.cpp)
 
-   - [General Tree](https://github.com/nghoanglong/Competitive-Programming/blob/master/Lectures-C++/DataStructure/GeneralTree.cpp)
+   - [General Tree](https://github.com/nghoanglong/Competitive-Programming/blob/master/Lectures/Lectures-C++/DataStructure/GeneralTree.cpp)
 
-   - [Binary Tree](https://github.com/nghoanglong/Competitive-Programming/blob/master/Lectures-C++/DataStructure/BinaryTree.cpp)
+   - [Binary Tree](https://github.com/nghoanglong/Competitive-Programming/blob/master/Lectures/Lectures-C++/DataStructure/BinaryTree.cpp)
 
-   - Binary Search Tree | [C++](https://github.com/nghoanglong/Competitive-Programming/blob/master/Lectures-C++/DataStructure/BinarySearchTree.cpp) | [Python](https://github.com/nghoanglong/Competitive-Programming/blob/master/Lectures-Python/DataStructure/BinarySearchTree.py)
+   - Binary Search Tree | [C++](https://github.com/nghoanglong/Competitive-Programming/blob/master/Lectures/Lectures-C++/DataStructure/BinarySearchTree.cpp) | [Python](https://github.com/nghoanglong/Competitive-Programming/blob/master/Lectures/Lectures-Python/DataStructure/BinarySearchTree.py)
 
-   - [Expression Tree(Infix - Postfix - Prefix)](https://github.com/nghoanglong/Competitive-Programming/blob/master/Lectures-C++/DataStructure/infix-prefix-postfix.cpp)
+   - [Expression Tree(Infix - Postfix - Prefix)](https://github.com/nghoanglong/Competitive-Programming/blob/master/Lectures/Lectures-C++/DataStructure/infix-prefix-postfix.cpp)
 
-   - [Big Number](https://github.com/nghoanglong/Competitive-Programming/blob/master/Lectures-C++/DataStructure/BigNum.cpp)
+   - [Big Number](https://github.com/nghoanglong/Competitive-Programming/blob/master/Lectures/Lectures-C++/DataStructure/BigNum.cpp)
 
 
-- [Algorithms](https://github.com/nghoanglong/Competitive-Programming/tree/master/Lectures-C++/Algorithm)
+- [Algorithms](https://github.com/nghoanglong/Competitive-Programming/tree/master/Lectures/Lectures-C++/Algorithm)
 
-   - [Sắp xếp - Tìm kiếm](https://github.com/nghoanglong/Competitive-Programming/blob/master/Lectures-C++/Algorithm/Sort-Search)
+   - [Sắp xếp - Tìm kiếm](https://github.com/nghoanglong/Competitive-Programming/blob/master/Lectures/Lectures-C++/Algorithm/Sort-Search)
 
-       [Chặt nhị phân - Binary Search](https://github.com/nghoanglong/Competitive-Programming/blob/master/Lectures-C++/Algorithm/Sort-Search/BinarySearch.cpp)
+       [Chặt nhị phân - Binary Search](https://github.com/nghoanglong/Competitive-Programming/blob/master/Lectures/Lectures-C++/Algorithm/Sort-Search/BinarySearch.cpp)
 
-   - [Quy hoạch động](https://github.com/nghoanglong/Competitive-Programming/tree/master/Lectures-C++/DynamicProgramming)
+   - [Quy hoạch động](https://github.com/nghoanglong/Competitive-Programming/tree/master/Lectures/Lectures-C++/DynamicProgramming)
 
-       [Coins Problem - Bài toán đồng xu](https://github.com/nghoanglong/Competitive-Programming/blob/master/Lectures-C++/DynamicProgramming/Coins.cpp)
+       [Coins Problem - Bài toán đồng xu](https://github.com/nghoanglong/Competitive-Programming/blob/master/Lectures/Lectures-C++/DynamicProgramming/Coins.cpp)
 
-       [Knapsack Problem - Bài toán cái túi](https://github.com/nghoanglong/Competitive-Programming/blob/master/Lectures-C++/DynamicProgramming/Knapsack.cpp)
+       [Knapsack Problem - Bài toán cái túi](https://github.com/nghoanglong/Competitive-Programming/blob/master/Lectures/Lectures-C++/DynamicProgramming/Knapsack.cpp)
 
-       [LIS - Dãy con tăng dài nhất](https://github.com/nghoanglong/Competitive-Programming/blob/master/Lectures-C++/DynamicProgramming/LIS.cpp)
+       [LIS - Dãy con tăng dài nhất](https://github.com/nghoanglong/Competitive-Programming/blob/master/Lectures/Lectures-C++/DynamicProgramming/LIS.cpp)
    
-       [Longest Commont Substring](https://github.com/nghoanglong/Competitive-Programming/blob/master/Lectures-C++/DynamicProgramming/LCS.cpp)
+       [Longest Commont Substring](https://github.com/nghoanglong/Competitive-Programming/blob/master/Lectures/Lectures-C++/DynamicProgramming/LCS.cpp)
 
-       [Dãy con có tổng bằng S](https://github.com/nghoanglong/Competitive-Programming/blob/master/Lectures-C++/DynamicProgramming/SEQ.cpp)       
+       [Dãy con có tổng bằng S](https://github.com/nghoanglong/Competitive-Programming/blob/master/Lectures/Lectures-C++/DynamicProgramming/SEQ.cpp)       
 
-       [Bài toán bố trí phòng họp](https://github.com/nghoanglong/Competitive-Programming/blob/master/Lectures-C++/DynamicProgramming/MeetingRoom.cpp)
+       [Bài toán bố trí phòng họp](https://github.com/nghoanglong/Competitive-Programming/blob/master/Lectures/Lectures-C++/DynamicProgramming/MeetingRoom.cpp)
 
-       [Bài toán cho thuê máy](https://github.com/nghoanglong/Competitive-Programming/blob/master/Lectures-C++/DynamicProgramming/MachineRental.cpp)
+       [Bài toán cho thuê máy](https://github.com/nghoanglong/Competitive-Programming/blob/master/Lectures/Lectures-C++/DynamicProgramming/MachineRental.cpp)
 
-       [Các bài toán về Palindrome](https://github.com/nghoanglong/Competitive-Programming/blob/master/Lectures-C++/DynamicProgramming/Palindrome.cpp)
+       [Các bài toán về Palindrome](https://github.com/nghoanglong/Competitive-Programming/blob/master/Lectures/Lectures-C++/DynamicProgramming/Palindrome.cpp)
     
-   - [Xử lý chuỗi - String](https://github.com/nghoanglong/Competitive-Programming/tree/master/Lectures-C++/Algorithm/String/)
+   - [Xử lý chuỗi - String](https://github.com/nghoanglong/Competitive-Programming/tree/master/Lectures/Lectures-C++/Algorithm/String/)
 
-       [Manacher Algorithm](https://github.com/nghoanglong/Competitive-Programming/tree/master/Lectures-C++/Algorithm/String/Manacher.cpp)
+       [Manacher Algorithm](https://github.com/nghoanglong/Competitive-Programming/tree/master/Lectures/Lectures-C++/Algorithm/String/Manacher.cpp)
     
 
 
 
-- [Lý thuyết đồ thị](https://github.com/nghoanglong/Competitive-Programming/tree/master/Lectures-C++/GraphTheory)
+- [Lý thuyết đồ thị](https://github.com/nghoanglong/Competitive-Programming/tree/master/Lectures/Lectures-C++/GraphTheory)
 
-    - [Cài đặt đồ thị cơ bản](https://github.com/nghoanglong/Competitive-Programming/blob/master/Lectures-C++/GraphTheory/Basic.cpp)
+    - [Cài đặt đồ thị cơ bản](https://github.com/nghoanglong/Competitive-Programming/blob/master/Lectures/Lectures-C++/GraphTheory/Basic.cpp)
 
-    - [Connectivity - Tính liên thông của đồ thị](https://github.com/nghoanglong/Competitive-Programming/blob/master/Lectures-C++/GraphTheory/Connectivity.cpp)
+    - [Connectivity - Tính liên thông của đồ thị](https://github.com/nghoanglong/Competitive-Programming/blob/master/Lectures/Lectures-C++/GraphTheory/Connectivity.cpp)
 
-    - [Duyệt đồ thị](https://github.com/nghoanglong/Competitive-Programming/blob/master/Lectures-C++/GraphTheory/GraphTraversal)
+    - [Duyệt đồ thị](https://github.com/nghoanglong/Competitive-Programming/blob/master/Lectures/Lectures-C++/GraphTheory/GraphTraversal)
 
-       [Depth First Search - Duyệt đồ thị theo chiều sâu](https://github.com/nghoanglong/Competitive-Programming/blob/master/Lectures-C++/GraphTheory/GraphTraversal/DFS.cpp)
+       [Depth First Search - Duyệt đồ thị theo chiều sâu](https://github.com/nghoanglong/Competitive-Programming/blob/master/Lectures/Lectures-C++/GraphTheory/GraphTraversal/DFS.cpp)
        
-       [Breadth First Search - Duyệt đồ thị theo chiều rộng](https://github.com/nghoanglong/Competitive-Programming/blob/master/Lectures-C++/GraphTheory/GraphTraversal/BFS.cpp)
+       [Breadth First Search - Duyệt đồ thị theo chiều rộng](https://github.com/nghoanglong/Competitive-Programming/blob/master/Lectures/Lectures-C++/GraphTheory/GraphTraversal/BFS.cpp)
 
-    - [Đường đi ngắn nhất](https://github.com/nghoanglong/Competitive-Programming/blob/master/Lectures-C++/GraphTheory/ShortestPath)
+    - [Đường đi ngắn nhất](https://github.com/nghoanglong/Competitive-Programming/blob/master/Lectures/Lectures-C++/GraphTheory/ShortestPath)
 
-       [Dijkstra's Algorithm](https://github.com/nghoanglong/Competitive-Programming/blob/master/Lectures-C++/GraphTheory/ShortestPath/Dijkstra.cpp)
-
-
-
-- [VNOI](https://github.com/nghoanglong/Competitive-Programming/tree/master/VNOI)
-
-   - [MTWALK - Mountain walking](https://github.com/nghoanglong/Competitive-Programming/tree/master/VNOI/MTWALK.cpp)
-
-   - [CAR - Lập lịch sửa chữa ô tô](https://github.com/nghoanglong/Competitive-Programming/tree/master/VNOI/CAR.cpp)
-
-   - [QBSEQ - Dãy con dài nhất có tổng chia hết cho K](https://github.com/nghoanglong/Competitive-Programming/tree/master/VNOI/QBSEQ.cpp)
+       [Dijkstra's Algorithm](https://github.com/nghoanglong/Competitive-Programming/blob/master/Lectures/Lectures-C++/GraphTheory/ShortestPath/Dijkstra.cpp)
 
 
 - [Codeforces](https://github.com/nghoanglong/Competitive-Programming/tree/master/codeforce)
@@ -95,34 +84,8 @@ Mọi thắc mắc xin liên hệ với mình qua [profile](https://nghoanglong.
 
 - [AtCoder](https://github.com/nghoanglong/Competitive-Programming/tree/master/Atcoder)
 
-  - [Beginner 155](https://github.com/nghoanglong/Competitive-Programming/tree/master/Atcoder/Beginner155)
-
-  - [Beginner 156](https://github.com/nghoanglong/Competitive-Programming/tree/master/Atcoder/Beginner156)
-
-  - [Beginner 158](https://github.com/nghoanglong/Competitive-Programming/tree/master/Atcoder/Beginner158)
-
-  - [Beginner 166](https://github.com/nghoanglong/Competitive-Programming/tree/master/Atcoder/Beginner166)
-
 
 - [LeetCode](https://github.com/nghoanglong/Competitive-Programming/tree/master/LeetCode)
-
-  - [Easy Problems](https://github.com/nghoanglong/Competitive-Programming/blob/master/LeetCode/Easy)
-  
-      206 - Reverse Linked List | [C++](https://github.com/nghoanglong/Competitive-Programming/blob/master/LeetCode/Easy/Reverse-Linked-List-206.cpp) | [Python](https://github.com/nghoanglong/Competitive-Programming/blob/master/LeetCode/Easy/Reverse-Linked-List-206.py)
-
-      [53 - Maximum Subarray](https://github.com/nghoanglong/Competitive-Programming/blob/master/LeetCode/Medium/Maximum-Subarray-53.cpp)
-
-      [704 - Binary Search](https://github.com/nghoanglong/Competitive-Programming/blob/master/LeetCode/Medium/Binary-Search-704.cpp)
-
-  - [Medium Problems](https://github.com/nghoanglong/Competitive-Programming/blob/master/LeetCode/Medium)
-
-      [402 - Remove K Digits](https://github.com/nghoanglong/Competitive-Programming/blob/master/LeetCode/Medium/Remove-K-Digits-402.cpp)
-  
-  - [Hard Problems](https://github.com/nghoanglong/Competitive-Programming/blob/master/LeetCode/Hard)
-
-      [135 - Candy](https://github.com/nghoanglong/Competitive-Programming/blob/master/LeetCode/Hard/Candy-135.cpp)
-   
-
 
 
 ## Các nguồn tham khảo và trang Contest

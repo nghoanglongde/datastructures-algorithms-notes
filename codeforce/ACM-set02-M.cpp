@@ -1,8 +1,3 @@
-/*
-Bài tập về Tham lam
-Link: https://vnoi.info/problems/CAR/
-*/
-
 #include<iostream>
 #include<algorithm>
 using namespace std;

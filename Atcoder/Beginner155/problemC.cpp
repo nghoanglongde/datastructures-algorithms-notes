@@ -1,4 +1,3 @@
-//link: https://atcoder.jp/contests/abc155/tasks/abc155_c
 #include<iostream>
 #include<map>
 #include<vector>

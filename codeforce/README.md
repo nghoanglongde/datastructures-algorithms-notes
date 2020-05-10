@@ -1,5 +1,5 @@
 ## Codeforces - Solution
-Thư mục này chứa tất cả source code các bài mình đã giải ở Codeforces, chủ yếu là ở ProblemSet vì mình cũng ít khi sắp xếp được thời gian để tham gia mấy cái contest. Anyway nếu bạn có bất cứ thắc mắc nào, feel free to contact me at [profile](https://nghoanglong.github.io/)
+Thư mục này chứa solution của tất cả các bài mình đã giải ở Codeforces, chủ yếu là ở ProblemSet vì mình cũng ít khi sắp xếp được thời gian để tham gia mấy cái contest. Anyway nếu có bất cứ thắc mắc nào, feel free to contact me at [profile](https://nghoanglong.github.io/)
 
 ## Mục lục
 
@@ -34,3 +34,9 @@ Thư mục này chứa tất cả source code các bài mình đã giải ở Co
 15. [4A - Watermelon](https://github.com/nghoanglong/Competitive-Programming/tree/master/codeforce/Beta4A.py) - [Problem Site](https://codeforces.com/contest/4/problem/A)
 
 16. [4B - Before an Exam](https://github.com/nghoanglong/Competitive-Programming/tree/master/codeforce/Beta4B.cpp) - [Problem Site](https://codeforces.com/contest/4/problem/B)
+
+17. [VNOI - ACM - set 02 - Lập lịch sửa chữa ô tô](https://github.com/nghoanglong/Competitive-Programming/tree/master/codeforce/ACM-set02-M.cpp) - [Problem Site](https://codeforces.com/group/FLVn1Sc504/contest/274485/problem/M)
+
+18. [VNOI - ACM - set 11 - Mountain Walking](https://github.com/nghoanglong/Competitive-Programming/tree/master/codeforce/ACM-set11-Y.cpp) - [Problem Site](https://codeforces.com/group/FLVn1Sc504/contest/274509/problem/Y)
+
+18. [VNOI - ACM - set 14 - Dãy con dài nhất có tổng chia hết cho K](https://github.com/nghoanglong/Competitive-Programming/tree/master/codeforce/ACM-set14-X.cpp) - [Problem Site](https://codeforces.com/group/FLVn1Sc504/contest/274518/problem/X)

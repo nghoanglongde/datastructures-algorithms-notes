@@ -2,25 +2,18 @@
 
 //Xem ví dụ trong sách thầy hoàng
 #include<iostream>
-#include<fstream>
 #include<vector>
 #define INF 1000000;
 using namespace std;
 int main(){
-    ifstream fi;
-    fi.open("input.txt");
-    if(!fi){
-        cout << "can't open this file";
-        return 0;
-    } 
     int n, k;
     int sum = 0;
-    fi >> n >> k;
+    cin >> n >> k;
     vector<int> arr(n + 1, 0);
     vector<vector<int>> DP(n + 1,vector<int>(k + 1,0));
     for(int i = 1;i <= n;i++){
         int temp;
-        fi >> temp;
+        cin >> temp;
         arr[i] = temp;
         sum = (sum + arr[i]) % k;
     }

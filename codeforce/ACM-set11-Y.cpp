@@ -1,6 +1,4 @@
-/*bài toán MTWALK - Mountain Walking
-Link: https://vnoi.info/problems/MTWALK/*
-
+/*
 Giải thích kết quả ở ví dụ: Điểm cao nhất trên đường đi: 2
                             Điểm thất nhất trên đường đi: 0
                             output = 2 - 0 = 2
@@ -12,7 +10,6 @@ Giải thích kết quả ở ví dụ: Điểm cao nhất trên đường đi: 
 #include<cstring>
 #include<iostream>
 #include <algorithm>
-#include<fstream>
 using namespace std;
  
 #define N 105
@@ -33,18 +30,11 @@ bool dfs(int u, int v) {
     return 0;
 }
  
-int main() {
-    //dữ liệu đặt trong file input.txt rồi đọc file ra
-    ifstream fi;
-    fi.open("input.txt");
-    if(!fi){
-        cout << "can't open this file";
-        return 0;
-    } 
-    fi >> n;
+int main() { 
+    cin >> n;
     for(int i = 0; i < n; ++i){
         for(int j = 0; j < n; ++j){
-            fi >> a[i][j];
+            cin >> a[i][j];
         }
     }
 
