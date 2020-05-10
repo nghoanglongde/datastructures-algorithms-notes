@@ -1,4 +1,3 @@
-//link: https://atcoder.jp/contests/abc156/tasks/abc156_b
 #include <iostream> 
 #include <math.h>  
 using namespace std; 
