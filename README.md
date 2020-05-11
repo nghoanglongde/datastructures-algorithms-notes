@@ -1,11 +1,10 @@
 ## Data Structures and Algorithms
-Mình quyết định public source code tất cả các bài mình đã giải ở các trang contest khác nhau kể từ bây giờ, bên cạnh đó cũng có một số cấu trúc dữ liệu và giải thuật cơ bản về Linked list, Stack, Queue, Cây, Đồ thị,... mà mình sẽ code bằng C++ hoặc python (nếu có thời gian rảnh) giúp các bạn dễ hiểu thay vì đọc code pascal trong các sách hay web lập trình khác, cảm ơn các bạn đã quan tâm và theo dõi.
+Repo này bao gồm tất cả lý thuyết, các bài ví dụ mẫu về cấu trúc dữ liệu và giải thuật cơ bản như Linked list, Stack, Queue, Cây, Đồ thị,... mà mình đã được học và tìm hiểu qua, còn nếu bạn đang muốn tìm solution cho các bài tập hay contest thì mình có tạo 1 repo riêng trên trang GitHub của mình, ở đây nè nha ([CP-Solutions](https://github.com/nghoanglong/CP-Solutions)). Programming language mình sử dụng là C++ hoặc Python(nếu có thời gian rảnh) nên mình nghĩ nó sẽ khá thuận tiện cho việc đọc hiểu và phân tích thay vì phải tìm đọc code pascal trong các sách hay web lập trình khác. Cũng phải nói thêm, code mình viết không phải là tối ưu nhất, chủ yếu là theo cái flow mình suy nghĩ nhưng mình nghĩ nó vẫn đảm bảo tính đúng đắn vì mình có tham khảo code từ các nguồn khác rồi tổng hợp lại được một cái repo như thế này. Anyway nếu có bất cứ thắc mắc nào, feel free to contact, link contact ở đây nha: [profile](https://nghoanglong.github.io/)
 
 Ngày bắt đầu: 16/2/2020 - năm 1 - khóa K14
 
 Trường: VietNam National University, University of Information Technology (Đại học Công nghệ Thông Tin - Đại học Quốc gia TP.HCM)
 
-Anyway nếu có bất cứ thắc mắc nào, feel free to contact me at [profile](https://nghoanglong.github.io/)
 
 ## Mục lục
 - [Data Structures](https://github.com/nghoanglong/Competitive-Programming/tree/master/Lectures/Lectures-C++/DataStructure)
@@ -60,7 +59,7 @@ Anyway nếu có bất cứ thắc mắc nào, feel free to contact me at [profi
        [Manacher Algorithm](https://github.com/nghoanglong/Competitive-Programming/tree/master/Lectures/Lectures-C++/Algorithm/String/Manacher.cpp)
     
 
-- [GRAPH THEORY](https://github.com/nghoanglong/Competitive-Programming/tree/master/Lectures/Lectures-C++/GraphTheory)
+- [Graph Theory](https://github.com/nghoanglong/Competitive-Programming/tree/master/Lectures/Lectures-C++/GraphTheory)
 
     - [Cài đặt đồ thị cơ bản](https://github.com/nghoanglong/Competitive-Programming/blob/master/Lectures/Lectures-C++/GraphTheory/Basic.cpp)
 
@@ -77,19 +76,13 @@ Anyway nếu có bất cứ thắc mắc nào, feel free to contact me at [profi
        [Dijkstra's Algorithm](https://github.com/nghoanglong/Competitive-Programming/blob/master/Lectures/Lectures-C++/GraphTheory/ShortestPath/Dijkstra.cpp)
 
 
-- [Codeforces](https://github.com/nghoanglong/Competitive-Programming/tree/master/codeforce)
-
-
-- [AtCoder](https://github.com/nghoanglong/Competitive-Programming/tree/master/Atcoder)
-
-
-- [LeetCode](https://github.com/nghoanglong/Competitive-Programming/tree/master/LeetCode)
-
 
 ## Các nguồn tham khảo và trang Contest
 
   - [VNOI WIKI](https://vnoi.info/wiki/Home)
   - [kc97ble](https://sites.google.com/site/kc97ble/)
-  - [Codeforces](https://codeforces.com/)
-  - [AtCoder](https://atcoder.jp/contests/)
-  - [LeetCode](https://leetcode.com/)
+  - [GeeksforGeeks](https://www.geeksforgeeks.org/)
+  - Sách Giải thuật và Lập trình - thầy Lê Minh Hoàng
+  - Competitive Programmer’s Handbook - Antti Laaksonen
+  - Competitive Programming 2 - Steven Halim
+
