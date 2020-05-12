@@ -5,7 +5,7 @@
 #include<vector>
 #include<algorithm>
 #include<fstream>
-#define maxN (int)1e18
+#define maxN (int)1e8
 using namespace std;
 
 //Cách này dùng QHĐ thuần,2 loop nên Time Complexity = 0(n^2)
