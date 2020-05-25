@@ -1,5 +1,9 @@
 ## Data Structures and Algorithms
-Repo này bao gồm tất cả lý thuyết, các bài ví dụ mẫu về cấu trúc dữ liệu và giải thuật cơ bản như Linked list, Stack, Queue, Cây, Đồ thị,... mà mình đã được học và tìm hiểu qua, còn nếu bạn đang muốn tìm solution cho các bài tập hay contest thì mình có tạo 1 repo riêng trên trang GitHub của mình, ở đây nè nha ([CP-Solutions](https://github.com/nghoanglong/CP-Solutions)). Programming language mình sử dụng là C++ hoặc Python(nếu có thời gian rảnh) nên mình nghĩ nó sẽ khá thuận tiện cho việc đọc hiểu và phân tích thay vì phải tìm đọc code pascal trong các sách hay web lập trình khác. Cũng phải nói thêm, code mình viết không được đẹp cho lắm :<, chủ yếu là theo cái flow mình suy nghĩ nhưng mình nghĩ nó vẫn đảm bảo tính đúng đắn vì mình có tham khảo code từ các nguồn khác rồi tổng hợp lại ra được cái repo thế này :v. Anyway nếu có bất cứ thắc mắc nào, feel free to contact [profile](https://nghoanglong.github.io/)
+Repo này bao gồm tất cả lý thuyết, các bài ví dụ mẫu về cấu trúc dữ liệu và giải thuật cơ bản như Linked list, Stack, Queue, Cây, Đồ thị,... mà mình đã được học và tìm hiểu qua. Mình cũng có viết một repo dành riêng để giải bài tập, contest các bạn có thể tham khảo ở link này **->** [[CP-Solutions](https://github.com/nghoanglong/CP-Solutions)]. 
+
+Programming language mình sử dụng chủ yếu là C++ nên mình nghĩ nó sẽ khá thuận tiện cho việc đọc hiểu và phân tích thay vì phải tìm đọc code pascal trong các sách hay web lập trình khác. Mình sẽ cố gắng comment lại code để giải thích nhiều nhất có thể.
+
+Anyway nếu có bất cứ thắc mắc nào, feel free to contact [profile](https://nghoanglong.github.io/)
 
 Ngày bắt đầu: 16/2/2020
 
@@ -43,16 +47,9 @@ Trường: VietNam National University, University of Information Technology (Đ
        [Knapsack Problem - Bài toán cái túi](https://github.com/nghoanglong/Competitive-Programming/blob/master/Lectures/Lectures-C++/DynamicProgramming/Knapsack.cpp)
 
        [LIS - Dãy con tăng dài nhất](https://github.com/nghoanglong/Competitive-Programming/blob/master/Lectures/Lectures-C++/DynamicProgramming/LIS.cpp)
-   
-       [Longest Commont Substring](https://github.com/nghoanglong/Competitive-Programming/blob/master/Lectures/Lectures-C++/DynamicProgramming/LCS.cpp)
 
-       [Dãy con có tổng bằng S](https://github.com/nghoanglong/Competitive-Programming/blob/master/Lectures/Lectures-C++/DynamicProgramming/SEQ.cpp)       
+       [Paths in a Grid - Đường đi trong một ma trận](https://github.com/nghoanglong/Competitive-Programming/blob/master/Lectures/Lectures-C++/DynamicProgramming/GridPaths.cpp)
 
-       [Bài toán bố trí phòng họp](https://github.com/nghoanglong/Competitive-Programming/blob/master/Lectures/Lectures-C++/DynamicProgramming/MeetingRoom.cpp)
-
-       [Bài toán cho thuê máy](https://github.com/nghoanglong/Competitive-Programming/blob/master/Lectures/Lectures-C++/DynamicProgramming/MachineRental.cpp)
-
-       [Các bài toán về Palindrome](https://github.com/nghoanglong/Competitive-Programming/blob/master/Lectures/Lectures-C++/DynamicProgramming/Palindrome.cpp)
     
    - [Xử lý chuỗi - String](https://github.com/nghoanglong/Competitive-Programming/tree/master/Lectures/Lectures-C++/Algorithm/String/)
 
