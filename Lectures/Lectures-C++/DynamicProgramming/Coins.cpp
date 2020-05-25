@@ -78,7 +78,6 @@ int DPToHopKhongLap(vector<int> Value, int n, int S){
             int x = DP[M][i - 1];//chưa chọn đồng thứ i
             int y = (M >= Value[i]) ? DP[M - Value[i]][i] : 0; //chọn đồng thứ i
             DP[M][i] = x + y;
-
         }
     }
     //in ra bảng kết quả
