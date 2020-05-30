@@ -33,53 +33,65 @@ void Trace(int pos, vector<int> arr,  vector<vector<int>> F){
     }
     cout << endl;
 }
-void DP(vector<int> arr,vector<vector<int>> F){
+void DP(vector<int> arr){
     int pos = 0;
+    vector<vector<int>> F(S + 1, vector<int>(n + 1, 0));
+    vector<vector<int>> DP(S + 1, vector<int>(n + 1, 0));
+    for(int i = 0;i <= S;i++){
+        for(int j = 0;j <= n;j++){
+            if(i == 0){
+                F[i][j] = 1;
+            }
+        }
+    }
     for(int k = 1;k <= S;++k){
         for(int i = 1;i <= n;++i){
             if(k >= arr[i]){
-                if(F[k - arr[i]][i] || F[k - 1][i]) //nếu có trường hợp s(6) - arr[i] tồn tại ở những vị trước trước arr[i] như
-                //ở trên là 1 + 2 khi ta đang xét vị trí arr[i] = 3 và s = 6
-                    F[k][i] = 1;
+                    DP[k][i] = F[k - arr[i]][i - 1];
             }
+            else{
+                DP[k][i] = 0;
+            }
+            if(DP[k][i] || F[k][i - 1])
+                F[k][i] = 1;
+            cout << DP[k][i] << " ";
+        }
+        cout << endl;
+    }
+    cout << "====================================" << endl;
+    for(int k = 1;k <= S;++k){
+        for(int i = 1;i <= n;++i){
             cout << F[k][i] << " ";
         }
         cout << endl;
     }
-
     for(int i = 1;i <= n;++i){
-        if(F[S][i] == 1){
+        if(DP[S][i] == 1){
             pos = i;
             break;
         }
     }
     if(pos)
-        Trace(pos,arr,F);//in ra 1 trường hợp
-    //muốn đếm số cách tạo dãy con có tổng bằng S(các phần tử có thể không liên tiếp) thì chỉ cần đếm F[1...n][S] = 1 thì 
-    //dem + 1
+        Trace(pos,arr,DP);//in ra 1 trường hợp
+    else{
+        cout << "Cant" << endl;
+    }
 }
 int main(){
     //dữ liệu đặt trong file input.txt rồi đọc file ra
     ifstream fi;
-    fi.open("input.txt");
+    fi.open("SEQ.txt");
     if(!fi){
         cout << "can't open this file";
         return 0;
     } 
     fi >> n >> S;
     vector<int> arr(n + 1,0);
-    vector<vector<int>> F(S + 1,vector<int>(n + 1,0));//khởi tạo bảng chi phí
-    for(int i = 0;i <= S;i++){
-        for(int j = 0;j <= n;j++){
-            if(i == 0)
-                F[i][j] = 1;
-        }
-    }
     for(int i = 1;i <= n;++i){
         int temp;
         fi >> temp;
         arr[i] = temp;
     }
 
-    DP(arr, F);
+    DP(arr);
 }
