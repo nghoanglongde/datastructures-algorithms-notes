@@ -18,8 +18,6 @@ Trường: VietNam National University, University of Information Technology (Đ
    - Stack | [C++](https://github.com/nghoanglong/Competitive-Programming/blob/master/Lectures/Lectures-C++/DataStructure/Stack.cpp) | [Python](https://github.com/nghoanglong/Competitive-Programming/blob/master/Lectures/Lectures-Python/DataStructure/stack.py)
 
    - Queue | [C++](https://github.com/nghoanglong/Competitive-Programming/blob/master/Lectures/Lectures-C++/DataStructure/Queue.cpp) | [Python](https://github.com/nghoanglong/Competitive-Programming/blob/master/Lectures/Lectures-Python/DataStructure/queue.py)
-
-   - [Heap](https://github.com/nghoanglong/Competitive-Programming/blob/master/Lectures/Lectures-C++/DataStructure/Heap.cpp)
    
    - [Hash Table - Bảng băm](https://github.com/nghoanglong/Competitive-Programming/blob/master/Lectures/Lectures-C++/DataStructure/HashTable.cpp)
 
@@ -39,6 +37,11 @@ Trường: VietNam National University, University of Information Technology (Đ
    - [Sắp xếp - Tìm kiếm](https://github.com/nghoanglong/Competitive-Programming/blob/master/Lectures/Lectures-C++/Algorithm/Sort-Search)
 
        [Chặt nhị phân - Binary Search](https://github.com/nghoanglong/Competitive-Programming/blob/master/Lectures/Lectures-C++/Algorithm/Sort-Search/BinarySearch.cpp)
+
+       [Heap Sort](https://github.com/nghoanglong/Competitive-Programming/blob/master/Lectures/Lectures-C++/Algorithm/Sort-Search/HeapSort.cpp)
+
+       [Quick Sort](https://github.com/nghoanglong/Competitive-Programming/blob/master/Lectures/Lectures-C++/Algorithm/Sort-Search/QuickSort.cpp)
+
 
    - [Quy hoạch động](https://github.com/nghoanglong/Competitive-Programming/tree/master/Lectures/Lectures-C++/DynamicProgramming)
 
