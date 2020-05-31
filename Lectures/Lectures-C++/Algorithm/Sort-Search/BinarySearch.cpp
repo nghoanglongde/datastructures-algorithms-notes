@@ -34,14 +34,14 @@ bool BS(vector<int> nums, int target){
 }
 
 //chặt nhị phân sử dụng thư viện có sẵn
-// bool BSLib(vector<int> nums, int target){
-//     auto k = upper_bound(nums.begin(), nums.end(), target) - nums.begin();
-//     //upper_bound -> trả về số lớn hơn target
-//     //lower_bound -> trả về số lớn hơn hoặc bằng target
-//     if (k < nums.size() && nums[k] == target) {
-//         return true;
-//     }
-// }
+bool BSLib(vector<int> nums, int target){
+    auto k = upper_bound(nums.begin(), nums.end(), target) - nums.begin();
+    //upper_bound -> trả về số lớn hơn target
+    //lower_bound -> trả về số lớn hơn hoặc bằng target
+    if (k < nums.size() && nums[k] == target) {
+        return true;
+    }
+}
 
 int main()
 {
@@ -56,7 +56,7 @@ int main()
         nums.push_back(temp);
     }
     
-    //BSLib(nums, target);
+    BSLib(nums, target);
     if(BS(nums, target)){
         cout << "Found" << endl;
     }

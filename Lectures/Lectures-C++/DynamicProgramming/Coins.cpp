@@ -75,18 +75,19 @@ int DPToHopKhongLap(vector<int> Value, int n, int S){
     }
     for(int M = 1;M <= S;++M){
         for(int i = 1;i <= n;i++){
-            int x = DP[M][i - 1];//chưa chọn đồng thứ i
-            int y = (M >= Value[i]) ? DP[M - Value[i]][i] : 0; //chọn đồng thứ i
-            DP[M][i] = x + y;
+            int x = DP[M][i - 1];// [i - 1]: kết quả từ những vị trí trước vị trí hiện tại có số tổ hợp với S tương ứng là bao nhiêu,
+            //chứ ko phải vị trí liền kế trước đó
+            int y = (M >= Value[i]) ? DP[M - Value[i]][i] : 0; //số tổ hợp tương ứng với S hiện tại là bao nhiêu
+            DP[M][i] = x + y; //cộng 2 thành phần lại
         }
     }
     //in ra bảng kết quả
-    // for(int i = 1;i <= S;i++){
-    //     for(int j = 1;j <= n;j++){
-    //         cout << DP[i][j] << " ";
-    //     }
-    //     cout << endl;
-    // }
+    for(int i = 1;i <= S;i++){
+        for(int j = 1;j <= n;j++){
+            cout << DP[i][j] << " ";
+        }
+        cout << endl;
+    }
     return DP[S][n];
 }
 
@@ -107,7 +108,7 @@ int main(){
         fi >> temp;
         Value[i] = temp;
     }
-    cout << DP(Value, S, n) << endl;
-    cout << DPToHop(Value, S, n) << endl;
+    //cout << DP(Value, S, n) << endl;
+    //cout << DPToHop(Value, S, n) << endl;
     cout << DPToHopKhongLap(Value,n,S) << endl;
 }

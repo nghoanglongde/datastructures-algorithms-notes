@@ -53,6 +53,8 @@ Trường: VietNam National University, University of Information Technology (Đ
 
        [Paths in a Grid - Đường đi trong một ma trận](https://github.com/nghoanglong/Competitive-Programming/blob/master/Lectures/Lectures-C++/DynamicProgramming/GridPaths.cpp)
 
+       [SEQ - Dãy con có tổng bằng S](https://github.com/nghoanglong/Competitive-Programming/blob/master/Lectures/Lectures-C++/DynamicProgramming/SEQ.cpp)
+
     
    - [Xử lý chuỗi - String](https://github.com/nghoanglong/Competitive-Programming/tree/master/Lectures/Lectures-C++/Algorithm/String/)
 
