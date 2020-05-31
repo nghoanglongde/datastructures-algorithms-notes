@@ -33,7 +33,7 @@ bool BS(vector<int> nums, int target){
     return flag;
 }
 
-chặt nhị phân sử dụng thư viện có sẵn
+//chặt nhị phân sử dụng thư viện có sẵn
 bool BSLib(vector<int> nums, int target){
     auto k = upper_bound(nums.begin(), nums.end(), target) - nums.begin();
     //upper_bound -> trả về số lớn hơn target
