@@ -10,39 +10,33 @@
 
 using namespace std;
 
-int n, S;//n số và tổng S
+typedef long long ll;
 
-void Trace(int pos, vector<int> arr,  vector<vector<int>> F){
-    int temp = S;
-    while(1){
-        cout << arr[pos] << " ";
-        temp = temp - arr[pos];
-        if(temp == 0)
+ll find(vector<vector<ll>> DP, ll n, ll S){
+    ll pos = 0;
+    for(ll i = 1;i <= n;++i){
+        if(DP[S][i] == 1){
+            pos = i;
             break;
-        for(int i = 1;i <= n;++i){
-            if(F[i][temp]){
-                pos = i;
-                break;
-            }
-        } 
+        }
     }
-    cout << endl;
+    return pos;
 }
-void DP(vector<int> arr){
-    int pos = 0;
-    vector<vector<int>> F(S + 1, vector<int>(n + 1, 0));
-    vector<vector<int>> DP(S + 1, vector<int>(n + 1, 0));
 
-    for(int j = 0;j <= n;j++){
-        //với tổng = 0 thì lúc nào cũng chọn được 1 phần tử
+void DP(vector<ll> arr, ll n, ll S){
+    //DP với bảng phương án 2 chiều
+    vector<vector<ll>> F(S + 1, vector<ll>(n + 1, 0));
+    vector<vector<ll>> DP(S + 1, vector<ll>(n + 1, 0));
+
+    for(ll j = 0;j <= n;j++){
         F[0][j] = 1;
     }
 
-    for(int k = 1;k <= S;++k){
-        for(int i = 1;i <= n;++i){
+    for(ll k = 1;k <= S;++k){
+        for(ll i = 1;i <= n;++i){
             if(k >= arr[i]){
                 DP[k][i] = F[k - arr[i]][i - 1];
-                //[i - 1] mang ý nghĩa là đã từng có trước đó vị trí [k - arr[i]] hay k hay ko chứ ko phải phần từ liền kề phía sau
+                //[i - 1] mang ý nghĩa là đã từng có trước đó vị trí [k - arr[i]] hay ko?, chứ ko phải phần tử liền kề phía sau
             }
             else{
                 DP[k][i] = 0; //trạng thái tại một vị trí, ban đầu hoặc S < arr[i] thì luôn = 0, khác nhau với bài toán coins chỗ này
@@ -50,39 +44,65 @@ void DP(vector<int> arr){
             }
             if(DP[k][i] || F[k][i - 1])
                 F[k][i] = 1;
-            cout << DP[k][i] << " ";
+            //cout << DP[k][i] << " ";
         }
-        cout << endl;
+        //cout << endl;
     }
 
     //Truy vết
-    for(int i = 1;i <= n;++i){
-        if(DP[S][i] == 1){
-            pos = i;
-            break;
+    ll pos = find(DP, n, S);
+    if(pos){
+        while(pos){
+            cout << arr[pos] << " ";
+            S = S - arr[pos];
+            pos = find(DP, n, S);
         }
+        cout << endl;
     }
-    if(pos)
-        Trace(pos,arr,DP);//in ra 1 trường hợp
     else{
         cout << "Cant" << endl;
     }
 }
+
+void DP_2(vector<ll> arr, ll n, ll S){
+    //DP với bảng cơ sở 1 chiều
+    //ĐPT: O(n * m) với n phần tử, và m là tổng của n phần tử
+    vector<ll> DP(S + 1);
+    DP[0] = 1; DP[S] = 0;
+    for(ll i = 1;i <= n;i++){
+        for(ll k = S;k >= arr[i];k--){
+            if(DP[k] == 0 && DP[k - arr[i]]){
+                DP[k] = 1;
+            }
+        }
+    }
+    if(DP[S]){
+        cout << "Co the tao tong = S" << endl;
+    }
+    else{
+        cout << "Khong the tao tong = S" << endl;
+    }
+}
 int main(){
-    //dữ liệu đặt trong file input.txt rồi đọc file ra
     ifstream fi;
     fi.open("SEQ.txt");
     if(!fi){
         cout << "can't open this file";
         return 0;
     } 
-    fi >> n >> S;
-    vector<int> arr(n + 1,0);
-    for(int i = 1;i <= n;++i){
-        int temp;
-        fi >> temp;
-        arr[i] = temp;
-    }
 
-    DP(arr);
+    ll t; fi >> t;
+    while(t--){
+        ll n, S;
+        fi >> n >> S;
+        vector<ll> arr(n + 1,0);
+        for(ll i = 1;i <= n;++i){
+            ll temp;
+            fi >> temp;
+            arr[i] = temp;
+        }
+
+        DP(arr, n , S);
+        //DP_2(arr, n , S);
+    }
 }
