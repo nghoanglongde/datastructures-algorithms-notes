@@ -42,7 +42,7 @@ void solve(vector<ll> arr, ll n, ll sum){
 }
 int main(){
     ifstream fi;
-    fi.open("probA.txt");
+    fi.open("PairWithGivenSum.txt");
     if(!fi){
         cout << "Cant open this file" << endl;
         return 0;
