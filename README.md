@@ -1,11 +1,11 @@
 ## Data Structures and Algorithms
-Repo này bao gồm tất cả lý thuyết, các bài ví dụ mẫu về cấu trúc dữ liệu và giải thuật cơ bản như Linked list, Stack, Queue, Cây, Đồ thị,... mà mình đã được học và tìm hiểu qua. Mình cũng có viết một repo dành riêng để giải bài tập, contest các bạn có thể tham khảo ở link này **->** [[CP-Solutions](https://github.com/nghoanglong/CP-Solutions)]. 
+Repo này bao gồm tất cả lý thuyết, các bài ví dụ mẫu về cấu trúc dữ liệu và giải thuật cơ bản như Linked list, Stack, Queue, Cây, Đồ thị,... mà mình đã được học và tìm hiểu qua. Mình cũng có viết một repo dành riêng để giải bài tập, contest các bạn có thể tham khảo ở link này **->** [[ACM-ICPC-Practice](https://github.com/nghoanglong/ACM-ICPC-Practice)]. 
 
-Programming language mình sử dụng chủ yếu là C++ nên mình nghĩ nó sẽ khá thuận tiện cho việc đọc hiểu và phân tích thay vì phải tìm đọc code pascal trong các sách hay web lập trình khác. Mình sẽ cố gắng comment lại code để giải thích nhiều nhất có thể.
+Programming language mình sử dụng chủ yếu là C++ vì nó là ngôn ngữ khởi đầu, dễ dàng cho việc đọc hiểu và phân tích. Mình sẽ cố gắng comment lại code để giải thích nhiều nhất có thể, mong các bạn thông cảm.
 
 Anyway nếu có bất cứ thắc mắc nào, feel free to contact [profile](https://nghoanglong.github.io/)
 
-Ngày bắt đầu: 16/2/2020
+Ngày bắt đầu: 16/4/2020
 
 Trường: VietNam National University, University of Information Technology (Đại học Công nghệ Thông Tin - Đại học Quốc gia TP.HCM)
 
@@ -45,8 +45,16 @@ Trường: VietNam National University, University of Information Technology (Đ
    
    - [Two Pointers](https://github.com/nghoanglong/Competitive-Programming/blob/master/Lectures/Lectures-C++/Algorithm/Two-Pointers)
 
-       [Pair with Given Sum](https://github.com/nghoanglong/Competitive-Programming/blob/master/Lectures/Lectures-C++/Algorithm/Two-Pointers/probA.cpp)
+       [Pair with Given Sum](https://github.com/nghoanglong/Competitive-Programming/blob/master/Lectures/Lectures-C++/Algorithm/Two-Pointers/PairWithGivenSum.cpp)
 
+       [Merge Two Sorted list](https://github.com/nghoanglong/Competitive-Programming/blob/master/Lectures/Lectures-C++/Algorithm/Two-Pointers/MergeTwoSortedList.cpp)
+
+       [SubArray Having Sum Less than K - Part 1](https://github.com/nghoanglong/Competitive-Programming/blob/master/Lectures/Lectures-C++/Algorithm/Two-Pointers/SASLTK-Part1.cpp)
+
+       [SubArray Having Sum Less than K - Part 2](https://github.com/nghoanglong/Competitive-Programming/blob/master/Lectures/Lectures-C++/Algorithm/Two-Pointers/SASLTK-Part2.cpp)
+
+       [SubArray Having Sum Greater than K](https://github.com/nghoanglong/Competitive-Programming/blob/master/Lectures/Lectures-C++/Algorithm/Two-Pointers/SASGTK.cpp)
+    
 
    - [Quy hoạch động](https://github.com/nghoanglong/Competitive-Programming/tree/master/Lectures/Lectures-C++/DynamicProgramming)
 
