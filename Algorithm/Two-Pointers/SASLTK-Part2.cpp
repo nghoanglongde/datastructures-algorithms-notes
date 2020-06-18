@@ -3,11 +3,10 @@
 
     Idea:
     B1: Sử dụng 2 con trỏ, sử dụng con trỏ end trượt ngang theo các phần tử mảng để cộng dồn vào một biến sum
-    B2: Trường hợp sum > target và con trỏ start < end(nếu start == end thì phần tử tại đó tự trừ cho chính nó là ko đc), 
-    ta cho con trỏ left di chuyển tới vị trí tiếp theo, di chuyển cho đến khi sum - arr[left] <= target
+    B2: Trường hợp sum > target ta giảm sum xuống sao cho <= target bằng cách cho con trỏ start trượt ngang từ bên trái qua rồi trừ dần đi
     B3: cập nhật lại ans
 
-    Đpt: O(2*n)
+    Đpt: O(n)
 
 */
 #include<iostream>
@@ -37,11 +36,14 @@ int main(){
             sum = sum + arr[end];
             while(start < end && sum > target){
                //nếu lớn hơn target -> ta cần giảm tổng xuống sao cho <= target
+               //tránh trường hợp 10 8 5 với target = 6 thì khi giảm sum thì start sẽ vượt qua end
                sum = sum - arr[start];
                ++start;
             }
             if(sum <= target)
                 ans = ans + (end - start + 1);
+                //end - start + 1 vì: ví dụ 8 1 2 5 7 | 8 thì giả dụ end = 3 và start = 1 -> end - start + 1 = 3(trường hợp 2, 5 và 1 + 2 + 5) ko có
+                //trường hơp 1 là do tại vị trí end = 1 nó đã cộng trường hợp 1 <= target vào ans rồi.
             ++end;
         }
         cout << ans << endl;
