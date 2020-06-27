@@ -42,6 +42,8 @@ Trường: VietNam National University, University of Information Technology (Đ
 
        [Quick Sort](https://github.com/nghoanglong/Competitive-Programming/blob/master/Algorithm/Sort-Search/QuickSort.cpp)
 
+       [Merge Sort](https://github.com/nghoanglong/Competitive-Programming/blob/master/Algorithm/Sort-Search/MergeSort.cpp)
+
    
    - [Two Pointers](https://github.com/nghoanglong/Competitive-Programming/blob/master/Algorithm/Two-Pointers)
 
