@@ -85,35 +85,14 @@ int main(){
     }
     //kĩ thuật separate chaining(open hashing) xử lý va chạm
     separateChaining(hashtable ,arr, n);
-    //tìm kiếm
     search(hashtable, 13);
-    // // //======================================================================================
-    vector<int> hashtable2(n + n, 0);
+    //======================================================================================
     //kĩ thuật linear probing (open addressing or closed hashing)
+    vector<int> hashtable2(n + n, 0);
     linearProbling(hashtable2, arr, n);
-    //hàm tìm kiếm
     search2(hashtable2, n, 13);
     //======================================================================================
     //ngoài ra còn các kĩ thuật khác như Double hashing hay Quadratic Probing, nó giống linear probling chỉ khác mỗi cách tính index
-
-    //C++ có hỗ trợ các thư viện cho hash table như map, unodered_map hay multimap để xử lý va chạm
-    //map: dựa theo cdtl cây BST gồm pair<key, value>, mọi key và value được đưa vào sẽ được sắp xếp thep thứ tự, nếu 
-    //là số -> sắp tăng dần, nếu là chuỗi -> sắp theo thứ tự bảng chữ cái
-
-    //unoder_map: cũng là map nhưng dựa theo ctdl hash table nên mọi cặp pair<key, value> đưa vào nó sẽ ko đc sắp xếp như map, 
-    //nếu đúng theo hash table thì unoder map này mới đúng
-
-    //multimap: cũng giống như map, nhưng multimap cho phép chứa cặp pair<key, value> có key trùng nhau,
-    //nó sẽ ko lược bỏ các cặp pair có key trùng nhau như map
-
-    multimap<int, int> multi_map;        // empty multimap container 
-    // insert elements in random order 
-    multi_map.insert(pair <int, int> (4, 14)); 
-    multi_map.insert(pair <int, int> (3, 13)); //index là 3
-    multi_map.insert(pair <int, int> (3, 18));//2 giá trị 13 đều ở cùng index là 3
-    multi_map.insert(pair <int, int> (1, 11)); 
-    multi_map.insert(pair <int, int> (5, 15)); 
-    searchMultimap(multi_map, 13);
     return 0;
   
 }
