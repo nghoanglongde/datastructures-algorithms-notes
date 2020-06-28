@@ -57,6 +57,10 @@ Trường: VietNam National University, University of Information Technology (Đ
 
        [SubArray Having Sum Greater than K](https://github.com/nghoanglong/Competitive-Programming/blob/master/Algorithm/Two-Pointers/SASGTK.cpp)
 
+       [3SUM](https://github.com/nghoanglong/Competitive-Programming/blob/master/Algorithm/Two-Pointers/3SUM.cpp)
+
+       [Sliding Window Minimum](https://github.com/nghoanglong/Competitive-Programming/blob/master/Algorithm/Two-Pointers/SlidingWinMin.cpp)
+
 
    - [Xử lý chuỗi - String](https://github.com/nghoanglong/Competitive-Programming/blob/master/Algorithm/String)
 
