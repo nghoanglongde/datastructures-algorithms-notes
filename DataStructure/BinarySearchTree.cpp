@@ -1,4 +1,6 @@
 #include <iostream>
+#include <fstream>
+#include <queue>
 using namespace std;
 
 struct NODE
@@ -17,7 +19,6 @@ NODE *newNode(int data)
     return temp;
 }
 
-//insert các nút theo từng tầng
 void insertNode(NODE *&root, int data)
 {
     if (!root)
@@ -34,25 +35,29 @@ void insertNode(NODE *&root, int data)
     {
         insertNode(root->right, data);
     }
+    else{
+        return;
+    }
 }
 
-NODE *FindMax(NODE *root)
-{
-    while (root->right != NULL)
-    {
-        root = root->right;
+void FindAndDelete(NODE *&copy_tree, NODE *&root){
+    while(root->left != NULL){
+        root = root->left;
     }
-    return root;
+    copy_tree->key = root->key;
+    copy_tree = root;
+    root = root->right;
 }
+
 /* Hàm xóa một node khỏi BST */
-NODE *Delete(NODE *root, int key)
+void Delete(NODE *&root, int key)
 {
     if (root == NULL)
-        return root;
+        return;
     else if (key < root->key)
-        root->left = Delete(root->left, key);
+        Delete(root->left, key);
     else if (key > root->key)
-        root->right = Delete(root->right, key);
+        Delete(root->right, key);
     else
     {
         /* Case 1:  Node lá, không có con */
@@ -77,12 +82,19 @@ NODE *Delete(NODE *root, int key)
         /* case 3: Có hai con */
         else
         {
-            NODE *temp = FindMax(root->left);
-            root->key = temp->key;
-            root->left = Delete(root->left, temp->key);
+            NODE * temp = root;
+            FindAndDelete(temp, root->right);
+            delete temp;
         }
     }
-    return root;
+}
+
+int heightTree(NODE *root){
+    if(root == NULL)
+        return 0;
+    int max_left = heightTree(root->left);
+    int max_right = heightTree(root->right);
+    return 1 + ((max_left > max_right) ? max_left : max_right);
 }
 
 //Các cách duyệt cây
@@ -116,21 +128,52 @@ void PostOrder(NODE *root)
     }
 }
 
+void LevelOrder(NODE *root){
+    queue<NODE *> li_node;
+    li_node.push(root);
+    while(!li_node.empty()){
+        auto node = li_node.front();
+        cout << node->key << " ";
+        if(node->left){
+            li_node.push(node->left);
+        }
+        if(node->right){
+            li_node.push(node->right);
+        }
+        li_node.pop();
+    }
+}
+
 int main()
 {
+    ifstream fi;
+    fi.open("BST.txt");
+    if(!fi){
+        cout << "cant open this file" << endl;
+        return 0;
+    }
+
+    //input cây
     NODE *root = NULL;
-    int n, data;
-    cin >> n;
+    int n;
+    fi >> n;
     for (int i = 0; i < n; i++)
     {
-        cin >> data;
+        int data; fi >> data;
         insertNode(root, data);
     }
+
+    //Chiều cao cây
+    cout << heightTree(root) - 1 << endl;
+
+    //Duyệt cây
     InOrder(root);
     cout << endl;
     PreOrder(root);
     cout << endl;
     PostOrder(root);
+    cout << endl;
+    LevelOrder(root);
     cout << endl;
     return 0;
 }

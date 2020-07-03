@@ -61,6 +61,12 @@ Trường: VietNam National University, University of Information Technology (Đ
 
        [Sliding Window Minimum](https://github.com/nghoanglong/Competitive-Programming/blob/master/Algorithm/Two-Pointers/SlidingWinMin.cpp)
 
+   - [Range Queries](https://github.com/nghoanglong/Competitive-Programming/blob/master/Algorithm/RangeQueries)
+
+       [Sum Queries](https://github.com/nghoanglong/Competitive-Programming/blob/master/Algorithm/RangeQueries/SumQueries.cpp)
+
+       [Minimum Queries](https://github.com/nghoanglong/Competitive-Programming/blob/master/Algorithm/RangeQueries/MinimumQueries.cpp)
+
 
    - [Xử lý chuỗi - String](https://github.com/nghoanglong/Competitive-Programming/blob/master/Algorithm/String)
 
