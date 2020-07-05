@@ -65,7 +65,7 @@ Trường: VietNam National University, University of Information Technology (Đ
 
        [Sum Queries](https://github.com/nghoanglong/Competitive-Programming/blob/master/Algorithm/RangeQueries/SumQueries.cpp)
 
-       [Minimum Queries](https://github.com/nghoanglong/Competitive-Programming/blob/master/Algorithm/RangeQueries/MinimumQueries.cpp)
+       [RMQ - Range Minimum Query](https://github.com/nghoanglong/Competitive-Programming/blob/master/Algorithm/RangeQueries/RMQ.cpp)
 
 
    - [Xử lý chuỗi - String](https://github.com/nghoanglong/Competitive-Programming/blob/master/Algorithm/String)
