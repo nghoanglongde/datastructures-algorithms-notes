@@ -12,25 +12,32 @@ typedef long long ll;
 
     Idea: Mình sẽ sử dụng Sparse Table
 */
-ll Query(vector<ll> arr, vector<ll> block ,ll a, ll b){
-}
 int main(){
     ifstream fi;
-    fi.open("MinimumQueries.txt");
+    fi.open("RMQ.txt");
     if(!fi){
         cout << "cant open this file" << endl;
         return 0;
     }
     ll n; fi >> n;
     vector<ll> arr(n);
-    vector<ll> block(ceil(sqrt(n)));
-    for(ll i = 0;i < n;i++) fi >> arr[i];
-    //Preprocess(arr, block, n);
+    vector<vector<ll>> M(n, vector<ll>(32, n));
+    for(ll i = 0;i < n;i++){ 
+        fi >> arr[i];
+        M[i][0] = arr[i];
+    }
+
+    for(ll k = 1;(1 << k) <= n;k++){
+        for(ll i = 0;i + (1 << k) - 1 < n;i++){
+            M[i][k] = min(M[i][k - 1], M[i + (1 << (k - 1))][k - 1]);
+        }
+    }
     
     ll queries; fi >> queries;
     while(queries--){
         ll a, b; fi >> a >> b;
-        ll ans = Query(arr, block ,a, b);
-        cout << ans << endl;
+        a = a - 1, b = b - 1;
+        ll k = log2(b - a + 1);
+        cout << min(M[a][k], M[b - (1 << k) + 1][k]) << endl;
     }
 }
