@@ -67,6 +67,8 @@ Trường: VietNam National University, University of Information Technology (Đ
 
        [RMQ - Range Minimum Query](https://github.com/nghoanglong/Competitive-Programming/blob/master/Algorithm/RangeQueries/RMQ.cpp)
 
+       [BIT - Fenwick Tree or Binary Indexed Tree](https://github.com/nghoanglong/Competitive-Programming/blob/master/Algorithm/RangeQueries/BIT.cpp)
+
 
    - [Xử lý chuỗi - String](https://github.com/nghoanglong/Competitive-Programming/blob/master/Algorithm/String)
 
