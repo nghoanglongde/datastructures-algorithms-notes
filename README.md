@@ -40,9 +40,30 @@ Trường: VietNam National University, University of Information Technology (Đ
 
        [Heap Sort](https://github.com/nghoanglong/Competitive-Programming/blob/master/Algorithm/Sort-Search/HeapSort.cpp)
 
+       [Merge Sort](https://github.com/nghoanglong/Competitive-Programming/blob/master/Algorithm/Sort-Search/MergeSort.cpp)
+
        [Quick Sort](https://github.com/nghoanglong/Competitive-Programming/blob/master/Algorithm/Sort-Search/QuickSort.cpp)
 
-       [Merge Sort](https://github.com/nghoanglong/Competitive-Programming/blob/master/Algorithm/Sort-Search/MergeSort.cpp)
+       [Insertion Sort](https://github.com/nghoanglong/Competitive-Programming/blob/master/Algorithm/Sort-Search/InsertionSort.cpp)
+
+       [Selection Sort](https://github.com/nghoanglong/Competitive-Programming/blob/master/Algorithm/Sort-Search/SelectionSort.cpp)
+
+       [Bubble Sort](https://github.com/nghoanglong/Competitive-Programming/blob/master/Algorithm/Sort-Search/BubbleSort.cpp)
+    
+   
+   - [Quy hoạch động](https://github.com/nghoanglong/Competitive-Programming/blob/master/Algorithm/DynamicProgramming)
+
+       [Coins Problem - Bài toán đồng xu](https://github.com/nghoanglong/Competitive-Programming/blob/master/Algorithm/DynamicProgramming/Coins.cpp)
+
+       [Knapsack Problem - Bài toán cái túi](https://github.com/nghoanglong/Competitive-Programming/blob/master/Algorithm/DynamicProgramming/Knapsack.cpp)
+
+       [LIS - Dãy con tăng dài nhất](https://github.com/nghoanglong/Competitive-Programming/blob/master/Algorithm/DynamicProgramming/LIS.cpp)
+
+       [Paths in a Grid - Đường đi trong một ma trận](https://github.com/nghoanglong/Competitive-Programming/blob/master/Algorithm/DynamicProgramming/GridPaths.cpp)
+
+       [SEQ - Dãy con có tổng bằng S](https://github.com/nghoanglong/Competitive-Programming/blob/master/Algorithm/DynamicProgramming/SEQ.cpp)
+
+       [Chia kẹo](https://github.com/nghoanglong/Competitive-Programming/blob/master/Algorithm/DynamicProgramming/CK.cpp)
 
    
    - [Two Pointers](https://github.com/nghoanglong/Competitive-Programming/blob/master/Algorithm/Two-Pointers)
@@ -61,6 +82,7 @@ Trường: VietNam National University, University of Information Technology (Đ
 
        [Sliding Window Minimum](https://github.com/nghoanglong/Competitive-Programming/blob/master/Algorithm/Two-Pointers/SlidingWinMin.cpp)
 
+   
    - [Range Queries](https://github.com/nghoanglong/Competitive-Programming/blob/master/Algorithm/RangeQueries)
 
        [Sum Queries](https://github.com/nghoanglong/Competitive-Programming/blob/master/Algorithm/RangeQueries/SumQueries.cpp)
@@ -69,25 +91,9 @@ Trường: VietNam National University, University of Information Technology (Đ
 
        [BIT - Fenwick Tree or Binary Indexed Tree](https://github.com/nghoanglong/Competitive-Programming/blob/master/Algorithm/RangeQueries/BIT.cpp)
 
-
    - [Xử lý chuỗi - String](https://github.com/nghoanglong/Competitive-Programming/blob/master/Algorithm/String)
 
        [Manacher Algorithm](https://github.com/nghoanglong/Competitive-Programming/blob/master/Algorithm/String/Manacher.cpp)
-    
-
-   - [Quy hoạch động](https://github.com/nghoanglong/Competitive-Programming/blob/master/Algorithm/DynamicProgramming)
-
-       [Coins Problem - Bài toán đồng xu](https://github.com/nghoanglong/Competitive-Programming/blob/master/Algorithm/DynamicProgramming/Coins.cpp)
-
-       [Knapsack Problem - Bài toán cái túi](https://github.com/nghoanglong/Competitive-Programming/blob/master/Algorithm/DynamicProgramming/Knapsack.cpp)
-
-       [LIS - Dãy con tăng dài nhất](https://github.com/nghoanglong/Competitive-Programming/blob/master/Algorithm/DynamicProgramming/LIS.cpp)
-
-       [Paths in a Grid - Đường đi trong một ma trận](https://github.com/nghoanglong/Competitive-Programming/blob/master/Algorithm/DynamicProgramming/GridPaths.cpp)
-
-       [SEQ - Dãy con có tổng bằng S](https://github.com/nghoanglong/Competitive-Programming/blob/master/Algorithm/DynamicProgramming/SEQ.cpp)
-
-       [Chia kẹo](https://github.com/nghoanglong/Competitive-Programming/blob/master/Algorithm/DynamicProgramming/CK.cpp)
 
 
 - [Graph Theory](https://github.com/nghoanglong/Competitive-Programming/tree/master/GraphTheory)
