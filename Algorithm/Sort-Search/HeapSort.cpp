@@ -1,6 +1,9 @@
 #include <iostream>
 #include <vector>
+#include <fstream>
 using namespace std;
+
+#define debug(name) ifstream fi; fi.open(name); if(!fi){cout << "cant open this file" << endl; return 0;}
 
 //hàm format lại cây heap thành max heap, 2 nút con luôn nhỏ hơn nút cha
 void bottomUpMAXHeapify(vector<int> &arr, int n, int node){
@@ -34,13 +37,15 @@ void bottomUpMAXHeapify(vector<int> &arr, int n, int node){
 }
 
 int main(){
+    debug("HS.txt")
+
     vector<int> arr;
     vector<int> heap_max;
-    int num_element; cin >> num_element;
+    int num_element; fi >> num_element;
 
     for (int i = 0; i < num_element; i++){
         int value;
-        cin >> value;
+        fi >> value;
         arr.push_back(value);
     }
     //format lại theo dạng max heap
