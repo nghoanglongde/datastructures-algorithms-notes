@@ -91,6 +91,8 @@ Trường: VietNam National University, University of Information Technology (Đ
 
        [BIT - Fenwick Tree or Binary Indexed Tree](https://github.com/nghoanglong/Competitive-Programming/blob/master/Algorithm/RangeQueries/BIT.cpp)
 
+       [Segment Tree](https://github.com/nghoanglong/Competitive-Programming/blob/master/Algorithm/RangeQueries/SEGT.cpp)
+
    - [Xử lý chuỗi - String](https://github.com/nghoanglong/Competitive-Programming/blob/master/Algorithm/String)
 
        [Manacher Algorithm](https://github.com/nghoanglong/Competitive-Programming/blob/master/Algorithm/String/Manacher.cpp)
