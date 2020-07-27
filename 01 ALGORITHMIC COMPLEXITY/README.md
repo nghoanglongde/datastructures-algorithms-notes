@@ -27,7 +27,7 @@ cout << x + y << endl;
 **02 - Logarithmic time complexity O(log(n)):** 
 - Độ phức tạp loga ở đây có thể hiểu như sau, giả sử mn có 100 người, muốn tìm một đứa tên X, nếu cứ đi hỏi lần lượt thì sẽ tốn rất nhiều thời gian. Ta có cách giải quyết như sau, chia ra thành 2 phần, mỗi bên 50 người, vậy thì ta chỉ cần biết bên nào đang chứa thằng X thì ta đã có thể loại đi 1/2 số người đi rồi, chu trình lặp cứ giảm đi 1/2 như vậy cho đến khi ta tìm được thằng X, được gọi là đpt **O(log(n))** =))  
 
-- Chú ý: log(n) ở đây có thể là ![](https://latex.codecogs.com/gif.latex?%5Clog_%7B10%7Dn%5C) hoặc ![](https://latex.codecogs.com/gif.latex?%5Clog_%7B2%7Dn%5C), lí do vì sao thì mn có thể xem ở [link](https://stackoverflow.com/questions/20709267/big-o-notation-log-base-2-or-log-base-10) này. Nhưng mà đang ví dụ giảm 1/2 thì thôi cứ mặc định nó là giảm 1/2 thì một khi mình ghi log(n) thì nó tương đương với ![](https://latex.codecogs.com/gif.latex?%5Clog_%7B2%7Dn%5C) cho nó hợp lý.
+- Chú ý: log(n) ở đây có thể là ![](https://latex.codecogs.com/gif.latex?%5Clog_%7B10%7Dn%5C) hoặc ![](https://latex.codecogs.com/gif.latex?%5Clog_%7B2%7Dn%5C), lí do vì sao thì mn có thể xem ở [link](https://stackoverflow.com/questions/20709267/big-o-notation-log-base-2-or-log-base-10) này. Nhưng mà đang ví dụ giảm 1/2 thì thôi, cứ mặc định khi mình ghi log(n) thì nó tương đương với ![](https://latex.codecogs.com/gif.latex?%5Clog_%7B2%7Dn%5C) cho nó hợp lý.
 
 ```c++
 int i = 8;
