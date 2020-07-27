@@ -23,7 +23,7 @@ Facebook: https://www.facebook.com/nghoanglong.17dec
 
 ## Mục lục
 
-- [01 - Algorithmic Complexity](https://github.com/nghoanglong/Competitive-Programming/tree/master/DataStructure)
+- [01 - Algorithmic Complexity](https://github.com/nghoanglong/Competitive-Programming/tree/master/01%20%ALGORITHMIC%20COMPLEXITY)
 
 
 ## Các nguồn tham khảo
