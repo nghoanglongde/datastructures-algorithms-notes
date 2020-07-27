@@ -1,9 +1,14 @@
 ## Competitive Programming CheatSheet
-Repository này mình dùng để cover lại một số lý thuyết kèm theo các bài ví dụ mẫu về Data Structures and Algorithms (ex: Time Complexity, Sorting, Graph Theory,...) mà mình đã được học và tìm hiểu qua ở môi trường THPT và Đại học. 
-
-**Lưu ý:** Những phần mình viết dưới đây sẽ theo thiên hướng dùng để ứng dụng thi đấu là nhiều, những thứ basic thì mn có thể search on google (Ví dụ: phần Sorting thì mình sẽ viết về cách sử dụng hàm có sẵn trong libary rồi ứng dụng chứ mình ko viết Merge Sort là gì, Quick Sort cài ra sao đâu nha :v)
+Repository này mình dùng để cover lại **một số** lý thuyết, kèm theo các bài ví dụ mẫu về Data Structures and Algorithms (ex: Time Complexity, Sorting, Graph Theory,...) mà mình đã được học và tìm hiểu qua ở môi trường THPT và Đại học. 
 
 Mình cũng có viết một repository dành riêng để cải thiện kĩ năng thi đấu bằng cách Solve Problems, Contests ở những trang uy tín hiện giờ, có thể kể tới như Codeforces, CSES, Hackerrank. Mng có thể tham khảo ở link này: [Competitive Programming Practice](https://github.com/nghoanglong/ACM-ICPC-Practice). 
+
+**Lưu ý và Khuyến cáo:** 
+
+- Những phần mình viết dưới đây sẽ theo thiên hướng dùng để ứng dụng thi đấu là nhiều, những thứ basic thì mn có thể search on google (Ví dụ: phần Sorting thì mình sẽ viết về cách sử dụng hàm có sẵn trong libary rồi ứng dụng chứ mình ko viết Merge Sort là gì, Quick Sort cài ra sao đâu nha :v).
+- Do kiến thức là một thứ vô hạn, nên mình mong mn hiểu đây chỉ là một phần nhỏ trong đó thôi chứ không phải tất cả, xem được mấy phần trong đây đừng ảo tưởng là được :v
+- Mình sẽ cố gắng update nhiều nhất có thể, vì thật sự mình cũng lười và không có thời gian, mình có nhiều dự định khác chứ cũng không thể thi đấu mãi được hic :<
+- Cheatsheet này không giúp bạn đạt Red Codeforces hay giải Nhất Quốc gia hoặc những thứ tương tự, mong các bạn đừng hiểu lầm :v
 
 Nhớ thả **Star** ở góc phải màn hình cho mình nha mng =)). Anyway nếu có bất cứ thắc mắc nào, feel free to contact.
 
