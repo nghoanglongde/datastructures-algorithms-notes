@@ -113,9 +113,15 @@ Vậy nếu ta có n ngôi nhà, vậy sẽ có n! cách di chuyển -> O(n!) th
 - O(c * f(n)) = O(f(n))
 - Ví dụ: O(1712n) = O(n)
 
-**Quy tắc cộng:**
-- O(f(n) + g(n)) = O(max(f(n), g(n))
+**Quy tắc lấy max:**
+- O(f(n) + g(n)) = O(max(f(n), g(n)) 
 - Ví dụ: O(n^2 + 3n + 2) = O(n^2)
+- Lưu ý: là cả 2 cùng phụ thuộc n, xem ví dụ bên dưới
+
+**Quy tắc cộng:**
+- O(f(n)) + O(g(m)) = O(f(n) + g(m))
+- Ví dụ: O(n^2) + O(m^3) = O(n^2 + m^3)
+- Lưu ý: không áp dụng quy tắc lấy max, vì 2 biến phụ thuộc khác nhau là n và m. Quy tắc cộng này thường xảy ra khi, ta có 2 đoạn code rời rạc nhau, mỗi phần làm một công việc có đpt riêng
 
 **Quy tắc nhân:**
 - O(f(n) * g(n)) = O(f(n)) * O(g(n))
@@ -139,3 +145,26 @@ for(int i = 0;i < n;i++){
 	arr[i] = arr[i] + i;
 }
 ```
+
+## Ví dụ
+```c++
+1. int x = 100;
+2. int n = 50;
+3. for(int i = 0;i < n;i++){
+4.  	for(int j = 0;j < n;j++){
+5.    	    cout << "O(n^2)" << endl;
+6.      } 
+7. }
+8. for(int i = 0;i < n;i++){
+9.	    for(int j = 0;j < x;j++){
+10.    	     cout << "O(n*x)" << endl;
+11.     }
+12.}
+```
+- Ở các dòng lệnh gán là dòng **(1), (2), (5):** thì đpt là O(1) -> Tổng = O(3)
+- Từ dòng **(3) -> (7):** 2 vòng lặp lồng tức đpt = O(n*n = n^2)
+- Từ dòng **(8) -> (12):** cũng là 2 vòng lặp lồng tức đpt = O(n * x)
+- Áp dụng quy tắc cộng ta sẽ có: O(3 + n^2 + n * x)  
+- Áp dụng quy tắc bỏ hằng số: O(n^2 + n * x)  
+- Do 2 đa thức đề phụ thuộc vào n, nên ta áp dụng quy tắc lấy max, vậy đpt của code trên là: **O(max(n^2, n * x))**
+- Bởi vì do 2 đa thức đều phụ thuộc n, nên mới áp dụng quy tắc lấy max, giả sử ta đang có **O(n^2 + x)** như vầy, thì ko được áp dụng quy tắc lấy max vì nó ko cùng phụ thuộc một biến nào cả
