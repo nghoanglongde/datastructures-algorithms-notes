@@ -6,10 +6,9 @@ Mình cũng có viết một repository dành riêng để cải thiện kĩ nă
 **Lưu ý và Khuyến cáo:** 
 
 - Những phần mình viết dưới đây sẽ theo thiên hướng dùng để ứng dụng thi đấu là nhiều, những thứ basic thì mn có thể search on google (Ví dụ: phần Sorting thì mình sẽ viết về cách sử dụng hàm có sẵn trong libary rồi ứng dụng chứ mình ko viết Merge Sort là gì, Quick Sort cài ra sao đâu nha :v).
-- Do kiến thức là một thứ vô hạn, nên mình mong mn hiểu đây chỉ là một phần nhỏ trong đó thôi chứ không phải tất cả, đừng nghĩ xem được một số phần trong đây rồi bắt đầu
-ảo tưởng mình đã biết tất cả là không có được nha :v
+- Do kiến thức là một thứ vô hạn, nên mình mong mn hiểu đây chỉ là một phần nhỏ trong đó thôi chứ không phải tất cả đâu nha.
 - Mình sẽ cố gắng update nhiều nhất có thể, vì thật sự mình cũng lười và không có thời gian, mình có nhiều dự định khác chứ cũng không thể thi đấu mãi được hic :<
-- Cheatsheet này không giúp mn đạt Red Codeforces hay giải Nhất Quốc gia hoặc những thứ tương tự, mong các bạn đừng hiểu lầm :v
+- Cheatsheet này không giúp mn đạt Red Codeforces hay giải Nhất Quốc gia hoặc những thứ tương tự, mong mn đừng hiểu lầm :v
 
 Nhớ thả **Star** ở góc phải màn hình cho mình nha mng =)). Anyway nếu có bất cứ thắc mắc nào, feel free to contact.
 
@@ -25,6 +24,8 @@ Facebook: https://www.facebook.com/nghoanglong.17dec
 ## Mục lục
 
 - [01 - Algorithmic Complexity](https://github.com/nghoanglong/Competiitve-Programming-CheatSheet/tree/master/01%20ALGORITHMIC%20COMPLEXITY)
+
+- [02 - Dynamic Arrays and String](https://github.com/nghoanglong/Competiitve-Programming-CheatSheet/tree/master/02%20DYNAMIC%20ARRAYS%20AND%20STRING)
 
 
 ## Các nguồn tham khảo
