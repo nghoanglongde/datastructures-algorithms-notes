@@ -27,6 +27,8 @@ Facebook: https://www.facebook.com/nghoanglong.17dec
 
 - [02 - Dynamic Arrays and String](https://github.com/nghoanglong/Competiitve-Programming-CheatSheet/tree/master/02%20DYNAMIC%20ARRAYS%20AND%20STRING)
 
+- [03 - SORTING](https://github.com/nghoanglong/Competiitve-Programming-CheatSheet/tree/master/03%20SORTING)
+
 
 ## Các nguồn tham khảo
 
