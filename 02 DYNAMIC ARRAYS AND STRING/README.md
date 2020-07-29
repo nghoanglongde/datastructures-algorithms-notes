@@ -166,3 +166,15 @@ string convert = to_string(num);
 string s;
 getline(cin, s);
 ```
+
+### Chuyển kí tự thành số nguyên theo bảng mã ASCII
+```c++
+char c = 'z'; //ví dụ là z, ngoài ra có thể là '1', '0', 'a',...
+int convert = c - 0; //122
+```
+
+### Chuyển số nguyên thành kí tự theo bảng mã ASCII
+```c++
+int ch = 122;
+char convert = ch; //kí tự 'z'
+```
