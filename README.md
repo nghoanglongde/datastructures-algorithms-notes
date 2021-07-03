@@ -1,20 +1,18 @@
-## Competitive Programming CheatSheet
+## Data Structures and Algorithms CheatSheet
 Repository này mình dùng để cover lại **một số** lý thuyết, kèm theo các bài ví dụ mẫu về Data Structures and Algorithms (ex: Time Complexity, Sorting, Graph Theory,...) mà mình đã được học và tìm hiểu qua ở môi trường THPT và Đại học. 
 
-Mình cũng có viết một repository dành riêng để cải thiện kĩ năng thi đấu bằng cách Solve Problems, Contests ở những trang uy tín hiện giờ, có thể kể tới như Codeforces, CSES, Hackerrank. Mng có thể tham khảo ở link này: [Competitive Programming Practice](https://github.com/nghoanglong/ACM-ICPC-Practice). 
+Mình cũng có viết một repository dành riêng để cải thiện kĩ năng lập trình bằng cách Solve Problems, Contests ở những trang uy tín hiện giờ, có thể kể tới như Codeforces, CSES, LeetCode. Mng có thể tham khảo ở link này: [Data Structures and Algorithms Practice](https://github.com/nghoanglong/Competitive-Programming-Practice). 
 
 **Lưu ý và Khuyến cáo:** 
 
-- Những phần mình viết dưới đây sẽ theo thiên hướng dùng để ứng dụng thi đấu là nhiều, những thứ basic thì mn có thể search on google (Ví dụ: phần Sorting thì mình sẽ viết về cách sử dụng hàm có sẵn trong libary rồi ứng dụng chứ mình ko viết Merge Sort là gì, Quick Sort cài ra sao đâu nha :v).
-- Do kiến thức là một thứ vô hạn, nên mình mong mn hiểu đây chỉ là một phần nhỏ trong đó thôi chứ không phải tất cả đâu nha.
-- Mình sẽ cố gắng update nhiều nhất có thể, vì thật sự mình cũng lười và không có thời gian, mình có nhiều dự định khác chứ cũng không thể thi đấu mãi được hic :<
-- Cheatsheet này không giúp mn đạt Red Codeforces hay giải Nhất Quốc gia hoặc những thứ tương tự, mong mn đừng hiểu lầm :v
+- Do kiến thức là một thứ vô hạn, nên mình mong mn hiểu đây chỉ là một phần nhỏ trong đó thôi chứ không phải là tất cả
+- Mình sẽ cố gắng update nhiều nhất có thể, vì thật sự mình cũng lười và không có thời gian, mình còn nhiều dự định khác
 
-Nhớ thả **Star** ở góc phải màn hình cho mình nha mng =)). Anyway nếu có bất cứ thắc mắc nào, feel free to contact.
+Anyway nếu có bất cứ thắc mắc nào, feel free to contact
 
 ```
 Author: Ng Hoang Long
-Programming language: C++, Python
+Programming language: Python
 Email: nghoanglong.17december@gmail.com
 Facebook: https://www.facebook.com/nghoanglong.17dec
 ```
