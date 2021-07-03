@@ -1,141 +1,129 @@
 # Dynamic Arrays and String Method
-## Dynamic Arrays with Vector
-Mình sẽ bày mn cách cấp phát động một mảng bằng **vector** vì nó phổ biến trong thi đấu, còn tại sao phải cấp phát động thì mn có thể search google, sử dụng mảng tĩnh hay động thì cái này tùy option của mn nhưng vẫn phải đảm bảo tiêu chí của đề nha, mình thì quen xài cấp phát động, đỡ rắc rối rồi sai tùm lum.
+## Dynamic Arrays
+We have many ways to create an array, using python libary like numpy or we can initialize it by the normal way using Python's datatype **list**
 
-### Define
-```c++
-//Default: 
-vector<kieu_du_lieu> vec([option_n, option_value])
+### Numpy
+It have more than 40 built-in function for creating python array with numpy, refer: [Link](https://numpy.org/doc/stable/user/basics.creation.html#arrays-creation)
+```python
+# create with numpy arange
+li = np.arange(start, stop, step, dtype)
 
-//Define vector ko biết trước số lượng phần tử
-vector<int> vec; 
+li = np.arange(n)
 
-//Define vector có biết trước số lượng phần tử
-vector<int> vec(n); //vec = [0, 0, 0, 0,...,n]
+# create with numpy ones
+li = np.ones(shape,[dtype,...])
 
-//Define vector có biết trước số lượng phần tử rồi khởi gán giá trị luôn
-vector<int> vec(n, 5); //vec = [5, 5, 5, 5,...,n]
-
-//Define vector là mảng 2 chiều n x n với giá trị tại mỗi ô là 5 
-vector<vector<int>> arr2D(n, vector<int>(n, 5))
+# create with numpy zeros
+li = np.zeros(shape,[dtype,...])
 ```
 
-### Các method thông dụng
-```c++
-vec.size(); //số lượng phần tử trong vector
-vec.resize(); //tăng giảm kích thước vector
-vec.front(); //phần tử đầu
-vec.back(); //phần tử cuối
-vec.begin(); // con trỏ đầu vector, dùng để lặp
-vec.end(); //con trỏ cuối vector, dùng để lặp
-vec.rbegin(); //con trỏ cuối vector, dùng để lặp
-vec.rend(); //con trỏ đầu vector, dùng để lặp
-vec.push_back(); //thêm phần tử vào cuối
-vec.pop_back(); //loại bỏ phần tử cuối
-vec.clear(); //làm rỗng vector
-vec.empty(); //kiểm tra vector có rỗng hay ko
-vec.insert(iterator, value); //thêm phần tử vào vị trí bất kì
+### Data types - List
+Read more than at: [Link](https://www.programiz.com/python-programming/methods/built-in/list)
+```python
+li = []
+
+li = list([iterable]) # iterable = [string, tuple, set, dictionary, anything have iter,...]
 ```
 
-### Thêm phần tử vào vector
+### Add element to array
 ```c++
-vector<int> vec;
-vec.push_back(4);
-vec.push_back(3);
+li = []
+li.append(x)
 
-//vec = [4, 3]
+# append: because append method just only take copy of array and append to that copy, so we 
+# need assign it to the variable
+# ref: https://numpy.org/doc/stable/reference/generated/numpy.append.html
+li = np.arange(5)
+res = li.append(4)
 ```
 
-### Truy cập phần tử trong vector
-```c++
-cout << vec.front(); // đầu tiên
-cout << vec.back(); // cuối cùng
-cout << vec[2]; // tại vị trí bất kì
 
-//vec.begin(), vec.end() ko phải là phần tử đầu tiên và cuối cùng
-//2 method này được dùng để duyệt vector, cout nó ra là error nha
+### Get number element of array
+```python
+li = [1, 2, 3, 4]
+len(li)
+
+li = np.arange(4)
+li.shape
+len(li)
 ```
 
-### Xóa phần tử cuối
-```c++
-vec.pop_back();
+### Access value of array
+Read more about access value of numpy array: [Link](https://numpy.org/doc/stable/user/basics.indexing.html)
+```python
+li = [1, 2, 3, 4]
+li = np.arange(n)
+
+li[x]
 ```
 
-### Xóa phần tử tại vị trí bất kì
-```c++
-vector<int>::iterator it; //hoàn toàn có thể thay bằng auto
-it = vec.begin() + pos_del; //thay pos_del = chỉ số index
-vec.erase(it);
+### Delete value of array
+```python
+# Delete at end of numpy array
+np.delete(li, -1)
+
+# Delete at index k of numpy array
+np.delete(li, k)
+
+# Delete all value
+li = np.arange(4)
+li = np.array([])
+
+# Delete at end of array
+li.pop()
+
+# Delete at index k
+li.pop(k)
+
+# Delete all value
+li.clear()
 ```
 
-### Xóa toàn bộ, làm rỗng
-```c++
-vec.clear();
-```
+### Extend size of array
+```python
+# numpy array
+One way is concatenate two array, but in numpy array we need to think that array are not 
+# expandable. Once the array is defined, the space it occupies in memory
 
-### Chèn giá trị tại vị trí bất kì
-```c++
-//vec = [3, 2, 4, 1, 5]
-
-vector<int>::iterator it; //hoàn toàn có thể thay cái này bằng auto
-it = vec.begin() + 2 //có thể thay như sau: auto it = vec.begin() + 2;
-vec.insert(it, 9);
-
-//vec = [3, 2, 9, 4, 1, 5]
+vec = [3, 2, 4, 1, 5]
+vec.extend(2*[0]) # [3, 2, 4, 1, 5, 0, 0]
 
 ```
 
-### Tăng giảm kích thức vector
-```c++
-vec.resize(7); // xin thêm 7
-vec.resize(2); // giảm còn 2
+### Check array is empty
+```python
+# numpy array
+if li.size == 0:
+    # do nothing
+
+if len(li) == 0
+    # do nothing
+
+# list
+if len(li) == 0
+    # do nothing
 ```
 
-### Kiểm tra vector rỗng
-```c++
-if(!vec.empty()){
-	cout << "not empty";
-}
-else cout << "empty";
+### Forward traverse
+```python
+li = [3, 2, 4, 9, 1, 5]
+li = np.array([3, 2, 4, 9, 1, 5])
+
+for value in li:
+    print(value)
+    
+for i in range(len(li)):
+    print(li[i])
 ```
 
-### Duyệt vector xuôi
-```c++
-//vec = [3, 2, 4, 9, 1, 5]
+### Backward traverse
+```python
+li = [3, 2, 4, 9, 1, 5]
+for value in reversed(li):
+    print(value)
 
-//duyệt toàn bộ vector bằng cách ngắn gọn như sau
-for(auto value: vec){
-	cout << value << " ";
-}
-
-//hoặc có thể viết tường minh như sau
-for(int i = 0;i < vec.size();i++){
-	cout << vec[i] << " ";
-}
-
-//hoặc
-for(auto it = vec.begin();it != vec.end();it++){
-	cout << *(it) << " ";
-}
-
-// Kiểu dữ liệu auto là kiểu tự định nghĩa, nó phụ thuộc vào giá trị gán
-// ví dụ auto a = 5; thì auto = int
-// ví dụ auto it = "demo"; thì auto string
-// còn ở đây auto it = vec.begin() thì nó là một con trỏ, tường minh của nó sẽ
-// là vector<int>::iterator it = vec.begin()
-```
-
-### Duyệt vector ngược
-```c++
-//Sử dụng index
-for(int i = vec.size() - 1;i >= 0;i--){
-	cout << vec[i] << " ";
-}
-
-// hoặc
-for(auto it = vec.rbegin();it != vec.rend();it++){
-	cout << *(it) << " ";
-}
+for i in range(len(li)-1, -1, -1):
+    print(li[i])
 ```
 
 ## String method
