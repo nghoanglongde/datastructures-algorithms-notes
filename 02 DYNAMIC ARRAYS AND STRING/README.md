@@ -82,7 +82,7 @@ li.clear()
 ### Extend size of array
 ```python
 # numpy array
-One way is concatenate two array, but in numpy array we need to think that array are not 
+# One way is concatenate two array, but in numpy array we need to think that array are not 
 # expandable. Once the array is defined, the space it occupies in memory
 
 vec = [3, 2, 4, 1, 5]
@@ -127,42 +127,35 @@ for i in range(len(li)-1, -1, -1):
 ```
 
 ## String method
-### Các method thông dụng
-```c++
-string.size(); hoặc string.length() //độ dài chuỗi
-string.empty(); //kiểm tra có phải chuỗi rỗng hay ko
-string.insert(pos_insert, string); //insert một chuỗi vào vị trí bất kì
-string.erase(pos_erase, b); //xóa n kí tự bắt đầu từ pos
-string.substr(pos, n); //tách n kí tự bắt đầu từ pos
-string.append(another_string, pos_start_anotherstring, n); //append n kí tự
+### Popular method
+```python
+# get length of string
+len(s)
+
+# check s is empty string, recommend using if not s
+if len(s) == 0 or if not s
+
+# clear some string by reassign it to empty string
+s = ""
+
+# concatenate string or delete substring
+string_0 = string0[:pos] + string_1 + string0[pos:]
+
+# find substring
+index = string.find(substring)
+
+# get ASCII number of specific character
+ascii_num = ord(char)
 ```
 
-### Chuyển chuỗi thành số
-```c++
-string num = "1712"
-int convert = atoi(num.c_str());
-```
+### Converting between number and string
+```python
+# convert string to int
+num = int(string)
 
-### Chuyển số thành chuỗi
-```c++
-int num = 1712;
-string convert = to_string(num);
-```
+# convert string to float
+num = float(string)
 
-### Đọc chuỗi có dấu cách
-```c++
-string s;
-getline(cin, s);
-```
-
-### Chuyển kí tự thành số nguyên theo bảng mã ASCII
-```c++
-char c = 'z'; //ví dụ là z, ngoài ra có thể là '1', '0', 'a',...
-int convert = c - 0; //122
-```
-
-### Chuyển số nguyên thành kí tự theo bảng mã ASCII
-```c++
-int ch = 122;
-char convert = ch; //kí tự 'z'
+# convert number to string
+con_str = str(number)
 ```
