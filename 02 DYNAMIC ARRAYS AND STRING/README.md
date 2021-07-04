@@ -35,6 +35,15 @@ li.append(x)
 # ref: https://numpy.org/doc/stable/reference/generated/numpy.append.html
 li = np.arange(5)
 res = li.append(4)
+
+# using insert or concatenate to insert value to specific postion k
+# insert
+li = np.arange(4)
+li = np.insert(li, 2, 8) -> [0 1 8 2 3]
+
+# faster way is using cocatenate
+li = np.arange(4)
+li = np.concatenate((li[:2], [8], li[2:]))
 ```
 
 
