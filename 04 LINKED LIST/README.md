@@ -34,3 +34,6 @@ Delete or insert element at head or end of a singly-linked list: O(1)
 ```
 Code example at: **doubly_linked_list.py**
 
+## Practice
+
+[Reverse Linked List](https://user-images.githubusercontent.com/43443323/124485808-25fd5a80-ddd7-11eb-8e3c-63944b633e6c.png)
