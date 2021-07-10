@@ -38,4 +38,4 @@ Code example at: **doubly_linked_list.py**
 
 [Reverse Linked List](https://github.com/nghoanglong/DataStructures-Algorithms-CheatSheet/blob/master/04%20LINKED%20LIST/reverse_linked_list.py)
 
-[Palindrome Linked List](https://user-images.githubusercontent.com/43443323/124485808-25fd5a80-ddd7-11eb-8e3c-63944b633e6c.png)
+[Palindrome Linked List](https://github.com/nghoanglong/DataStructures-Algorithms-CheatSheet/blob/master/04%20LINKED%20LIST/palindrome_linked_list.py)
