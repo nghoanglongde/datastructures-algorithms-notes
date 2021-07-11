@@ -171,10 +171,10 @@ con_str = str(number)
 
 ## Practice
 
-[Arrays](https://github.com/nghoanglong/DataStructures-Algorithms-CheatSheet/blob/master/04%20LINKED%20LIST/reverse_linked_list.py)
+[Arrays](https://github.com/nghoanglong/DataStructures-Algorithms-CheatSheet/blob/master/02%20DYNAMIC%20ARRAYS%20AND%20STRING/arrays.py)
 
-[Bear and Game](https://github.com/nghoanglong/DataStructures-Algorithms-CheatSheet/blob/master/04%20LINKED%20LIST/palindrome_linked_list.py)
+[Bear and Game](https://github.com/nghoanglong/DataStructures-Algorithms-CheatSheet/blob/master/02%20DYNAMIC%20ARRAYS%20AND%20STRING/bear_and_game.py)
 
-[Big Segment](https://github.com/nghoanglong/DataStructures-Algorithms-CheatSheet/blob/master/04%20LINKED%20LIST/palindrome_linked_list.py)
+[Big Segment](https://github.com/nghoanglong/DataStructures-Algorithms-CheatSheet/blob/master/02%20DYNAMIC%20ARRAYS%20AND%20STRING/big_segment.py)
 
-[Fashion in Berland](https://github.com/nghoanglong/DataStructures-Algorithms-CheatSheet/blob/master/04%20LINKED%20LIST/palindrome_linked_list.py)
+[Fashion in Berland](https://github.com/nghoanglong/DataStructures-Algorithms-CheatSheet/blob/master/02%20DYNAMIC%20ARRAYS%20AND%20STRING/fashion_in_berland.py)
