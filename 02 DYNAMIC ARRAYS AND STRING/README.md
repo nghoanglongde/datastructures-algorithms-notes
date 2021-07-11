@@ -168,3 +168,13 @@ num = float(string)
 # convert number to string
 con_str = str(number)
 ```
+
+## Practice
+
+[Arrays](https://github.com/nghoanglong/DataStructures-Algorithms-CheatSheet/blob/master/04%20LINKED%20LIST/reverse_linked_list.py)
+
+[Bear and Game](https://github.com/nghoanglong/DataStructures-Algorithms-CheatSheet/blob/master/04%20LINKED%20LIST/palindrome_linked_list.py)
+
+[Big Segment](https://github.com/nghoanglong/DataStructures-Algorithms-CheatSheet/blob/master/04%20LINKED%20LIST/palindrome_linked_list.py)
+
+[Fashion in Berland](https://github.com/nghoanglong/DataStructures-Algorithms-CheatSheet/blob/master/04%20LINKED%20LIST/palindrome_linked_list.py)
