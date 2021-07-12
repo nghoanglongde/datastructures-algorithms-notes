@@ -1,4 +1,5 @@
 # Link: https://codeforces.com/problemset/problem/673/A
+# Site: Codeforces
 # Name: Bear and Game
 # ======================================================
 

@@ -1,4 +1,5 @@
 # Link: https://codeforces.com/problemset/problem/691/A
+# Site: Codeforces
 # Name: Fashion in Berland
 # ======================================================
 
