@@ -177,11 +177,11 @@ con_str = str(number)
 
 [Big Segment](https://github.com/nghoanglong/DataStructures-Algorithms-CheatSheet/blob/master/02%20DYNAMIC%20ARRAYS%20AND%20STRING/big_segment.py)
 
-[Find Numbers with Even Number of Digits](https://github.com/nghoanglong/DataStructures-Algorithms-CheatSheet/blob/master/04%20LINKED%20LIST/palindrome_linked_list.py)
+[Find Numbers with Even Number of Digits](https://github.com/nghoanglong/DataStructures-Algorithms-CheatSheet/blob/master/02%20DYNAMIC%20ARRAYS%20AND%20STRING/find_numbers_with_even_number_of_digits.py)
 
-[Max Consecutive Ones](https://github.com/nghoanglong/DataStructures-Algorithms-CheatSheet/blob/master/04%20LINKED%20LIST/palindrome_linked_list.py)
+[Max Consecutive Ones](https://github.com/nghoanglong/DataStructures-Algorithms-CheatSheet/blob/master/02%20DYNAMIC%20ARRAYS%20AND%20STRING/max_consecutive_ones.py)
 
-[Merge Sorted Array](https://github.com/nghoanglong/DataStructures-Algorithms-CheatSheet/blob/master/04%20LINKED%20LIST/palindrome_linked_list.py)
+[Merge Sorted Array](https://github.com/nghoanglong/DataStructures-Algorithms-CheatSheet/blob/master/02%20DYNAMIC%20ARRAYS%20AND%20STRING/merge_sorted_array.py)
 
 [Fashion in Berland](https://github.com/nghoanglong/DataStructures-Algorithms-CheatSheet/blob/master/02%20DYNAMIC%20ARRAYS%20AND%20STRING/fashion_in_berland.py)
 
