@@ -91,8 +91,8 @@ li[start:end] = sorted(li[start:end], key=lambda x: -x)
 
 ## Practice
 
-[Chores](https://github.com/nghoanglong/DataStructures-Algorithms-CheatSheet/blob/master/02%20DYNAMIC%20ARRAYS%20AND%20STRING/arrays.py)
+[Chores](https://github.com/nghoanglong/DataStructures-Algorithms-CheatSheet/blob/master/03%20SORTING/chores.py)
 
-[Devu, the Dumb Guy](https://github.com/nghoanglong/DataStructures-Algorithms-CheatSheet/blob/master/02%20DYNAMIC%20ARRAYS%20AND%20STRING/bear_and_game.py)
+[Devu, the Dumb Guy](https://github.com/nghoanglong/DataStructures-Algorithms-CheatSheet/blob/master/03%20SORTING/devu_the_dumb_guy.py)
 
-[GukiZ and Contest](https://github.com/nghoanglong/DataStructures-Algorithms-CheatSheet/blob/master/02%20DYNAMIC%20ARRAYS%20AND%20STRING/big_segment.py)
+[GukiZ and Contest](https://github.com/nghoanglong/DataStructures-Algorithms-CheatSheet/blob/master/03%20SORTING/gukiZ_and_contest.py)
