@@ -13,9 +13,9 @@ Time complexity: O(1)
 ```python
 class Node:
     def __init__(self, value):
-        left_node = None
-        value = value
-        right_node = None
+        self.left = None
+        self.value = value
+        self.right = None
 ```
 
 ## Create a new node
@@ -36,7 +36,7 @@ def insert_node(root, value):
     if root is None:
         new_node = Node(value)
         return new_node
-    elif root.key > new_node.key:
+    elif root.value > value:
         root.left = insert_node(root.left, value)
     else:
         root.right = insert_node(root.right, value)
@@ -97,9 +97,9 @@ def minValueNode(root):
 def delete_node(root, target):
     if root is None:
         return root
-    elif root.key < target:
+    elif root.value < target:
         root.right = delete_node(root.right, target)
-    elif root.key > target:
+    elif root.value > target:
         root.left = delete_node(root.left, target)
     else:
         if root.left is None:
@@ -111,8 +111,8 @@ def delete_node(root, target):
             del root
             return temp
         temp = minvalueNode(root.right)
-        root.key = temp.key
-        root.right = delete_node(root.right, temp.key)
+        root.value = temp.value
+        root.right = delete_node(root.right, temp.value)
     return root
 ```
 
@@ -174,7 +174,7 @@ def height_tree(root):
     else:
         left_h = height_tree(root.left)
         right_h = height_tree(root.right)
-        max_h = (left_h < right_h) ? right_h:left_h
+        max_h = left_h < right_h and right_h or left_h
         return max_h + 1
 ```
 ```python
@@ -185,7 +185,7 @@ def height_tree(root):
     else:
         left_h = height_tree(root.left)
         right_h = height_tree(root.right)
-        max_h = (left_h < right_h) ? right_h:left_h
+        max_h = left_h < right_h and right_h or left_h
         return max_h + 1
 ```
 
