@@ -122,6 +122,83 @@ def delete_node(root, target):
 
 ### Inorder traversal
 
+Time complexity: O(n), n = number of node
+
+traversal: LEFT -> ROOT -> RIGHT
+```python
+def inorder_traverse(root):
+    if root is not Null
+        inorder_traverse(root.left)
+        print(root.value)
+        inorder_traverse(root.right)
+```
 ### Preorder traversal
 
+Time complexity: O(n), n = number of node
+
+traversal: ROOT -> LEFT -> RIGHT
+```python
+def preorder_traverse(root):
+    if root is not Null
+        print(root.value)
+        preorder_traverse(root.left)
+        preorder_traverse(root.right)
+```
+
 ### Postorder traversal
+
+Time complexity: O(n), n = number of node
+
+traversal: LEFT -> RIGHT -> ROOT
+```python
+def postorder_traverse(root):
+    if root is not Null
+        preorder_traverse(root.left)
+        preorder_traverse(root.right)
+        print(root.value)
+```
+
+## Height of BST
+
+Time complexity: O(n)
+
+Base on assumption you want:
++ Height as edge count (height at root = 0, maximize number of node in BST = 2^(h + 1) - 1)
++ Height as node count (height at root = 1, maximize number of node in BST = 2^h - 1)
+
+```python
+# edge count
+def height_tree(root):
+    if (root is None) or (root.left is None and root.right is None):
+        return 0
+    else:
+        left_h = height_tree(root.left)
+        right_h = height_tree(root.right)
+        max_h = (left_h < right_h) ? right_h:left_h
+        return max_h + 1
+```
+```python
+# node count
+def height_tree(root):
+    if root is None:
+        return 0
+    else:
+        left_h = height_tree(root.left)
+        right_h = height_tree(root.right)
+        max_h = (left_h < right_h) ? right_h:left_h
+        return max_h + 1
+```
+
+## Delete BST
+
+Time complexity: O(n)
+
+```python
+def delete_tree(root):
+    if root is None:
+        return
+    else:
+        delete_tree(root.left)
+        delete_tree(root.right)
+        del root
+```
