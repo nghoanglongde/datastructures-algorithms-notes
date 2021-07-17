@@ -127,7 +127,7 @@ Time complexity: O(n), n = number of node
 traversal: LEFT -> ROOT -> RIGHT
 ```python
 def inorder_traverse(root):
-    if root is not Null
+    if root is not None:
         inorder_traverse(root.left)
         print(root.value)
         inorder_traverse(root.right)
@@ -139,7 +139,7 @@ Time complexity: O(n), n = number of node
 traversal: ROOT -> LEFT -> RIGHT
 ```python
 def preorder_traverse(root):
-    if root is not Null
+    if root is not None:
         print(root.value)
         preorder_traverse(root.left)
         preorder_traverse(root.right)
@@ -152,7 +152,7 @@ Time complexity: O(n), n = number of node
 traversal: LEFT -> RIGHT -> ROOT
 ```python
 def postorder_traverse(root):
-    if root is not Null
+    if root is not None:
         preorder_traverse(root.left)
         preorder_traverse(root.right)
         print(root.value)
