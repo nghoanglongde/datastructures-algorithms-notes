@@ -69,3 +69,5 @@ Combine of stack and queue, deque was built from **Doubly-linked list** data str
 ## Practice
 
 [Reverse Polish Notation](https://github.com/nghoanglong/DataStructures-Algorithms-CheatSheet/blob/master/03%20SORTING/chores.py)
+
+[Evaluate Reverse Polish Notation](https://github.com/nghoanglong/DataStructures-Algorithms-CheatSheet/blob/master/03%20SORTING/chores.py)
