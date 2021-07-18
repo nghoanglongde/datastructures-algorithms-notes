@@ -65,3 +65,7 @@ The same problem with implement stack using list
 
 ## Deque
 Combine of stack and queue, deque was built from **Doubly-linked list** data structure, each entry has store in its own block and reference to both previous and next block
+
+## Practice
+
+[Reverse Polish Notation](https://github.com/nghoanglong/DataStructures-Algorithms-CheatSheet/blob/master/03%20SORTING/chores.py)
