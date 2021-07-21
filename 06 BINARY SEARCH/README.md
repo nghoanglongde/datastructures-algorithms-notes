@@ -69,3 +69,7 @@ if __name__ == '__main__':
     li = [2, 2, 3, 4, 6, 7, 8, 8]
     res = bisect.bisect_right(li, 3, 0, len(li))
 ```
+
+## Practice
+
+[Search in Rotated Sorted Array](https://github.com/nghoanglong/DataStructures-Algorithms-CheatSheet/blob/master/05%20STACK%20-%20QUEUE%20-%20DEQUE/reverse_polish_notation.py)
