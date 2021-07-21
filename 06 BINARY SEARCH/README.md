@@ -72,4 +72,4 @@ if __name__ == '__main__':
 
 ## Practice
 
-[Search in Rotated Sorted Array](https://github.com/nghoanglong/DataStructures-Algorithms-CheatSheet/blob/master/05%20STACK%20-%20QUEUE%20-%20DEQUE/reverse_polish_notation.py)
+[Search in Rotated Sorted Array](https://github.com/nghoanglong/DataStructures-Algorithms-CheatSheet/blob/master/06%20BINARY%20SEARCH/search_in_rst.py)
