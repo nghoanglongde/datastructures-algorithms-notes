@@ -73,3 +73,7 @@ if __name__ == '__main__':
 ## Practice
 
 [Search in Rotated Sorted Array](https://github.com/nghoanglong/DataStructures-Algorithms-CheatSheet/blob/master/06%20BINARY%20SEARCH/search_in_rst.py)
+
+[Search Insert Position](https://github.com/nghoanglong/DataStructures-Algorithms-CheatSheet/blob/master/06%20BINARY%20SEARCH/search_ins_position.py)
+
+[Two Sum II - Input array is sorted](https://github.com/nghoanglong/DataStructures-Algorithms-CheatSheet/blob/master/06%20BINARY%20SEARCH/two_sum_arrays.py)
