@@ -77,3 +77,5 @@ if __name__ == '__main__':
 [Search Insert Position](https://github.com/nghoanglong/DataStructures-Algorithms-CheatSheet/blob/master/06%20BINARY%20SEARCH/search_ins_position.py)
 
 [Two Sum II - Input array is sorted](https://github.com/nghoanglong/DataStructures-Algorithms-CheatSheet/blob/master/06%20BINARY%20SEARCH/two_sum_arrays.py)
+
+[Special Array With X Elements Greater Than or Equal X](https://github.com/nghoanglong/DataStructures-Algorithms-CheatSheet/blob/master/06%20BINARY%20SEARCH/special_arr.py)
