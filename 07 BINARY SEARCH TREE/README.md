@@ -126,11 +126,23 @@ Time complexity: O(n), n = number of node
 
 traversal: LEFT -> ROOT -> RIGHT
 ```python
+# Space Complexity: O(1), print out the result line by line
+
 def inorder_traverse(root):
     if root is not None:
         inorder_traverse(root.left)
         print(root.value)
         inorder_traverse(root.right)
+```
+
+```python
+# Space Complexity: O(n), return the result in the array
+
+def inorder_traverse(root):
+    if root is None: return []
+    left = self.inorderTraversal(root.left)
+    right = self.inorderTraversal(root.right)
+    return left + [root.val] + right
 ```
 ### Preorder traversal
 
@@ -138,6 +150,8 @@ Time complexity: O(n), n = number of node
 
 traversal: ROOT -> LEFT -> RIGHT
 ```python
+# Space Complexity: O(1), print out the result line by line
+
 def preorder_traverse(root):
     if root is not None:
         print(root.value)
@@ -145,17 +159,40 @@ def preorder_traverse(root):
         preorder_traverse(root.right)
 ```
 
+```python
+# Space Complexity: O(n), return the result in the array
+
+def preorder_traverse(root):
+    if root is None: return []
+    left = self.inorderTraversal(root.left)
+    right = self.inorderTraversal(root.right)
+    return [root.val] + left + right
+```
+
+
 ### Postorder traversal
 
 Time complexity: O(n), n = number of node
 
 traversal: LEFT -> RIGHT -> ROOT
 ```python
+# Space Complexity: O(1), print out the result line by line
+
 def postorder_traverse(root):
     if root is not None:
         preorder_traverse(root.left)
         preorder_traverse(root.right)
         print(root.value)
+```
+
+```python
+# Space Complexity: O(n), return the result in the array
+
+def postorder_traverse(root):
+    if root is None: return []
+    left = self.inorderTraversal(root.left)
+    right = self.inorderTraversal(root.right)
+    return left + right + [root.val]
 ```
 
 ## Height of BST
@@ -174,7 +211,7 @@ def height_tree(root):
     else:
         left_h = height_tree(root.left)
         right_h = height_tree(root.right)
-        max_h = left_h < right_h and right_h or left_h
+        max_h = max(left_h, right_h)
         return max_h + 1
 ```
 ```python
@@ -185,7 +222,7 @@ def height_tree(root):
     else:
         left_h = height_tree(root.left)
         right_h = height_tree(root.right)
-        max_h = left_h < right_h and right_h or left_h
+        max_h = max(left_h, right_h)
         return max_h + 1
 ```
 
@@ -202,3 +239,9 @@ def delete_tree(root):
         delete_tree(root.right)
         del root
 ```
+
+## Practice
+
+[Binary Tree Inorder Traversal](https://github.com/nghoanglong/DataStructures-Algorithms-CheatSheet/blob/master/06%20BINARY%20SEARCH/search_in_rst.py)
+
+[Maximum Depth of Binary Tree](https://github.com/nghoanglong/DataStructures-Algorithms-CheatSheet/blob/master/06%20BINARY%20SEARCH/search_ins_position.py)
