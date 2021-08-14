@@ -5,7 +5,7 @@ Mình cũng có viết một repository dành riêng để cải thiện kĩ nă
 
 **Lưu ý và Khuyến cáo:** 
 
-- Do kiến thức là một thứ vô hạn, nên mình mong bạn hiểu đây chỉ là một phần nhỏ trong đó thôi chứ không phải là tất cả
+- Do kiến thức là một thứ vô hạn, nên đây chỉ là một ít kiến thức mình học được chứ không phải là tất cả
 - Mình sẽ cố gắng update nhiều nhất có thể, vì thật sự mình cũng lười và không có thời gian
 
 Anyway nếu có bất cứ thắc mắc nào, feel free to contact
