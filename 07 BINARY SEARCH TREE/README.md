@@ -200,8 +200,8 @@ def postorder_traverse(root):
 Time complexity: O(n)
 
 Base on assumption you want:
-+ Height as edge count (height at root = 0), so maximize number of node in BST = 2^(h + 1) - 1
-+ Height as node count (height at root = 1), so maximize number of node in BST = 2^h - 1
++ Height as edge count (height at root = 0), so maximize number of node in BST = 2^(h + 1) - 1 -> height of BST = log2(n + 1) - 1
++ Height as node count (height at root = 1), so maximize number of node in BST = 2^h - 1 -> height of BST = log2(n + 1)
 
 ```python
 # edge count
