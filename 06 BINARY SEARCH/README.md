@@ -34,7 +34,7 @@ The same code above. We can see that if li[mid] == target, we still move right c
 ### find the last position which matches the target
 ```python
 def binary_search(left, right, li, target):
-    mid = (left + right) // 2
+    mid = left + (right - left) // 2
     while left != mid and right != mid:
         if li[mid] > target: # different with first match
             right = mid
