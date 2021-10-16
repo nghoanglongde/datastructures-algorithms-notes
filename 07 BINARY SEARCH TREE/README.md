@@ -6,6 +6,7 @@ Binary search tree (BST) is a node-based binary tree data structure which has so
 + The left subtree of the current node contain only nodes have value less than the current node
 + The right subtree of the current node contain only nodes have value greater than the current node
 + Each current node has only two child nodes
++ Space Complexity of BST: O(n), n is the number of nodes in the tree
 
 ## Structure of a node
 
