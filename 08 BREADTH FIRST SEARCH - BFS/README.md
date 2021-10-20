@@ -1,7 +1,11 @@
 # Breadth First Search - BFS
-This is the implementation of BFS in the graph has no weight and direction
+This is the implementation of BFS in the graph has no weight and direction. Time and space complexity of BFS will be based on the appearance of graph
 
-Time complexity: O(V+E), with V = number of vertices, E = number of edges
++ Time and Space complexity - Adjacency list: O(V+E) = O(max(V, E)), with V = number of vertices, E = number of edges
+
++ Time and Space complexity - Adjacency matrix: O(n^2), with n is the number of nodes in the graph
+
++ In BFS, we use Queue instead of Stack likes DFS
 
 ```python
 from queue import Empty, Queue
@@ -10,7 +14,6 @@ def BFS(adjacency_li, visited, path, start):
     next_vertices = Queue()
     next_vertices.put(start)
     visited[start] = True
-    path[start] = -1
     while not next_vertices.empty():
         u = next_vertices.get()
         for v in adjacency_li[u]:
@@ -42,7 +45,7 @@ if __name__ == '__main__':
     V, E = map(int, input().split())
     adjacency_li = [[] for i in range(V)]
     visited = [False for i in range(V)]
-    path = [0 for i in range(V)]
+    path = [-1 for i in range(V)]
     for i in range(E):
         u, v = map(int, input().split())
         adjacency_li[u].append(v)
@@ -50,5 +53,4 @@ if __name__ == '__main__':
     start, end = map(int, input().split())
     BFS(adjacency_li, visited, path, start)
     ouput_path(path, start, end)
-
 ```
