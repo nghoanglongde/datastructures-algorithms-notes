@@ -5,7 +5,7 @@ This is the implementation of BFS in the graph has no weight and direction. Time
 
 + Time and Space complexity - Adjacency matrix: O(n^2), with n is the number of nodes in the graph
 
-+ In BFS, we use Queue instead of Stack likes DFS, and BFS always can find the minimum path from start_input to end_input
++ In BFS, we use Queue instead of Stack likes DFS, and BFS always can find the shortest path from start_input to end_input
 
 ```python
 from queue import Empty, Queue
