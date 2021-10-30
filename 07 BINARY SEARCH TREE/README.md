@@ -246,3 +246,7 @@ def delete_tree(root):
 [Binary Tree Inorder Traversal](https://github.com/nghoanglong/DataStructures-Algorithms-CheatSheet/blob/master/07%20BINARY%20SEARCH%20TREE/inorder_traversal.py)
 
 [Maximum Depth of Binary Tree](https://github.com/nghoanglong/DataStructures-Algorithms-CheatSheet/blob/master/07%20BINARY%20SEARCH%20TREE/maximum_depth.py)
+
+[Same Tree](https://github.com/nghoanglong/DataStructures-Algorithms-CheatSheet/blob/master/07%20BINARY%20SEARCH%20TREE/same_tree.py)
+
+[Convert Sorted List to Binary Search Tree](https://github.com/nghoanglong/DataStructures-Algorithms-CheatSheet/blob/master/07%20BINARY%20SEARCH%20TREE/convert_sorted_lk.py)
