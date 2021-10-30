@@ -6,6 +6,7 @@ Binary search tree (BST) is a node-based binary tree data structure which has so
 + The left subtree of the current node contain only nodes have value less than the current node
 + The right subtree of the current node contain only nodes have value greater than the current node
 + Each current node has only two child nodes
++ Space Complexity of BST: O(n), n is the number of nodes in the tree
 
 ## Structure of a node
 
@@ -200,8 +201,8 @@ def postorder_traverse(root):
 Time complexity: O(n)
 
 Base on assumption you want:
-+ Height as edge count (height at root = 0, maximize number of node in BST = 2^(h + 1) - 1)
-+ Height as node count (height at root = 1, maximize number of node in BST = 2^h - 1)
++ Height as edge count (height at root = 0), so maximize number of node in BST = 2^(h + 1) - 1 -> height of BST = log2(n + 1) - 1
++ Height as node count (height at root = 1), so maximize number of node in BST = 2^h - 1 -> height of BST = log2(n + 1)
 
 ```python
 # edge count
