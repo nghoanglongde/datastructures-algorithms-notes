@@ -54,3 +54,9 @@ if __name__ == '__main__':
     BFS(adjacency_li, visited, path, start)
     ouput_path(path, start, end)
 ```
+
+## Practice
+
+[Invert Binary Tree](https://github.com/nghoanglong/DataStructures-Algorithms-CheatSheet/blob/master/08%20BREADTH%20FIRST%20SEARCH/invert_binary_tree.py)
+
+[Binary Tree Right Side View](https://github.com/nghoanglong/DataStructures-Algorithms-CheatSheet/blob/master/08%20BREADTH%20FIRST%20SEARCH/binarytree_right_sideview.py)
