@@ -57,6 +57,6 @@ if __name__ == '__main__':
 
 ## Practice
 
-[Invert Binary Tree](https://github.com/nghoanglong/DataStructures-Algorithms-CheatSheet/blob/master/08%20BREADTH%20FIRST%20SEARCH/invert_binary_tree.py)
+[Invert Binary Tree](https://github.com/nghoanglong/DataStructures-Algorithms-CheatSheet/blob/master/08%20BREADTH%20FIRST%20SEARCH%20-%20BFS/invert_binary_tree.py)
 
-[Binary Tree Right Side View](https://github.com/nghoanglong/DataStructures-Algorithms-CheatSheet/blob/master/08%20BREADTH%20FIRST%20SEARCH/binarytree_right_sideview.py)
+[Binary Tree Right Side View](https://github.com/nghoanglong/DataStructures-Algorithms-CheatSheet/blob/master/08%20BREADTH%20FIRST%20SEARCH%20-%20BFS/binarytree_right_sideview.py)
