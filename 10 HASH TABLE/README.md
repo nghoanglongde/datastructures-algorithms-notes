@@ -7,3 +7,5 @@
 [N-Repeated Element in Size 2N Array](https://github.com/nghoanglong/DataStructures-Algorithms-CheatSheet/blob/master/10%20HASH%20TABLE/n_repeated_time.py)
 
 [Largest Substring Between Two Equal Characters](https://github.com/nghoanglong/DataStructures-Algorithms-CheatSheet/blob/master/10%20HASH%20TABLE/largest_substring.py)
+
+[Minimum Index Sum of Two Lists](https://github.com/nghoanglong/DataStructures-Algorithms-CheatSheet/blob/master/10%20HASH%20TABLE/minimum_index_sum.py)
