@@ -1,4 +1,4 @@
-## Data Structures and Algorithms CheatSheet
+## Data Structures and Algorithms Notes
 Repository này mình dùng để note lại một số lý thuyết, kèm theo các bài ví dụ mẫu về cấu trúc dữ liệu và giải thuật trong quá trình học và tìm hiểu 
 
 Mình cũng có viết một repository dành riêng cho việc giải các bài toán lập trình, câu hỏi phỏng vấn ở một số trang uy tín hiện giờ (Codeforces, CSES, LeetCode). Chi tiết vui lòng tham khảo tại link này: [Data Structures and Algorithms Practice](https://github.com/nghoanglong/Competitive-Programming-Practice). 
