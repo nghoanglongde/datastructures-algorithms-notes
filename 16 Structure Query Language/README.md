@@ -7,3 +7,5 @@
 [Rank Scores](https://github.com/nghoanglong/DataStructures-Algorithms-CheatSheet/blob/master/16%20Structure%20Query%20Language/rank_scores.sql)
 
 [Nth Highest Salary](https://github.com/nghoanglong/DataStructures-Algorithms-CheatSheet/blob/master/16%20Structure%20Query%20Language/nth_highest_salary.sql)
+
+[Consecutive Numbers](https://github.com/nghoanglong/DataStructures-Algorithms-CheatSheet/blob/master/16%20Structure%20Query%20Language/consecutive_numbers.sql)
