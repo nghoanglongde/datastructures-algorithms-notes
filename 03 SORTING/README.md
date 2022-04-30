@@ -1,5 +1,34 @@
 # Sorting
 ![image](https://user-images.githubusercontent.com/43443323/124379543-ebfe5c80-dce1-11eb-9b18-7d62965fd028.png)
+
+## Quick Sort Implement
+```python
+import random
+
+def quick_sort(li, first, last):
+    left = first
+    right = last
+    pivot = li[left + random.randint(first, last) % (right - left)]
+    
+    # 8 9 5 6 3 4 7
+    while left <= right:
+        while li[left] < pivot:
+            left += 1
+        while li[right] > pivot:
+            right -= 1
+        
+        if left <= right:
+            li[left], li[right] = li[right], li[left]
+            left += 1
+            right -= 1
+    
+    if first < right:
+        quick_sort(li, first, right)
+    if left < last:
+        quick_sort(li, left, last)
+```
+
+
 ## Define
 ```python
 # using method sort
