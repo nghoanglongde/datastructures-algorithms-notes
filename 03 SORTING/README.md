@@ -28,6 +28,39 @@ def quick_sort(li, first, last):
         quick_sort(li, left, last)
 ```
 
+## Merge Sort Implement
+```python
+def merge_sort(data, first, last):
+    if len(data) == 1:
+        return
+
+    if first < last:
+        mid = (first + last) // 2
+        merge_sort(data, first, mid)
+        merge_sort(data, mid + 1, last)
+
+        left = first
+        right = mid + 1
+        temp = []
+
+        while left <= mid or right <= last:
+            if left > mid:
+                temp.append(data[right])
+                right = right + 1
+            elif right > last:
+                temp.append(data[left])
+                left = left + 1
+            elif data[left] < data[right]:
+                temp.append(data[left])
+                left = left + 1
+            elif data[right] < data[left]:
+                temp.append(data[right])
+                right = right + 1
+        
+        for idx in range(len(temp)):
+            data[first + idx] = temp[idx]
+```
+
 
 ## Define
 ```python
