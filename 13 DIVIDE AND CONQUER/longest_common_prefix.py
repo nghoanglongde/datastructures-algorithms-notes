@@ -4,8 +4,8 @@
 # Easy
 # ======================================================
 
-# Time Complexity: O(mn)
-# Space Complexity: O(mlogn)
+# Time Complexity: O(nlogn)
+# Space Complexity: O(logn)
 
 class Solution:
     def longestCommonPrefix(self, strs: List[str]) -> str:
