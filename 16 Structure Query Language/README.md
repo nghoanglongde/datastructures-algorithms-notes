@@ -9,3 +9,9 @@
 [Nth Highest Salary](https://github.com/nghoanglong/DataStructures-Algorithms-CheatSheet/blob/master/16%20Structure%20Query%20Language/nth_highest_salary.sql)
 
 [Consecutive Numbers](https://github.com/nghoanglong/DataStructures-Algorithms-CheatSheet/blob/master/16%20Structure%20Query%20Language/consecutive_numbers.sql)
+
+[Calculate Special Bonus](https://github.com/nghoanglong/DataStructures-Algorithms-CheatSheet/blob/master/16%20Structure%20Query%20Language/calculate_special_bonus.sql)
+
+[Swap Salary](https://github.com/nghoanglong/DataStructures-Algorithms-CheatSheet/blob/master/16%20Structure%20Query%20Language/swap_salary.sql)
+
+
