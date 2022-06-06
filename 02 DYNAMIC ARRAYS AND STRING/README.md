@@ -185,3 +185,5 @@ con_str = str(number)
 
 [Fashion in Berland](https://github.com/nghoanglong/DataStructures-Algorithms-CheatSheet/blob/master/02%20DYNAMIC%20ARRAYS%20AND%20STRING/fashion_in_berland.py)
 
+[Keyboard row](https://github.com/nghoanglong/DataStructures-Algorithms-CheatSheet/blob/master/02%20DYNAMIC%20ARRAYS%20AND%20STRING/keyboard_row.py)
+
