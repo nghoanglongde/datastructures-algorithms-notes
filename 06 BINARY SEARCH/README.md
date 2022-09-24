@@ -13,41 +13,43 @@ Time complexity: O(logn)
 # and the result always in left or right position
 
 def binary_search(left, right, li, target):
-    mid = left + (right - left) // 2
-    while left != mid and right != mid:
-        if li[mid] >= target:
-            right = mid
-        else:
-            left = mid
+    while left <= right:
         mid = left + (right - left) // 2
-    if li[left] == target:
-        return left
-    elif li[right] == target:
-        return right
-    else:
-        return -1
+        if li[mid] == target:
+            return mid
+        elif li[mid] > target:
+            right = mid - 1
+        else:
+            left = mid + 1
+    return -1
 ```
 
 ### find the first position which matches the target
-The same code above. We can see that if li[mid] == target, we still move right close to the left until we reach the first position that matches the requirement
+```python
+def binary_search(left, right, li, target):
+    while left <= right:
+        mid = left + (right - left) // 2
+        if li[mid] == target and (mid == left or target > li[mid - 1]):
+            return mid
+        elif li[mid] >= target:
+            right = mid - 1
+        else:
+            left = mid + 1
+    return -1
+```
 
 ### find the last position which matches the target
 ```python
 def binary_search(left, right, li, target):
-    mid = left + (right - left) // 2
-    while left != mid and right != mid:
-        if li[mid] > target: # different with first match
-            right = mid
+    while left <= right:
+        mid = left + (right - left) // 2
+        if li[mid] == target and (mid == right or target <> li[mid + 1]):
+            return mid
+        elif li[mid] > target:
+            right = mid - 1
         else:
-            left = mid
-        mid = (left + right) // 2
-    
-    if li[right] == target:
-        return left
-    elif li[left] == target:
-        return right
-    else:
-        return -1
+            left = mid + 1
+    return -1
 ```
 
 ## Python built-in function
@@ -79,3 +81,5 @@ if __name__ == '__main__':
 [Two Sum II - Input array is sorted](https://github.com/nghoanglong/DataStructures-Algorithms-CheatSheet/blob/master/06%20BINARY%20SEARCH/two_sum_arrays.py)
 
 [Special Array With X Elements Greater Than or Equal X](https://github.com/nghoanglong/DataStructures-Algorithms-CheatSheet/blob/master/06%20BINARY%20SEARCH/special_arr.py)
+
+[First Bad Version](https://github.com/nghoanglong/DataStructures-Algorithms-CheatSheet/blob/master/06%20BINARY%20SEARCH/first_bad_version.py)
