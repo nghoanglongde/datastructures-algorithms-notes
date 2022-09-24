@@ -4,7 +4,6 @@
 Author: Ng Hoang Long
 Programming language: Python
 Email: nghoanglong.17december@gmail.com
-Facebook: [https://www.facebook.com/nghoanglong.17dec](https://www.facebook.com/umhummmm/)
 ```
 
 ## Các nguồn tham khảo
