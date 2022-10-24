@@ -3,6 +3,7 @@
 ## Practice
 [Link](https://github.com/nghoanglong/datastructures-algorithms-practice)
 
+## Information
 ```
 Author: Ng Hoang Long
 Programming language: Python
