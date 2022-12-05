@@ -35,7 +35,8 @@ def merge_sort(data, first, last):
         return
 
     if first < last:
-        mid = (first + last) // 2
+        # overflow when using (left + right) // 2: https://stackoverflow.com/questions/27167943/why-leftright-left-2-will-not-overflow
+        mid = first + (last - first) // 2
         merge_sort(data, first, mid)
         merge_sort(data, mid + 1, last)
 
