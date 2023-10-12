@@ -1,7 +1,5 @@
 # Dynamic Arrays and String Method
-## Dynamic Arrays
-We have many ways to create an array, using python libary like numpy or we can initialize it by the normal way using Python's datatype **list**
-
+## Array Initialization
 ### Numpy
 It have more than 40 built-in function for creating python array with numpy, refer: [Link](https://numpy.org/doc/stable/user/basics.creation.html#arrays-creation)
 ```python
@@ -168,6 +166,23 @@ num = float(string)
 # convert number to string
 con_str = str(number)
 ```
+
+## Common problem
+### Two pointers
+Ref knowledge: [Link](https://interviewing.io/two-pointers-interview-questions)
+
+Typically, we use Two pointers technique when:
+1. **Searching pairs in a sorted array:** The pointers can start at both ends of the array and move inward until they meet, eliminating possible pairs along the way. This method is faster than using a nested loop to check all pairs -> **Sorted array, not the unordered array**
+2. **Checking for palindromes:** The pointers can start at both ends and move inward, checking if the mirrored characters are the same.
+3. **Applying a sliding window:** One pointer marks the start of the window, the other the end. The window can then be 'slid' through the array to check for conditions.
+
+And the thing you need to know that, **two pointers can start from anywhere**, it literally means, the first pointer can start from the beginning and the second can start from the mid or some stuff like that
+
+### Sliding window
+Ref knowledge: [Link](https://interviewing.io/sliding-window-interview-questions)
+
+Typically, we use Sliding window technique when:
+1. Asking to solve the problem related to substring, subarray but not subsequence though. Subarrays and substrings refer to contiguous segments of the original data. For example, in the array [1, 2, 3, 4, 5], [1, 2, 3] and [4, 5] are subarrays. On the other hand, subsequences can contain elements that are not contiguous. In the same array [1, 3, 5] is a subsequence
 
 ## Practice
 
