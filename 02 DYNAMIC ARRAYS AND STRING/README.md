@@ -207,3 +207,5 @@ Typically, we use Sliding window technique when:
 [Palindrome Number](https://github.com/nghoanglong/DataStructures-Algorithms-CheatSheet/blob/master/02%20DYNAMIC%20ARRAYS%20AND%20STRING/palindrome_number.py)
 
 [Subarray Product Less Than K](https://github.com/nghoanglong/DataStructures-Algorithms-CheatSheet/blob/master/02%20DYNAMIC%20ARRAYS%20AND%20STRING/subarray_less_than_k.py)
+
+[Maximum Average Subarray I](https://github.com/nghoanglong/DataStructures-Algorithms-CheatSheet/blob/master/02%20DYNAMIC%20ARRAYS%20AND%20STRING/maximum_average_subarray.py)

@@ -14,4 +14,4 @@ class Solution:
             if idx != 0:
                 sum = prefix_sum[idx - 1] + value
                 prefix_sum.append(sum)
-        return prefix_sum
+        return prefix_sum       
